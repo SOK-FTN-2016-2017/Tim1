@@ -10,3 +10,4 @@ if __name__ == '__main__':
     ug
     9ug
     print("hola mozcdos")
+    next try
