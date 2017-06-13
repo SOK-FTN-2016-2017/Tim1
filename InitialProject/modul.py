@@ -3,3 +3,5 @@ if __name__ == '__main__':
 
 
     print("hola mozcdos")
+
+# added django
