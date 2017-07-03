@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+Iago Sed Uah, [03.07.17 18:44]
+from django.http import HttpResponse
 
-from django.shortcuts import render
 
-# Create your views here.
+def index(request):
+    return HttpResponse("I gope it works.")
