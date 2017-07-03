@@ -16,5 +16,8 @@ import datetime
 
 def index(request):
     now = datetime.datetime.now()
-    html = "<html><body>It is now %s.</body></html>" % now
+#    html = "<html><body>It is now %s.</body></html>" % now
+# Get the data from the file
+    with open('polls/test/index.html', 'rb') as fp:
+        html = fp.read()
     return HttpResponse(html)
