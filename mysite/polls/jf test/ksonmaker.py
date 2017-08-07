@@ -14,7 +14,8 @@ for a in input.readline():
     if a[0]=='3':
        s=s+'},'
     if a[0]=='4':
-       s=s+']\n}'
+       s=s+'}\n]\n'
+s=s+'}'
 
 input.close
 print (s)
