@@ -1,14 +1,25 @@
+
 import os
-from os.path import join, getsize
-for root, dirs, files in os.walk('python/Lib/email'):
-    print(root, "consumes", end=" ")
-    print(sum(getsize(join(root, name)) for name in files), end = " ")
-    print("bytes in", len(files), "non-directory files")
-    if 'CVS' in dirs:
-        dirs.remove('CVS')  # don't visit CVS directories
+from os.path import join
+for root, dirs, files in os.walk('Tree test'):
+    #print(dirs)
+    #print(files)
+    print (root)
+    print ("Files unique children", files)
+    print (dirs)
+    #print (dirs)
+    #print (type(dirs))
+    dicta={root:{}}
+    dicta[root]
+
+    for a in list
+    	print ('name:{', a, ' }')
+    print(',')
 
 
 '''
+
+
 import os
 
 def list_files(startpath):
