@@ -1,20 +1,41 @@
 
 import os
 from os.path import join
-for root, dirs, files in os.walk('Tree test'):
+a = dict()
+startpath = 'Tree test'
+for root, dirs, files in os.walk(startpath):
     #print(dirs)
     #print(files)
-    print (root)
-    print ("Files unique children", files)
-    print (dirs)
+    #print (root)
+    #print ("Files unique children", files)
+    #print (dirs)
     #print (dirs)
     #print (type(dirs))
-    dicta={root:{}}
-    dicta[root]
+    level = root.replace(startpath, '').count(os.sep)
+    indent = ' ' * 4 * (level)
+    print('{}{}/'.format(indent, os.path.basename(root)))
+    a[root.split("\\")[-1]] = 1
+    level = root.replace(startpath, '').count(os.sep)
+    subindent = ' ' * 4 * (level + 1)
+    for f in files:
+      print('{}{}'.format(subindent, f))
+    '''
+    print ('aaaaaa')
+    print ('level is', level)
+    '''
+    '''
+    print(type(root))
+    print(type(dirs))
+    print(type(files))
+    '''
 
-    for a in list
-    	print ('name:{', a, ' }')
-    print(',')
+print ('"Hola"')
+print(a.keys())
+#print (a.split("\\")[-1])
+
+'''
+escribir con listas
+'''
 
 
 '''
