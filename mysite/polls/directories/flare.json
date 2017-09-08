@@ -45,6 +45,15 @@
 ]
 }
 ]
+},{
+ "name": "Second",
+"children": [
+    
+     {"name": "a"},
+     {"name": "Dva second.txt"},
+     {"name": "Jedan second.txt"},
+     {"name": "z"}
+]
 }
 ]
 },

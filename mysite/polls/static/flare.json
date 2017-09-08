@@ -1,49 +1,68 @@
 {
- "name": "html",
-"children": [
-    {
- "name": "head",
+ "name": "Tree test",
 "children": [
     
-     {"name": "title"},{
- "name": "link",
+     {"name": "a"},
+     {"name": "Jedan.txt"},
+     {"name": "z"},{
+ "name": "First",
 "children": [
     
-     {"name": "rel: stylesheet"},
-     {"name": "type: text/css"},
-     {"name": "href: //cloud.typography.com/746852/739588/css/fonts.css"}
+     {"name": "a"},
+     {"name": "Jedan first.txt"},
+     {"name": "z"}
 ]
 },{
- "name": "style",
+ "name": "Second",
 "children": [
     
-     {"name": "type: text/css"}
+     {"name": "a"},
+     {"name": "Dva second.txt"},
+     {"name": "Jedan second.txt"},
+     {"name": "z"}
+]
+},{
+ "name": "Third",
+"children": [
+    
+     {"name": "a"},
+     {"name": "Dva third.txt"},
+     {"name": "Jedan Third.txt"},
+     {"name": "Tri third.txt"},
+     {"name": "z"},{
+ "name": "First",
+"children": [
+    
+     {"name": "a"},
+     {"name": "Jedan first.txt"},
+     {"name": "Jedan.txt"},
+     {"name": "z"},{
+ "name": "zfull",
+"children": [
+    
+     {"name": "a"},
+     {"name": "z"}
 ]
 }
 ]
 },{
- "name": "body",
-"children": [
-    {
- "name": "div",
+ "name": "Second",
 "children": [
     
-     {"name": "class: error-container"},
-     {"name": "h1"},{
- "name": "p",
-"children": [
-    
-     {"name": "class: return"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: /"}
+     {"name": "a"},
+     {"name": "Dva second.txt"},
+     {"name": "Jedan second.txt"},
+     {"name": "z"}
 ]
 }
 ]
-}
-]
-}
+},
+     {"name": "void"},{
+ "name": "zfull",
+"children": [
+    
+     {"name": "a"},
+     {"name": "z"}
 ]
 }
 ]
