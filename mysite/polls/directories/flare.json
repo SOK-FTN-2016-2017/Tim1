@@ -1,0 +1,60 @@
+{
+ "name": "Tree test",
+"children": [
+    
+     {"name": "a"},
+     {"name": "Jedan.txt"},
+     {"name": "z"},{
+ "name": "First",
+"children": [
+    
+     {"name": "a"},
+     {"name": "Jedan first.txt"},
+     {"name": "z"}
+]
+},{
+ "name": "Second",
+"children": [
+    
+     {"name": "a"},
+     {"name": "Dva second.txt"},
+     {"name": "Jedan second.txt"},
+     {"name": "z"}
+]
+},{
+ "name": "Third",
+"children": [
+    
+     {"name": "a"},
+     {"name": "Dva third.txt"},
+     {"name": "Jedan Third.txt"},
+     {"name": "Tri third.txt"},
+     {"name": "z"},{
+ "name": "First",
+"children": [
+    
+     {"name": "a"},
+     {"name": "Jedan first.txt"},
+     {"name": "Jedan.txt"},
+     {"name": "z"},{
+ "name": "zfull",
+"children": [
+    
+     {"name": "a"},
+     {"name": "z"}
+]
+}
+]
+}
+]
+},
+     {"name": "void"},{
+ "name": "zfull",
+"children": [
+    
+     {"name": "a"},
+     {"name": "z"}
+]
+}
+]
+}
