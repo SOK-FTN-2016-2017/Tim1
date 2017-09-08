@@ -22,6 +22,6 @@ s=s+'}'
 input.close
 print (s)
 
-outfile = open('flare.json', 'w') # Indicamos el valor 'w'.
+outfile = open('../static/flare.json', 'w') # Indicamos el valor 'w'.
 outfile.write(s)
 outfile.close()
