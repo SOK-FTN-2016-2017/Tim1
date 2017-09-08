@@ -4,34 +4,29 @@ from html.parser import *
 
 class MyHTMLParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
-        print ("Encountered a start tag:", tag)
+
         global o
         global data
-#        if tag != 'meta'
-#            o=o+'O'
-#            data = data + tag + '\n'
+        # if tag != 'meta':
+        #     o=o+'O'
+        #     data = data + tag + '\n'
 
         o=o+'O'
-        data = data + tag + '\n'
+        data = data + tag+'\n'
 
-        print ('number of attrs:',len(attrs))
+#        print ('number of attrs:',len(attrs))
         if len(attrs) > 0:
             i=0
             while i < len(attrs):
                 o=o+'O'+'D'
-                print (i)
-                print ('number of attrs:', len(attrs))
+#                print (i)
+ #               print ('number of attrs:', len(attrs))
                 data=data + attrs[i][0]+': '+attrs[i][1]+'\n'
-                print ('X')
+#                print ('X')
 #                print ('tam attrs:', len(attrs[2]))
 #                print ("Encountered a attrvs:", attrs)  # tag)
                 i += 1
-
-
-        print ('\n')
-
-
-
+    #######################################################################################
 
     def handle_endtag(self, tag):
 #        print ("Encountered an end tag :", tag)
@@ -39,9 +34,8 @@ class MyHTMLParser(HTMLParser):
         global o
         global data
 
-#        if tag != 'meta'
-#            o=o+'O'
-
+        # if tag != 'meta':
+        #     o=o+'O'
 
         o=o+'D'
 
@@ -49,6 +43,7 @@ class MyHTMLParser(HTMLParser):
 data = '\n'
 o = ''
 p = ''
+
 
 f=open(sys.argv[1],"r")
 s=f.read()

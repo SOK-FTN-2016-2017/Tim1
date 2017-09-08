@@ -1,68 +1,50 @@
 {
- "name": "Tree test",
+ "name": "html",
+"children": [
+    {
+ "name": "head",
 "children": [
     
-     {"name": "a"},
-     {"name": "Jedan.txt"},
-     {"name": "z"},{
- "name": "First",
+     {"name": "charset: utf-8"},
+     {"name": "title"},{
+ "name": "link",
 "children": [
     
-     {"name": "a"},
-     {"name": "Jedan first.txt"},
-     {"name": "z"}
+     {"name": "rel: stylesheet"},
+     {"name": "type: text/css"},
+     {"name": "href: //cloud.typography.com/746852/739588/css/fonts.css"}
 ]
 },{
- "name": "Second",
+ "name": "style",
 "children": [
     
-     {"name": "a"},
-     {"name": "Dva second.txt"},
-     {"name": "Jedan second.txt"},
-     {"name": "z"}
-]
-},{
- "name": "Third",
-"children": [
-    
-     {"name": "a"},
-     {"name": "Dva third.txt"},
-     {"name": "Jedan Third.txt"},
-     {"name": "Tri third.txt"},
-     {"name": "z"},{
- "name": "First",
-"children": [
-    
-     {"name": "a"},
-     {"name": "Jedan first.txt"},
-     {"name": "Jedan.txt"},
-     {"name": "z"},{
- "name": "zfull",
-"children": [
-    
-     {"name": "a"},
-     {"name": "z"}
+     {"name": "type: text/css"}
 ]
 }
 ]
 },{
- "name": "Second",
+ "name": "body",
+"children": [
+    {
+ "name": "div",
 "children": [
     
-     {"name": "a"},
-     {"name": "Dva second.txt"},
-     {"name": "Jedan second.txt"},
-     {"name": "z"}
+     {"name": "class: error-container"},
+     {"name": "h1"},{
+ "name": "p",
+"children": [
+    
+     {"name": "class: return"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /"}
 ]
 }
 ]
-},
-     {"name": "void"},{
- "name": "zfull",
-"children": [
-    
-     {"name": "a"},
-     {"name": "z"}
+}
+]
+}
 ]
 }
 ]

@@ -1,18 +1,14 @@
-112312323243124431123231231244444
+1112431243124312443112444
 html
 head
-title
-link
-rel: stylesheet
-type: text/css
-href: //cloud.typography.com/746852/739588/css/fonts.css
 style
 type: text/css
+script
+src: http://code.jquery.com/jquery-1.10.2.min.js
+script
+src: http://d3js.org/d3.v3.min.js
+script
+src: {% static dndTree.js %}
 body
 div
-class: error-container
-h1
-p
-class: return
-a
-href: /
+id: tree-container
