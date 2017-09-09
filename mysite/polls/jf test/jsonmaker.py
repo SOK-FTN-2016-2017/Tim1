@@ -6,7 +6,7 @@ input = open('MiddleFile', 'r')
 s = ''
 
 for a in input.readline():
-    print ("a=",a[0])
+    # print ("a=",a[0])
     if a[0]=='1':
        s = s+ '{\n "name": "'+ input.readline()
        s = s[:len(s)-1] +'",\n"children": [\n    '
