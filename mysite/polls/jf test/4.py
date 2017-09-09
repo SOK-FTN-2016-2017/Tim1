@@ -26,6 +26,7 @@ class MyHTMLParser(HTMLParser):
 #            data = data + tag + '\n'
 
 
+
         # o=o+'O'
         # if cont != '':
         #     print ('2cont=', cont)
