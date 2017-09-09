@@ -1,1609 +1,436 @@
-12311243231232431232431232431232431232431232431232324312323232432324312323231232431243231232431231231232323124431232323123232323232431232312443123243123232324431232324312311232443123124431124444431232312312323123232443123123232311232323232443123123232323244312312323232431243123244312444443123123243123231243123123123231124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124431124443123112443112443112443112443112443112444431231232312312444431232312312323123123231232323243111244311244443123231232323243111244311244443123231232323243111244311244443123231232323243111244311244444311244312312324443123123124432431232312323123123123112323232443124311244443123123112323232443124311244443123123112323232443124311244443123123112323232443124311244443123123112323232443124311244444431231232444312323123112323231243124431123232444312312323232323243123232324312431231232323232444312312312443124431244312311232323124312443112323244431231123244323232431231231244312443124431231123232312431244311232324443123112323232443232431231231244312443124431231123232312431244311232324443123231123232324432324312312312443124431244312311232323124312443112323244431232323112323232443243123123124431244312443123112323231243124431123232444312312431112323232444312443123123124431244312443123123232431124443123123232431124443123123232431124443123123232431124443123123232431124443123123232431124443123123232431124443123123232431124443123123232431124443123123232431124443123123244443123123123123232323243123232323232444312312312443243123123231112323123232324324431123231232323243244311232312323232432443123123231232323243244311232312323232432443112323123232324324431123231232323243244312312323123232324324431123231232323243244311232312323232432443112323123232324324431231232312323232432443112323123232324324431123231232323243244311232312323232432443123123231232323243244311232312323232432443112323123232324324431123231232323243244312312323123232324324443123123244443123123231231244311123231232323243244311232312323232432443112323123232324324431231232312323232432443112323123232324324431123231232323243244311232312323232432443123123231232323243244311232312323232432443112323123232324324431123231232323243244312312323123232324324431123231232323243244311232312323232432443112323123232324324431231232312323232432443112323123232324324431123231232323243244311232312323232432443123123231232323243244311232312323232432443112323123232324324431123231232323243244312312323123232324324443123123244443123231231123232443112323244311232324431123232443112323244311232324431123232443112323244311232324431123232443112323244311232324431123232443112323244311232324431123232443112323244443123123244312323123232431232324312323243123232431232324312323243123232431232324312323243123232431232324312323243123232431232324312323243123232431232324312323243123232431232324312323243123232444444312323124443123123123111232443112324431123244311232443112324444312311123244311232443112324431123244311232444431232311124431124444312312323231244312323232312443123232323124444312311243123232431232443123232312444431232312431232323232312312431123124431232431244444312323243123232432323244
+12312431231231232324312323124431232312312312323232312323232323231232444431231231231231232323244312312323232443123123232324431231232323244312312323232444431231231232312431231232444431231231232324312431232324444444431232431243123123231231231232312431231231232323232323123244312443112323232323231232443124431123232323232312324431244443123123112443124312431231231232323232324431124443123123123232323244311244431231231232323244311244431231232431232443123232324443123123231231243124312431123232323232312324443112323232323231232444311232323232323123244444444431244312323123123123124431231232443123123244312312324431231232443112324443123232323123232323232312324443123123123244312312324431231232443123123244312312324431123244444312323123232323232312324431232323123232323232312324444323231231232323232323123244312312443123124443123232312312323232431232323123232323232312324444444
 html
-lang: es
+lang: en
 head
-meta
-charset: UTF-8
 title
-meta
-name: keywords
-content: Peliculasyonkis, tu web de películas
-meta
-name: description
-content: Portal de películas de cine; disfruta de tus películas favoritas con peliculasyonkis
-meta
-name: application-name
-content: Películas Yonkis
-meta
-name: msapplication-TileColor
-content: #333333
-meta
-name: msapplication-TileImage
-content: http://www.seriesyonkis.com/img/w8tile.png
-link
-href: http://www.seriesyonkis.com/css/social/style.css
-rel: stylesheet
-link
-rel: shortcut icon
-type: image/x-icon
-href: http://www.seriesyonkis.com/favicon.ico
-link
-rel: search
-href: http://www.seriesyonkis.com/misc/osdpy.xml
-type: application/opensearchdescription+xml
-title: PeliculasYonkis
-script
-script
 body
-class: peliculas
-data-staticurl: http://www.seriesyonkis.com
-script
-a
-id: top_page
-class: anchor_target
+class: logged-out env-production signup
 div
-id: fb-root
-script
+class: position-relative js-header-wrapper 
 a
-href: /
-id: siteskin_link
+href: #start-of-content
+tabindex: 1
+class: px-2 py-4 show-on-focus js-skip-to-content
+div
+id: js-pjax-loader-bar
+class: pjax-loader-bar
+div
+class: progress
 header
-class: main_header 
+class: Header header-logged-out  position-relative f4 py-3
+role: banner
 div
-class: content
+class: container-lg d-flex px-3
+div
+class: d-flex flex-justify-between flex-items-center
 a
-id: logo
-href: /
-title: PelículasYonkis 
-i
-class: logopy public_sprite
-form
-id: search-form
-action: /buscar/pelicula
-method: post
-input
-type: text
-id: search-button
-name: keyword
-autocomplete: off
-placeholder: Encuentra películas, actores, noticias...
-maxlength: 60
+class: header-logo-invertocat my-0
+href: https://github.com/
+aria-label: Homepage
+data-ga-click: (Logged out) Header, go to homepage, icon:logo-wordmark
+svg
+aria-hidden: true
+class: octicon octicon-mark-github
+height: 32
+version: 1.1
+viewbox: 0 0 16 16
+width: 32
+path
+fill-rule: evenodd
+d: M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z
+div
+class: HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto
+nav
+class: mt-0
+ul
+class: d-flex list-style-none
+li
+class: ml-2
+a
+href: /features
+class: js-selected-navigation-item HeaderNavlink px-0 py-2 m-0
+data-ga-click: Header, click, Nav menu - item:features
+data-selected-links: /features /features/project-management /features/code-review /features/project-management /features/integrations /features
+li
+class: ml-4
+a
+href: /business
+class: js-selected-navigation-item HeaderNavlink px-0 py-2 m-0
+data-ga-click: Header, click, Nav menu - item:business
+data-selected-links: /business /business/security /business/customers /business
+li
+class: ml-4
+a
+href: /explore
+class: js-selected-navigation-item HeaderNavlink px-0 py-2 m-0
+data-ga-click: Header, click, Nav menu - item:explore
+data-selected-links: /explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore
+li
+class: ml-4
+a
+href: /marketplace
+class: js-selected-navigation-item HeaderNavlink px-0 py-2 m-0
+data-ga-click: Header, click, Nav menu - item:marketplace
+data-selected-links:  /marketplace
+li
+class: ml-4
+a
+href: /pricing
+class: js-selected-navigation-item HeaderNavlink px-0 py-2 m-0
+data-ga-click: Header, click, Nav menu - item:pricing
+data-selected-links: /pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing
+div
+class: d-flex
+div
+class: d-lg-flex flex-items-center mr-3
+div
+class: header-search   js-site-search
+role: search
+div
+style: margin:0;padding:0;display:inline
+label
+class: form-control header-search-wrapper js-chromeless-input-container
+a
+href: /join
+class: header-search-scope no-underline
+span
+class: d-inline-block
+div
+class: HeaderNavlink px-0 py-2 m-0
+a
+class: text-bold text-white no-underline
+href: /login?return_to=%2Fjoin%3Fsource%3Dheader-home
+data-ga-click: (Logged out) Header, clicked Sign in, text:sign-in
+span
+class: text-gray
+a
+class: text-bold text-white no-underline
+href: /join?source=header
+data-ga-click: (Logged out) Header, clicked Sign up, text:sign-up
+div
+id: start-of-content
+class: show-on-focus
+div
+id: js-flash-container
+div
+role: main
+div
+id: js-pjax-container
+data-pjax-container
+div
+class: bg-shade-gradient
+div
+class: setup-wrapper
+div
+class: setup-header setup-org
+h1
+p
+class: lead
+ol
+class: steps
+li
+class: current
+svg
+aria-hidden: true
+class: octicon octicon-person
+height: 32
+version: 1.1
+viewbox: 0 0 12 16
+width: 24
+path
+fill-rule: evenodd
+d: M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z
+strong
+class: step
+li
+svg
+aria-hidden: true
+class: octicon octicon-versions
+height: 32
+version: 1.1
+viewbox: 0 0 14 16
+width: 28
+path
+fill-rule: evenodd
+d: M13 3H7c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zm-1 8H8V5h4v6zM4 4h1v1H4v6h1v1H4c-.55 0-1-.45-1-1V5c0-.55.45-1 1-1zM1 5h1v1H1v4h1v1H1c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1z
+strong
+class: step
+li
+svg
+aria-hidden: true
+class: octicon octicon-gear
+height: 32
+version: 1.1
+viewbox: 0 0 14 16
+width: 28
+path
+fill-rule: evenodd
+d: M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z
+strong
+class: step
+div
+class: setup-main 
+div
+class: setup-form-container
+noscript
+p
+class: error
+div
+style: margin:0;padding:0;display:inline
+h2
+class: setup-form-title mb-3
+dl
+class: form-group
+dt
+class: input-label
+label
+autocapitalize: off
+autofocus: autofocus
+data-autocheck-authenticity-token: Z7FB/8FC1dctF/vfJbgbeFv4lKeJMOGKmHh8FtOCTonZexbOXbUtZJKZayRQQC9evZTqznT16PtC0R3bUjgT7Q==
+data-autocheck-url: /signup_check/username
+for: user_login
+name: user[login]
+dd
+p
+class: note
+dl
+class: form-group
+dt
+class: input-label
+label
+autocapitalize: off
+data-autocheck-authenticity-token: rlFo2fK859lxmsi+SrbL3Y5e+ouL1zOhq7sMMY5QnZPnt16QRZOCk3LYIpI91Luk3xLiDi0AwdUnawNPMTApAQ==
+data-autocheck-url: /signup_check/email
+for: user_email
+name: user[email]
+dd
+p
+class: note
+dl
+class: form-group
+dt
+class: input-label
+label
+data-autocheck-authenticity-token: LRkpFtVDqoQi4+h+sZbjJ/31Wa2Ui4OWXNI9eCCPYGnW9Vtv5W51m8ybzjCoq55HjWzpD2mIma/bmy+OafLOhw==
+data-autocheck-url: /signup_check/password
+for: user_password
+name: user[password]
+dd
+p
+class: note
+p
+class: tos-info
+a
+href: https://help.github.com/terms
+target: _blank
+a
+href: https://help.github.com/privacy
+target: _blank
 button
 type: submit
-class: glass
-i
-class: public_sprite search_small
-a
-href: /buscar/pelicula
-title: Búsqueda avanzada
-input
-type: hidden
-name: search_type
-value: pelicula
-id: search_type
-a
-class: login-access
-href: /usuario/acceder
-title: Registrarse / Iniciar sesión
+class: btn btn-primary
+id: signup_button
+data-disable-with: Creating account…
+div
+class: setup-secondary
+div
+class: setup-info-module
+h2
 ul
-class: main-menu
+class: features-list
 li
-a
-target: _blank
-href: http://www.seriesyonkis.com
+strong
 li
-class: active
-a
-href: http://www.peliculasyonkis.com
+strong
 li
-a
-href: /noticias
+class: list-divider
+li
+svg
+aria-hidden: true
+class: octicon octicon-check
+height: 16
+version: 1.1
+viewbox: 0 0 12 16
+width: 12
+path
+fill-rule: evenodd
+d: M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z
+li
+svg
+aria-hidden: true
+class: octicon octicon-check
+height: 16
+version: 1.1
+viewbox: 0 0 12 16
+width: 12
+path
+fill-rule: evenodd
+d: M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z
+li
+svg
+aria-hidden: true
+class: octicon octicon-check
+height: 16
+version: 1.1
+viewbox: 0 0 12 16
+width: 12
+path
+fill-rule: evenodd
+d: M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z
 div
-id: signup_login_wrapper
-class: hidden
+class: modal-backdrop js-touch-events
 div
-class: center
-section
-id: signup
-h1
+class: footer container-lg px-3
+role: contentinfo
+div
+class: position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light 
+ul
+class: list-style-none d-flex flex-wrap 
+li
+class: mr-3
+span
+title: 0.04775s from unicorn-1568441119-bx7n8
+li
+class: mr-3
 a
-href: /usuario/registrarse
-title: Página de registro
-class: button
-section
-id: login
-form
-id: login_form
-action: http://www.authyonkis.com/sso/acceder
-method: post
-fieldset
-input
-type: text
-id: username
-name: username
-placeholder: Usuario
-required
-fieldset
-class: nth-child2
-input
-type: password
-id: password
-name: password
-placeholder: Contraseña
-required
-fieldset
-class: sesion nth-child3
-input
-type: checkbox
-id: persistent
-name: persistent
-class: checkbox
-label
-for: persistent
+href: https://github.com/site/terms
+data-ga-click: Footer, go to terms, text:terms
+li
+class: mr-3
 a
-class: olvidado
-href: /usuario/restablecer
+href: https://github.com/site/privacy
+data-ga-click: Footer, go to privacy, text:privacy
+li
+class: mr-3
+a
+href: https://github.com/security
+data-ga-click: Footer, go to security, text:security
+li
+class: mr-3
+a
+href: https://status.github.com/
+data-ga-click: Footer, go to status, text:status
+li
+a
+href: https://help.github.com
+data-ga-click: Footer, go to help, text:help
+a
+href: https://github.com
+aria-label: Homepage
+class: footer-octicon
+title: GitHub
+svg
+aria-hidden: true
+class: octicon octicon-mark-github
+height: 24
+version: 1.1
+viewbox: 0 0 16 16
+width: 24
+path
+fill-rule: evenodd
+d: M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z
+ul
+class: list-style-none d-flex flex-wrap 
+li
+class: mr-3
+a
+href: https://github.com/contact
+data-ga-click: Footer, go to contact, text:contact
+li
+class: mr-3
+a
+href: https://developer.github.com
+data-ga-click: Footer, go to api, text:api
+li
+class: mr-3
+a
+href: https://training.github.com
+data-ga-click: Footer, go to training, text:training
+li
+class: mr-3
+a
+href: https://shop.github.com
+data-ga-click: Footer, go to shop, text:shop
+li
+class: mr-3
+a
+href: https://github.com/blog
+data-ga-click: Footer, go to blog, text:blog
+li
+a
+href: https://github.com/about
+data-ga-click: Footer, go to about, text:about
+div
+id: ajax-error-message
+class: ajax-error-message flash flash-error
+svg
+aria-hidden: true
+class: octicon octicon-alert
+height: 16
+version: 1.1
+viewbox: 0 0 16 16
+width: 16
+path
+fill-rule: evenodd
+d: M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z
 button
-type: submit
-div
-id: fullwrap
-div
-id: siteskincontainer
-style: display: none;
-div
-id: page
-class: container
-a
-id: top
-div
-id: wrap
-div
-class: message-info alfabeto peliculas
-ul
-id: filters
-class: dictionary portada peliculas
-li
-a
-href: /lista-de-peliculas/0-9
-li
-a
-href: /lista-de-peliculas/A
-li
-a
-href: /lista-de-peliculas/B
-li
-a
-href: /lista-de-peliculas/C
-li
-a
-href: /lista-de-peliculas/D
-li
-a
-href: /lista-de-peliculas/E
-li
-a
-href: /lista-de-peliculas/F
-li
-a
-href: /lista-de-peliculas/G
-li
-a
-href: /lista-de-peliculas/H
-li
-a
-href: /lista-de-peliculas/I
-li
-a
-href: /lista-de-peliculas/J
-li
-a
-href: /lista-de-peliculas/K
-li
-a
-href: /lista-de-peliculas/L
-li
-a
-href: /lista-de-peliculas/M
-li
-a
-href: /lista-de-peliculas/N
-li
-a
-href: /lista-de-peliculas/O
-li
-a
-href: /lista-de-peliculas/P
-li
-a
-href: /lista-de-peliculas/Q
-li
-a
-href: /lista-de-peliculas/R
-li
-a
-href: /lista-de-peliculas/S
-li
-a
-href: /lista-de-peliculas/T
-li
-a
-href: /lista-de-peliculas/U
-li
-a
-href: /lista-de-peliculas/V
-li
-a
-href: /lista-de-peliculas/W
-li
-a
-href: /lista-de-peliculas/X
-li
-a
-href: /lista-de-peliculas/Y
-li
-a
-href: /lista-de-peliculas/Z
-ul
-class: dictionary portada peliculas
-li
-a
-href: /lista-de-peliculas
-li
-a
-href: /peliculas-mas-vistas
-li
-a
-href: /ultimas-peliculas
-li
-a
-href: /ultimas-peliculas/estrenos-dvd
-li
-a
-href: /ultimas-peliculas/cartelera
-li
-a
-href: /ultimas-peliculas/actualizadas
-div
-id: ads_superior
-figure
-id: main_banner
-class: ads banner962x90
-a
-href: http://ocio.leadzu.com/?m=1JBRSITE79933X10&a=
-div
-style: text-align: left; margin: auto; width: 50%; background-image: url(http://www.seriesyonkis.com/ads/dev/728x90.png); height: 90px; width: 728px;
-div
-id: content
-class: layout-dashboard
-div
-id: main
-article
-id: slideshow
-h2
-ul
-class: slides clearfix
-li
-id: slide_1
-class: selected
-img
-src: http://www.seriesyonkis.com/img/peliculas/485x250/un-monstruo-viene-a-verme-2016.jpg
-alt: Un monstruo viene a verme (2016)
-width: 485
-height: 250
-hgroup
-h1
-a
-href: /pelicula/un-monstruo-viene-a-verme-2016
-h2
-a
-href: /pelicula/un-monstruo-viene-a-verme-2016
-li
-id: slide_2
-class: selected
-img
-src: http://www.seriesyonkis.com/img/peliculas/485x250/el-hogar-de-miss-peregrine-para-ninos-peculiares-2016.jpg
-alt: El hogar de Miss Peregrine para niños peculiares (2016)
-width: 485
-height: 250
-hgroup
-h1
-a
-href: /pelicula/el-hogar-de-miss-peregrine-para-ninos-peculiares-2016
-h2
-a
-href: /pelicula/el-hogar-de-miss-peregrine-para-ninos-peculiares-2016
-li
-id: slide_3
-class: selected
-img
-src: http://www.seriesyonkis.com/img/peliculas/485x250/la-fiesta-de-las-salchichas-2016.jpg
-alt: La fiesta de las salchichas (2016)
-width: 485
-height: 250
-hgroup
-h1
-a
-href: /pelicula/la-fiesta-de-las-salchichas-2016
-h2
-a
-href: /pelicula/la-fiesta-de-las-salchichas-2016
-li
-id: slide_4
-class: selected
-img
-src: http://www.seriesyonkis.com/img/peliculas/485x250/no-respires-2016.jpg
-alt: No respires (2016)
-width: 485
-height: 250
-hgroup
-h1
-a
-href: /pelicula/no-respires-2016
-h2
-a
-href: /pelicula/no-respires-2016
-nav
-ul
-id: navslider
-p
-class: view_more
-a
-href: /ultimas-peliculas/actualizadas
-title: Ver las últimos películas compartidas
-figure
-class: center ads banner468x60
-a
-href: http://ocio.leadzu.com/?m=1JBRSITE79933X11&a=
-div
-style: text-align: left; background-image: url(http://www.seriesyonkis.com/ads/dev/468x60.png); height: 60px; width: 468px;
-figcaption
-section
-id: noticias
-h2
-div
-class: secondary-box indexdiv
-style: padding-bottom: 5px;
-table
-class: tablenohover indextable
-td
-style: width: 20%;
-table
-style: margin: 0 auto;
-td
-img
-title: Hotel Cambridge
-alt: Hotel Cambridge
-width: 100
-src: http://www.seriesyonkis.com/img/estrenos/pelicula/1572/1572.jpg
-td
-title: Hotel Cambridge
-td
-time
-datetime: 2017-09-15
-td
-style: width: 20%;
-table
-style: margin: 0 auto;
-td
-img
-title: Iqbal y la fórmula secreta
-alt: Iqbal y la fórmula secreta
-width: 100
-src: http://www.seriesyonkis.com/img/estrenos/pelicula/1573/1573.jpg
-td
-title: Iqbal y la fórmula secreta
-td
-time
-datetime: 2017-09-15
-td
-style: width: 20%;
-table
-style: margin: 0 auto;
-td
-img
-title: Juerga de mamis
-alt: Juerga de mamis
-width: 100
-src: http://www.seriesyonkis.com/img/estrenos/pelicula/1574/1574.jpg
-td
-title: Juerga de mamis
-td
-time
-datetime: 2017-09-15
-td
-style: width: 20%;
-table
-style: margin: 0 auto;
-td
-img
-title: Alibi.com Agencia de engaños
-alt: Alibi.com Agencia de engaños
-width: 100
-src: http://www.seriesyonkis.com/img/estrenos/pelicula/1575/1575.jpg
-td
-title: Alibi.com Agencia de engaños
-td
-time
-datetime: 2017-09-15
-td
-style: width: 20%;
-table
-style: margin: 0 auto;
-td
-img
-title: La Región Salvaje
-alt: La Región Salvaje
-width: 100
-src: http://www.seriesyonkis.com/img/estrenos/pelicula/1576/1576.jpg
-td
-title: La Región Salvaje
-td
-time
-datetime: 2017-09-15
-div
-style: width: 95%; margin: 10px auto; text-align: right; font-weight: bold;
-a
-href: http://www.peliculasyonkis.com/estrenos
-title: Todos los estrenos
-section
-id: noticias
-h2
-article
-class: new
-header
-time
-datetime: 2017-09-05T23:34:31+02:00
-title: 05/09/2017 23:34:31
-class: info
-span
-class: day
-span
-class: month
-h3
-a
-class: first-child
-href: http://www.seriesyonkis.com/noticia/dracul-andres-muschietti-podria-dirigir-la-precuela-de-dracula
-title: DRACUL Andrés Muschietti podría dirigir la precuela de Drácula
-div
-class: text
-p
-strong
-strong
-strong
-strong
-strong
-strong
-p
-strong
-strong
-em
-strong
-div
-style: text-align: left;
-div
-style: text-align: left;
-img
-style: display: block; margin-left: auto; margin-right: auto;
-src: http://www.seriesyonkis.com/img/notices/62d11ef748fc4024cd006caf737a4e6a.jpg
-alt
-width: 483
-height: 241
-div
-class: acciones
-p
-class: more_comments
-a
-href: http://www.seriesyonkis.com/noticia/dracul-andres-muschietti-podria-dirigir-la-precuela-de-dracula#comentarios
-p
-class: more_content
-div
-class: social-buttons
-article
-class: new
-header
-time
-datetime: 2016-11-05T16:52:27+01:00
-title: 05/11/2016 16:52:27
-class: info
-span
-class: day
-span
-class: month
-h3
-a
-class: first-child
-href: http://www.seriesyonkis.com/noticia/bryan-singer-de-mutantes-a-hombres-excepcionales
-title: Bryan singer, de mutantes a hombres excepcionales
-div
-class: text
-p
-img
-src: http://www.billboard.com/files/styles/promo_650/public/media/freddie-mercury-of-queen-1986-billboard-650.jpg
-alt: Resultado de imagen de FREDDIE MERCURY
-p
-p
-p
-div
-class: acciones
-p
-class: more_comments
-a
-href: http://www.seriesyonkis.com/noticia/bryan-singer-de-mutantes-a-hombres-excepcionales#comentarios
-p
-class: more_content
-div
-class: social-buttons
-article
-class: new
-header
-time
-datetime: 2016-10-17T18:01:52+02:00
-title: 17/10/2016 18:01:52
-class: info
-span
-class: day
-span
-class: month
-h3
-a
-class: first-child
-href: http://www.seriesyonkis.com/noticia/el-esperado-regreso-de-chuk-lorre
-title: El esperado regreso de Chuk Lorre
-div
-class: text
-p
-img
-src: http://st-listas.20minutos.es/images/2015-11/404642/4849195_640px.jpg?1448890578
-alt: Resultado de imagen de la hoguera de las vanidades
-width: 564
-height: 376
-p
-p
-div
-class: acciones
-p
-class: more_comments
-a
-href: http://www.seriesyonkis.com/noticia/el-esperado-regreso-de-chuk-lorre#comentarios
-p
-class: more_content
-div
-class: social-buttons
-article
-class: new
-header
-time
-datetime: 2016-10-17T17:55:40+02:00
-title: 17/10/2016 17:55:40
-class: info
-span
-class: day
-span
-class: month
-h3
-a
-class: first-child
-href: http://www.seriesyonkis.com/noticia/disney-prepara-un-remake-arriesgado
-title: Disney prepara un remake arriesgado
-div
-class: text
-p
-p
-img
-src: https://upload.wikimedia.org/wikipedia/en/2/23/LionKingCharacters.jpg
-alt
-width: 557
-height: 236
-p
-p
-div
-class: acciones
-p
-class: more_comments
-a
-href: http://www.seriesyonkis.com/noticia/disney-prepara-un-remake-arriesgado#comentarios
-p
-class: more_content
-div
-class: social-buttons
-article
-class: new
-header
-time
-datetime: 2016-10-02T16:11:32+02:00
-title: 02/10/2016 16:11:32
-class: info
-span
-class: day
-span
-class: month
-h3
-a
-class: first-child
-href: http://www.seriesyonkis.com/noticia/el-alquimista
-title: El alquimista
-div
-class: text
-p
-p
-p
-img
-src: https://i.gyazo.com/37da6f15b427ba49238995a332f57738.png
-alt
-width: 575
-height: 421
-p
-div
-class: acciones
-p
-class: more_comments
-a
-href: http://www.seriesyonkis.com/noticia/el-alquimista#comentarios
-p
-class: more_content
-div
-class: social-buttons
-article
-class: new
-header
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-span
-class: day
-span
-class: month
-h3
-a
-class: first-child
-href: http://www.seriesyonkis.com/noticia/el-crucero-sigue-viviendo-su-segunda-juventud
-title: El crucero sigue viviendo su segunda juventud
-div
-class: text
-p
-span
-p
-span
-img
-src: http://cde.3.elcomercio.pe/ima/0/1/3/1/6/1316726.jpg
-alt: Resultado de imagen de tom cruise
-width: 549
-height: 308
-p
-span
-div
-class: acciones
-p
-class: more_comments
-a
-href: http://www.seriesyonkis.com/noticia/el-crucero-sigue-viviendo-su-segunda-juventud#comentarios
-p
-class: more_content
-div
-class: social-buttons
-article
-class: titular
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-h3
-a
-href: http://www.seriesyonkis.com/noticia/de-una-supuesta-miniserie-a-gran-proyecto
-article
-class: titular
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-h3
-a
-href: http://www.seriesyonkis.com/noticia/we-ride-together-we-die-together
-article
-class: titular
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-h3
-a
-href: http://www.seriesyonkis.com/noticia/del-cortometraje-al-estrellato
-article
-class: titular
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-h3
-a
-href: http://www.seriesyonkis.com/noticia/es-mas-grande-asi-que-tiene-que-ser-mejor-no
-article
-class: titular
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-h3
-a
-href: http://www.seriesyonkis.com/noticia/vuelven-los-kaijus-y-tintin-pero-no-juntos
-article
-class: titular
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-h3
-a
-href: http://www.seriesyonkis.com/noticia/nueva-version-de-play-store
-article
-class: titular
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-h3
-a
-href: http://www.seriesyonkis.com/noticia/la-era-de-la-nostalgia-y-si-no-del-spin-off
-article
-class: titular
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-h3
-a
-href: http://www.seriesyonkis.com/noticia/macbeth-2-divide-impresiones-con-su-primer-trailer
-article
-class: titular
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-h3
-a
-href: http://www.seriesyonkis.com/noticia/recogen-el-testigo-de-angelina-jolie
-article
-class: titular
-time
-datetime: 2016-09-17T16:53:35+02:00
-title: 17/09/2016 16:53:35
-class: info
-h3
-a
-href: http://www.seriesyonkis.com/noticia/el-regreso-del-rey-del-mundo
-p
-class: view_more more_news
-a
-href: http://www.seriesyonkis.com/noticias
-title: Ver todas las noticias
-aside
-id: sidebar
-section
-id: redes_sociales
-nav
-id: social-links
-a
-href: https://twitter.com/seriesyonkis
-class: twitter-follow-button
-data-show-count: true
-data-lang: es
-data-show-screen-name: false
-div
-class: fb-like
-data-href: http://www.facebook.com/pages/PeliculasYonkis/161058513912024
-data-layout: button_count
-data-send: false
-data-width: 450
-data-show-faces: true
-figure
-class: ads banner300x250
-a
-href: http://ocio.leadzu.com/?m=1JBRSITE79933X12&a=
-div
-style: text-align: left; background-image: url(http://www.seriesyonkis.com/ads/dev/300x250.png); height: 250px; width: 300px;
-figcaption
-div
-class: sidebar-home-box
-section
-class: shows_thumbs small_thumbs
-h2
-ul
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/8-apellidos-vascos-2014
-title: Ocho apellidos vascos (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/8-apellidos-vascos-2014.jpg
-alt: Ocho apellidos vascos (2014)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/el-niao-2014
-title: El niño (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/el-niao-2014.jpg
-alt: El niño (2014)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/the-amazing-spider-man-2-el-poder-de-electro
-title: The Amazing SpiderMan 2: El poder de Electro
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/the-amazing-spider-man-2-el-poder-de-electro.jpg
-alt: The Amazing SpiderMan 2: El poder de Electro
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: http://www.peliculasyonkis.com/pelicula/los-juegos-del-hambre-sinsajo-parte-1-2014
-title: Los juegos del hambre: Sinsajo. Parte 1 (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/los-juegos-del-hambre-sinsajo-parte-1-2014.jpg
-alt: Los juegos del hambre: Sinsajo. Parte 1 (2014)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/guardianes-de-la-galaxia-2014
-title: Guardianes de la galaxia (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/guardianes-de-la-galaxia-2014.jpg
-alt: Guardianes de la galaxia (2014)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/bajo-la-misma-estrella-2014
-title: Bajo la misma estrella (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/bajo-la-misma-estrella-2014.jpg
-alt: Bajo la misma estrella (2014)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/la-guerra-de-las-galaxias-episodio-iii-la-venganza-de-los-sith-star-wars-episode-iii-revenge-of-the-sith-2005
-title: La guerra de las galaxias. Episodio III: La venganza de los Sith (2005)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/la-guerra-de-las-galaxias-episodio-iii-la-venganza-de-los-sith-star-wars-episode-iii-revenge-of-the-sith-2005.jpg
-alt: La guerra de las galaxias. Episodio III: La venganza de los Sith (2005)
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: http://www.peliculasyonkis.com/pelicula/torrente-5-operacian-eurovegas-2014
-title: Torrente 5: Operación Eurovegas (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/torrente-5-operacian-eurovegas-2014.jpg
-alt: Torrente 5: Operación Eurovegas (2014)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/los-vengadores-2-la-era-de-ultron-2015
-title: Vengadores: La era de Ultrón (2015)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/los-vengadores-2-la-era-de-ultron-2015.jpg
-alt: Vengadores: La era de Ultrón (2015)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/perdona-si-te-llamo-amor-2014
-title: Perdona si te llamo amor (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/perdona-si-te-llamo-amor-2014.jpg
-alt: Perdona si te llamo amor (2014)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/capitan-america-el-soldado-de-invierno-2014
-title: Capitán América: El soldado de invierno (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/capitan-america-el-soldado-de-invierno-2014.jpg
-alt: Capitán América: El soldado de invierno (2014)
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: http://www.peliculasyonkis.com/pelicula/atomik-circus-el-regreso-de-james-bataille-2004
-title: Atomik Circus: El regreso de James Bataille (2004)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/atomik-circus-el-regreso-de-james-bataille-2004.jpg
-alt: Atomik Circus: El regreso de James Bataille (2004)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/divergente-2014
-title: Divergente (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/divergente-2014.jpg
-alt: Divergente (2014)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/la-guerra-de-las-galaxias-episodio-i-la-amenaza-fantasma-star-wars-episode-i-the-phantom-menace-1999
-title: La guerra de las galaxias. Episodio I: La amenaza fantasma (Star Wars. Episode I: The Phantom Menace) (1999)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/la-guerra-de-las-galaxias-episodio-i-la-amenaza-fantasma-star-wars-episode-i-the-phantom-menace-1999.jpg
-alt: La guerra de las galaxias. Episodio I: La amenaza fantasma (Star Wars. Episode I: The Phantom Menace) (1999)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/la-guerra-de-las-galaxias-el-retorno-del-jedi-star-wars-episode-vi-return-of-the-jedi-1983
-title: La guerra de las galaxias: El retorno del Jedi (Star Wars. Episode VI: Return of the Jedi) (1983)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/la-guerra-de-las-galaxias-el-retorno-del-jedi-star-wars-episode-vi-return-of-the-jedi-1983.jpg
-alt: La guerra de las galaxias: El retorno del Jedi (Star Wars. Episode VI: Return of the Jedi) (1983)
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: http://www.peliculasyonkis.com/pelicula/carmina-y-amen-2014
-title: Carmina y amén. (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/carmina-y-amen-2014.jpg
-alt: Carmina y amén. (2014)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/transformers-la-era-de-la-extincion-2014
-title: Transformers: La era de la extinción (2014)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/transformers-la-era-de-la-extincion-2014.jpg
-alt: Transformers: La era de la extinción (2014)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/las-tortugas-ninja-1990
-title: Tortugas ninja (1990)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/las-tortugas-ninja-1990.jpg
-alt: Tortugas ninja (1990)
-width: 69
-height: 100
-span
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/malefica
-title: Maléfica
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/malefica.jpg
-alt: Maléfica
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: http://www.peliculasyonkis.com/pelicula/la-guerra-de-las-galaxias-episodio-ii-el-ataque-de-los-clones-2002-vose
-title: La guerra de las galaxias: Episodio II. El ataque de los clones (Star Wars: Episode II. Attack of the Clones) (2002)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/la-guerra-de-las-galaxias-episodio-ii-el-ataque-de-los-clones-2002-vose.jpg
-alt: La guerra de las galaxias: Episodio II. El ataque de los clones (Star Wars: Episode II. Attack of the Clones) (2002)
-width: 69
-height: 100
-span
-p
-class: view_more
-a
-href: http://www.peliculasyonkis.com/peliculas-mas-vistas
-title: Ver más
-div
-class: sidebar-home-box
-section
-class: shows_thumbs small_thumbs
-h2
-div
-class: helper
-a
-href: /usuario/registrarse
-ul
-li
-a
-href: /pelicula/lo-que-el-viento-se-llevo-1939
-title: Lo que el viento se llevó (1939)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/lo-que-el-viento-se-llevo-1939.jpg
-alt: Lo que el viento se llevó (1939)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/pesadilla-antes-de-navidad-1993
-title: Pesadilla antes de navidad (1993)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/pesadilla-antes-de-navidad-1993.jpg
-alt: Pesadilla antes de navidad (1993)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/el-cazador-1978
-title: El cazador (1978)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/el-cazador-1978.jpg
-alt: El cazador (1978)
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: /pelicula/el-imperio-del-sol-1987
-title: El imperio del sol (1987)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/el-imperio-del-sol-1987.jpg
-alt: El imperio del sol (1987)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/kill-bill-volumen-1-2003
-title: Kill Bill: Volumen 1 (2003)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/kill-bill-volumen-1-2003.jpg
-alt: Kill Bill: Volumen 1 (2003)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/de-mayor-quiero-ser-soldado-i-want-to-be-a-soldier-2010
-title: De mayor quiero ser soldado (I Want to Be a Soldier) (2010)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/de-mayor-quiero-ser-soldado-i-want-to-be-a-soldier-2010.jpg
-alt: De mayor quiero ser soldado (I Want to Be a Soldier) (2010)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/insidious-capitulo-2-2013
-title: Insidious: Capítulo 2 (2013)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/insidious-capitulo-2-2013.jpg
-alt: Insidious: Capítulo 2 (2013)
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: /pelicula/ladrones-takers-2010
-title: Ladrones (Takers) (2010)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/ladrones-takers-2010.jpg
-alt: Ladrones (Takers) (2010)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/terminator-salvation-2009-wuapi-screener
-title: Terminator Salvation (2009)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/terminator-salvation-2009-wuapi-screener.jpg
-alt: Terminator Salvation (2009)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/mas-alla-de-las-palabras-tv-2011
-title: Más allá de las palabras (TV) (2011)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/mas-alla-de-las-palabras-tv-2011.jpg
-alt: Más allá de las palabras (TV) (2011)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/el-super-chef-el-superchef-1999
-title: El super chef  (El superchef) (1999)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/el-super-chef-el-superchef-1999.jpg
-alt: El super chef  (El superchef) (1999)
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: /pelicula/blue-jasmine-2013
-title: Blue Jasmine (2013)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/blue-jasmine-2013.jpg
-alt: Blue Jasmine (2013)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/jovenes-y-brujas-1996
-title: Jóvenes y brujas (1996)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/jovenes-y-brujas-1996.jpg
-alt: Jóvenes y brujas (1996)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/cellular-2004
-title: Cellular (2004)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/cellular-2004.jpg
-alt: Cellular (2004)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/harry-el-ejecutor-1976
-title: Harry el ejecutor (1976)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/harry-el-ejecutor-1976.jpg
-alt: Harry el ejecutor (1976)
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: /pelicula/sherlock-holmes-y-el-caso-de-la-media-de-seda-tv-2004-dvdrip
-title: Sherlock Holmes y el caso de la media de seda (TV) (2004)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/sherlock-holmes-y-el-caso-de-la-media-de-seda-tv-2004-dvdrip.jpg
-alt: Sherlock Holmes y el caso de la media de seda (TV) (2004)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/truco-o-trato-2008-vose
-title: Truco o trato (2008)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/truco-o-trato-2008-vose.jpg
-alt: Truco o trato (2008)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/dragones-destino-de-fuego-2010
-title: Dragones: destino de fuego (2010)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/dragones-destino-de-fuego-2010.jpg
-alt: Dragones: destino de fuego (2010)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/click-click-2006
-title: Click (2006)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/click-click-2006.jpg
-alt: Click (2006)
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: /pelicula/wolfhound-el-guerrero-2007
-title: Wolfhound, el guerrero (2007)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/wolfhound-el-guerrero-2007.jpg
-alt: Wolfhound, el guerrero (2007)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/stalingrado-1992
-title: Stalingrado (1992)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/stalingrado-1992.jpg
-alt: Stalingrado (1992)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/enfrentados-seraphim-falls-2006
-title: Enfrentados (Seraphim Falls) (2006)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/enfrentados-seraphim-falls-2006.jpg
-alt: Enfrentados (Seraphim Falls) (2006)
-width: 69
-height: 100
-span
-li
-a
-href: /pelicula/thunderbirds-2004
-title: Thunderbirds (2004)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/thunderbirds-2004.jpg
-alt: Thunderbirds (2004)
-width: 69
-height: 100
-span
-li
-class: last
-a
-href: /pelicula/tetsuo-el-hombre-de-hierro-1989
-title: Tetsuo (El hombre de hierro) (1989)
-img
-src: http://www.seriesyonkis.com/img/peliculas/90x130/tetsuo-el-hombre-de-hierro-1989.jpg
-alt: Tetsuo (El hombre de hierro) (1989)
-width: 69
-height: 100
-span
-p
-class: view_more
-a
-href: http://www.peliculasyonkis.com/peliculas-recomendadas
-title: Ver más
-div
-class: secondary-box
-h2
-ul
-class: top10-list
-li
-a
-href: /genero/accian
-title: Listado del género AcciÃ³n
-span
-li
-a
-href: /genero/accion
-title: Listado del género Acción
-span
-li
-a
-href: /genero/animacion
-title: Listado del género Animación
-span
-li
-a
-href: /genero/aventuras
-title: Listado del género Aventuras
-span
-li
-a
-href: /genero/ciencia-ficcion
-title: Listado del género Ciencia Ficción
-span
-li
-a
-href: /genero/cine-negro
-title: Listado del género Cine negro
-span
-li
-a
-href: /genero/comedia
-title: Listado del género Comedia
-span
-li
-a
-href: /genero/documental
-title: Listado del género Documental
-span
-li
-a
-href: /genero/drama
-title: Listado del género Drama
-span
-li
-a
-href: /genero/fantastico
-title: Listado del género Fantástico
-span
-li
-a
-href: /genero/infantil
-title: Listado del género Infantil
-span
-li
-a
-href: /genero/intriga
-title: Listado del género Intriga
-span
-li
-a
-href: /genero/musical
-title: Listado del género Musical
-span
-li
-a
-href: /genero/romance
-title: Listado del género Romance
-span
-li
-a
-href: /genero/terror
-title: Listado del género Terror
-span
-li
-a
-href: /genero/thriller
-title: Listado del género Thriller
-span
-li
-a
-href: /genero/western
-title: Listado del género Western
-span
-p
-class: view_more
-a
-href: /lista-de-generos
-title: Ver lista de géneros
-div
-id: servers-side
-class: sidebar-home-box
-a
-href: http://www.cwtv.com/
-class: serverhome cw
-target: _blank
-a
-href: http://www.cbs.com/
-class: serverhome cbs2
-target: _blank
-a
-href: http://www.hulu.com/
-class: serverhome hulu2
-target: _blank
-a
-href: http://www.voddler.com/es
-class: serverhome voddler2
-target: _blank
-a
-href: http://www.sho.com/site/index.html
-class: serverhome showtime2
-target: _blank
-a
-href: http://www.spike.com/
-class: serverhome spike2
-target: _blank
-a
-href: http://wwws.ww.warnerbros.com/portal_es/#
-class: serverhome wb
-target: _blank
-a
-href: http://www.cineclick.com/
-class: serverhome cineclick2
-target: _blank
-a
-href: http://www.antena3.com/
-class: serverhome antena32
-target: _blank
-a
-href: http://www.rtve.es/television/
-class: serverhome rtve2
-target: _blank
-a
-href: http://www.filmin.es/
-class: serverhome filmin2
-target: _blank
-a
-href: http://foxtv.es/
-class: serverhome fox2
-target: _blank
-a
-href: http://www.mitele.es/
-class: serverhome mitele2
-target: _blank
-a
-href: http://www.wuaki.tv/
-class: serverhome wuaki2
-target: _blank
-a
-href: http://www.adnstream.com/
-class: serverhome adn2
-target: _blank
-a
-href: http://www.filmotech.com/
-class: serverhome filmotech
-target: _blank
-a
-href: http://www.apple.com/es/itunes/what-is/store.html
-class: serverhome itunes_download
-target: _blank
-a
-href: https://play.google.com/store?hl=es
-class: serverhome googleplay
-target: _blank
-a
-href: http://www.plus.es/
-class: serverhome canalplus
-target: _blank
-a
-href: http://www.booquo.com/
-class: serverhome booquo2
-target: _blank
-a
-href: https://youzee.com/es/
-class: serverhome youzee2
-target: _blank
-a
-href: http://www.sho.com/
-class: serverhome showtime
-target: _blank
-form
-action: #
-id: pu_form
-a
-href: #
-footer
-id: bottom
-div
-class: footer-content
-div
-h3
-ul
-li
-a
-href: http://www.seriesyonkis.com/serie/the-big-bang-theory
-title: The Big Bang Theory (2007-)
-li
-a
-href: http://www.seriesyonkis.com/serie/the-walking-dead-yonkis1
-title: The Walking Dead (2010-)
-li
-a
-href: http://www.seriesyonkis.com/serie/como-conoci-a-vuestra-madre
-title: Cómo conocí a vuestra madre (2005-)
-li
-a
-href: http://www.seriesyonkis.com/serie/juego-de-tronos-2011-yonkis1
-title: Juego de tronos (2011)
-li
-a
-href: http://www.seriesyonkis.com/serie/the-vampire-diaries
-title: The vampire diaries (Crónicas Vampíricas) (2009-)
-div
-h3
-ul
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/8-apellidos-vascos-2014
-title: Ocho apellidos vascos (2014)
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/el-niao-2014
-title: El niño (2014)
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/the-amazing-spider-man-2-el-poder-de-electro
-title: The Amazing SpiderMan 2: El poder de Electro
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/los-juegos-del-hambre-sinsajo-parte-1-2014
-title: Los juegos del hambre: Sinsajo. Parte 1 (2014)
-li
-a
-href: http://www.peliculasyonkis.com/pelicula/guardianes-de-la-galaxia-2014
-title: Guardianes de la galaxia (2014)
-div
-class: third
-h3
-ul
-li
-a
-href: http://www.seriesyonkis.com
-li
-a
-href: http://www.seriesyonkis.com/noticias
-div
-class: fourth
-a
-class: logo_link
-href: /
-style: clear: right
-i
-class: logopy public_sprite
-a
-class: social
-href: https://twitter.com/seriesyonkis
-title: Ir a la cuenta en Twitter de @seriesyonkis
-target: _blank
-i
-class: public_sprite footer_twitter
-a
-class: social
-href: http://www.facebook.com/pages/PeliculasYonkis/161058513912024
-title: Página en facebook de Películas Yonkis
-target: _blank
-i
-class: public_sprite footer_fb
-div
-class: footer-bottom
-p
-a
-href: /info/legal
-a
-href: /info/contacto
-id: contact
-title: Contacta con nosotros
-a
-href: /info/anunciate
-class: anuncio
-a
-href: #top_page
-class: back-top
-title: Haz clic aquí para volver al principio
-i
-class: public_sprite white_arrow_up
-div
-id: betamail
-class: hidden
-div
-id: feedback_message
-form
-action: #
-method: post
-id: popup-content
-name: comment
-class: feedback
-ul
-class: form pm-form
-li
-p
-li
-label
-for: mensaje
-span
-class: required
-textarea
-id: mensaje
-class: glossy
-p
-class: mens-err
-div
-id: confirmation_delete_message
-style: display: none;
-br
-div
-id: confirmation_delete_review
-style: display: none;
-br
+type: button
+class: flash-close js-flash-close js-ajax-error-dismiss
+aria-label: Dismiss error
+svg
+aria-hidden: true
+class: octicon octicon-x
+height: 16
+version: 1.1
+viewbox: 0 0 12 16
+width: 12
+path
+fill-rule: evenodd
+d: M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z
 script
 script
-script
+div
+class: js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none
+svg
+aria-hidden: true
+class: octicon octicon-alert
+height: 16
+version: 1.1
+viewbox: 0 0 16 16
+width: 16
+path
+fill-rule: evenodd
+d: M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z
+span
+class: signed-in-tab-flash
+a
+href: 
+span
+class: signed-out-tab-flash
+a
+href: 
+div
+class: facebox
+id: facebox
+style: display:none;
+div
+class: facebox-popup
+div
+class: facebox-content
+role: dialog
+aria-labelledby: facebox-header
+aria-describedby: facebox-description
+button
+type: button
+class: facebox-close js-facebox-close
+aria-label: Close modal
+svg
+aria-hidden: true
+class: octicon octicon-x
+height: 16
+version: 1.1
+viewbox: 0 0 12 16
+width: 12
+path
+fill-rule: evenodd
+d: M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z
