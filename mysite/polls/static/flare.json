@@ -2,538 +2,184 @@
  "name": "html",
 "children": [
     
-     {"name": "lang: en"},{
+     {"name": "itemscope"},
+     {"name": "itemtype: http://schema.org/QAPage"},{
  "name": "head",
 "children": [
     
-     {"name": "title"}
+     {"name": "title"},
+     {"name": "script"},
+     {"name": "script"},
+     {"name": "script"},
+     {"name": "script"},
+     {"name": "script"},{
+ "name": "noscript",
+"children": [
+    
+     {"name": "id: noscript-css"},{
+ "name": "style",
+"children": [
+    
+     {"name": "type: text/css"}
+]
+}
+]
+}
 ]
 },{
  "name": "body",
 "children": [
     
-     {"name": "class: logged-out env-production signup"},{
- "name": "div",
+     {"name": "class: question-page new-topbar"},
+     {"name": "script"},{
+ "name": "iframe",
 "children": [
     
-     {"name": "class: position-relative js-header-wrapper "},{
- "name": "a",
-"children": [
-    
-     {"name": "href: #start-of-content"},
-     {"name": "tabindex: 1"},
-     {"name": "class: px-2 py-4 show-on-focus js-skip-to-content"}
+     {"name": "id: adzerk-user-match"},
+     {"name": "width: 0"},
+     {"name": "height: 0"},
+     {"name": "frameborder: 0"},
+     {"name": "scrolling: no"},
+     {"name": "onload: window.AUMIframeDone=true"},
+     {"name": "src: https://ssum-sec.casalemedia.com/usermatch?s=183712&cb=https%3A%2F%2Fengine.adzerk.net%2Fudb%2F22%2Fsync%2Fi.gif%3FpartnerId%3D1%26userId%3D"},
+     {"name": "style: display: none;"},
+     {"name": "marginheight: 0"},
+     {"name": "marginwidth: 0"}
 ]
 },{
  "name": "div",
 "children": [
     
-     {"name": "id: js-pjax-loader-bar"},
-     {"name": "class: pjax-loader-bar"},{
+     {"name": "id: notify-container"}
+]
+},{
  "name": "div",
 "children": [
     
-     {"name": "class: progress"}
-]
-}
+     {"name": "id: custom-header"}
 ]
 },{
  "name": "header",
 "children": [
     
-     {"name": "class: Header header-logged-out  position-relative f4 py-3"},
-     {"name": "role: banner"},{
+     {"name": "class: so-header js-so-header _fixed"},{
  "name": "div",
 "children": [
     
-     {"name": "class: container-lg d-flex px-3"},{
+     {"name": "class: -container"},{
  "name": "div",
 "children": [
     
-     {"name": "class: d-flex flex-justify-between flex-items-center"},{
+     {"name": "class: -main"},{
  "name": "a",
 "children": [
     
-     {"name": "class: header-logo-invertocat my-0"},
-     {"name": "href: https://github.com/"},
-     {"name": "aria-label: Homepage"},
-     {"name": "data-ga-click: (Logged out) Header, go to homepage, icon:logo-wordmark"},{
- "name": "svg",
+     {"name": "href: https://stackoverflow.com"},
+     {"name": "class: -logo js-gps-track "},
+     {"name": "data-gps-track: top_nav.click({is_current:false, location:2, destination:8})"},{
+ "name": "span",
 "children": [
     
-     {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-mark-github"},
-     {"name": "height: 32"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 16 16"},
-     {"name": "width: 32"},{
- "name": "path",
-"children": [
-    
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"}
-]
-}
-]
-}
+     {"name": "class: -img"}
 ]
 }
 ]
 },{
- "name": "div",
-"children": [
-    
-     {"name": "class: HeaderMenu HeaderMenu--bright d-flex flex-justify-between flex-auto"},{
  "name": "nav",
 "children": [
     
-     {"name": "class: mt-0"},{
- "name": "ul",
-"children": [
-    
-     {"name": "class: d-flex list-style-none"},{
- "name": "li",
-"children": [
-    
-     {"name": "class: ml-2"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: /features"},
-     {"name": "class: js-selected-navigation-item HeaderNavlink px-0 py-2 m-0"},
-     {"name": "data-ga-click: Header, click, Nav menu - item:features"},
-     {"name": "data-selected-links: /features /features/project-management /features/code-review /features/project-management /features/integrations /features"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: ml-4"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: /business"},
-     {"name": "class: js-selected-navigation-item HeaderNavlink px-0 py-2 m-0"},
-     {"name": "data-ga-click: Header, click, Nav menu - item:business"},
-     {"name": "data-selected-links: /business /business/security /business/customers /business"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: ml-4"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: /explore"},
-     {"name": "class: js-selected-navigation-item HeaderNavlink px-0 py-2 m-0"},
-     {"name": "data-ga-click: Header, click, Nav menu - item:explore"},
-     {"name": "data-selected-links: /explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: ml-4"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: /marketplace"},
-     {"name": "class: js-selected-navigation-item HeaderNavlink px-0 py-2 m-0"},
-     {"name": "data-ga-click: Header, click, Nav menu - item:marketplace"},
-     {"name": "data-selected-links:  /marketplace"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: ml-4"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: /pricing"},
-     {"name": "class: js-selected-navigation-item HeaderNavlink px-0 py-2 m-0"},
-     {"name": "data-ga-click: Header, click, Nav menu - item:pricing"},
-     {"name": "data-selected-links: /pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing"}
-]
-}
-]
-}
-]
-}
-]
-},{
- "name": "div",
-"children": [
-    
-     {"name": "class: d-flex"},{
- "name": "div",
-"children": [
-    
-     {"name": "class: d-lg-flex flex-items-center mr-3"},{
- "name": "div",
-"children": [
-    
-     {"name": "class: header-search   js-site-search"},
-     {"name": "role: search"},{
- "name": "div",
-"children": [
-    
-     {"name": "style: margin:0;padding:0;display:inline"}
-]
-},{
- "name": "label",
-"children": [
-    
-     {"name": "class: form-control header-search-wrapper js-chromeless-input-container"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: /join"},
-     {"name": "class: header-search-scope no-underline"}
-]
-}
-]
-}
-]
-}
-]
-},{
- "name": "span",
-"children": [
-    
-     {"name": "class: d-inline-block"},{
- "name": "div",
-"children": [
-    
-     {"name": "class: HeaderNavlink px-0 py-2 m-0"},{
- "name": "a",
-"children": [
-    
-     {"name": "class: text-bold text-white no-underline"},
-     {"name": "href: /login?return_to=%2Fjoin%3Fsource%3Dheader-home"},
-     {"name": "data-ga-click: (Logged out) Header, clicked Sign in, text:sign-in"}
-]
-},{
- "name": "span",
-"children": [
-    
-     {"name": "class: text-gray"}
-]
-},{
- "name": "a",
-"children": [
-    
-     {"name": "class: text-bold text-white no-underline"},
-     {"name": "href: /join?source=header"},
-     {"name": "data-ga-click: (Logged out) Header, clicked Sign up, text:sign-up"}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-},{
- "name": "div",
-"children": [
-    
-     {"name": "id: start-of-content"},
-     {"name": "class: show-on-focus"}
-]
-},{
- "name": "div",
-"children": [
-    
-     {"name": "id: js-flash-container"}
-]
-},{
- "name": "div",
-"children": [
-    
-     {"name": "role: main"},{
- "name": "div",
-"children": [
-    
-     {"name": "id: js-pjax-container"},
-     {"name": "data-pjax-container"},{
- "name": "div",
-"children": [
-    
-     {"name": "class: bg-shade-gradient"},{
- "name": "div",
-"children": [
-    
-     {"name": "class: setup-wrapper"},{
- "name": "div",
-"children": [
-    
-     {"name": "class: setup-header setup-org"},
-     {"name": "h1"},{
- "name": "p",
-"children": [
-    
-     {"name": "class: lead"}
-]
-},{
+     {"name": "class: navigation"},
+     {"name": "role: navigation"},
+     {"name": "aria-label: site navigation"},{
  "name": "ol",
 "children": [
     
-     {"name": "class: steps"},{
+     {"name": "class: -list"},{
  "name": "li",
 "children": [
     
-     {"name": "class: current"},{
- "name": "svg",
-"children": [
-    
-     {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-person"},
-     {"name": "height: 32"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 12 16"},
-     {"name": "width: 24"},{
- "name": "path",
-"children": [
-    
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M12 14.002a.998.998 0 0 1-.998.998H1.001A1 1 0 0 1 0 13.999V13c0-2.633 4-4 4-4s.229-.409 0-1c-.841-.62-.944-1.59-1-4 .173-2.413 1.867-3 3-3s2.827.586 3 3c-.056 2.41-.159 3.38-1 4-.229.59 0 1 0 1s4 1.367 4 4v1.002z"}
-]
-}
-]
-},{
- "name": "strong",
-"children": [
-    
-     {"name": "class: step"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    {
- "name": "svg",
-"children": [
-    
-     {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-versions"},
-     {"name": "height: 32"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 14 16"},
-     {"name": "width: 28"},{
- "name": "path",
-"children": [
-    
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M13 3H7c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zm-1 8H8V5h4v6zM4 4h1v1H4v6h1v1H4c-.55 0-1-.45-1-1V5c0-.55.45-1 1-1zM1 5h1v1H1v4h1v1H1c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1z"}
-]
-}
-]
-},{
- "name": "strong",
-"children": [
-    
-     {"name": "class: step"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    {
- "name": "svg",
-"children": [
-    
-     {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-gear"},
-     {"name": "height: 32"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 14 16"},
-     {"name": "width: 28"},{
- "name": "path",
-"children": [
-    
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"}
-]
-}
-]
-},{
- "name": "strong",
-"children": [
-    
-     {"name": "class: step"}
-]
-}
-]
-}
-]
-}
-]
-},{
- "name": "div",
-"children": [
-    
-     {"name": "class: setup-main "},{
- "name": "div",
-"children": [
-    
-     {"name": "class: setup-form-container"},{
- "name": "noscript",
-"children": [
-    {
- "name": "p",
-"children": [
-    
-     {"name": "class: error"}
-]
-}
-]
-},{
- "name": "div",
-"children": [
-    
-     {"name": "style: margin:0;padding:0;display:inline"}
-]
-},{
- "name": "h2",
-"children": [
-    
-     {"name": "class: setup-form-title mb-3"}
-]
-},{
- "name": "dl",
-"children": [
-    
-     {"name": "class: form-group"},{
- "name": "dt",
-"children": [
-    
-     {"name": "class: input-label"},{
- "name": "label",
-"children": [
-    
-     {"name": "autocapitalize: off"},
-     {"name": "autofocus: autofocus"},
-     {"name": "data-autocheck-authenticity-token: Z7FB/8FC1dctF/vfJbgbeFv4lKeJMOGKmHh8FtOCTonZexbOXbUtZJKZayRQQC9evZTqznT16PtC0R3bUjgT7Q=="},
-     {"name": "data-autocheck-url: /signup_check/username"},
-     {"name": "for: user_login"},
-     {"name": "name: user[login]"}
-]
-}
-]
-},{
- "name": "dd",
-"children": [
-    {
- "name": "p",
-"children": [
-    
-     {"name": "class: note"}
-]
-}
-]
-}
-]
-},{
- "name": "dl",
-"children": [
-    
-     {"name": "class: form-group"},{
- "name": "dt",
-"children": [
-    
-     {"name": "class: input-label"},{
- "name": "label",
-"children": [
-    
-     {"name": "autocapitalize: off"},
-     {"name": "data-autocheck-authenticity-token: rlFo2fK859lxmsi+SrbL3Y5e+ouL1zOhq7sMMY5QnZPnt16QRZOCk3LYIpI91Luk3xLiDi0AwdUnawNPMTApAQ=="},
-     {"name": "data-autocheck-url: /signup_check/email"},
-     {"name": "for: user_email"},
-     {"name": "name: user[email]"}
-]
-}
-]
-},{
- "name": "dd",
-"children": [
-    {
- "name": "p",
-"children": [
-    
-     {"name": "class: note"}
-]
-}
-]
-}
-]
-},{
- "name": "dl",
-"children": [
-    
-     {"name": "class: form-group"},{
- "name": "dt",
-"children": [
-    
-     {"name": "class: input-label"},{
- "name": "label",
-"children": [
-    
-     {"name": "data-autocheck-authenticity-token: LRkpFtVDqoQi4+h+sZbjJ/31Wa2Ui4OWXNI9eCCPYGnW9Vtv5W51m8ybzjCoq55HjWzpD2mIma/bmy+OafLOhw=="},
-     {"name": "data-autocheck-url: /signup_check/password"},
-     {"name": "for: user_password"},
-     {"name": "name: user[password]"}
-]
-}
-]
-},{
- "name": "dd",
-"children": [
-    {
- "name": "p",
-"children": [
-    
-     {"name": "class: note"}
-]
-}
-]
-}
-]
-},{
- "name": "p",
-"children": [
-    
-     {"name": "class: tos-info"},{
+     {"name": "class: -item _current"},{
  "name": "a",
 "children": [
     
-     {"name": "href: https://help.github.com/terms"},
-     {"name": "target: _blank"}
+     {"name": "id: nav-questions"},
+     {"name": "href: /questions"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: top_nav.click({is_current:true, location:2, destination:1})"}
+]
+}
 ]
 },{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
  "name": "a",
 "children": [
     
-     {"name": "href: https://help.github.com/privacy"},
-     {"name": "target: _blank"}
+     {"name": "id: nav-jobs"},
+     {"name": "href: /jobs?med=site-ui&ref=jobs-tab"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: top_nav.click({is_current:false, location:2, destination:6})"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: nav-tags"},
+     {"name": "href: /tags"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: top_nav.click({is_current:false, location:2, destination:2})"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: nav-users"},
+     {"name": "href: /users"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: top_nav.click({is_current:false, location:2, destination:3})"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "form",
+"children": [
+    
+     {"name": "id: search"},
+     {"name": "action: /search"},
+     {"name": "method: get"},
+     {"name": "class: searchbar"},
+     {"name": "autocomplete: off"},
+     {"name": "role: search"},{
+ "name": "svg",
+"children": [
+    
+     {"name": "aria-hidden: true"},
+     {"name": "class: svg-icon iconSearch"},
+     {"name": "width: 18"},
+     {"name": "height: 18"},
+     {"name": "viewbox: 0 0 18 18"},{
+ "name": "path",
+"children": [
+    
+     {"name": "d: M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"}
 ]
 }
 ]
@@ -542,9 +188,23 @@
 "children": [
     
      {"name": "type: submit"},
-     {"name": "class: btn btn-primary"},
-     {"name": "id: signup_button"},
-     {"name": "data-disable-with: Creating account…"}
+     {"name": "class: btn js-search-submit"},{
+ "name": "svg",
+"children": [
+    
+     {"name": "aria-hidden: true"},
+     {"name": "class: svg-icon iconSearch"},
+     {"name": "width: 18"},
+     {"name": "height: 18"},
+     {"name": "viewbox: 0 0 18 18"},{
+ "name": "path",
+"children": [
+    
+     {"name": "d: M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"}
+]
+}
+]
+}
 ]
 }
 ]
@@ -554,51 +214,81 @@
  "name": "div",
 "children": [
     
-     {"name": "class: setup-secondary"},{
+     {"name": "class: -actions"},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: secondary-nav"},{
  "name": "div",
 "children": [
     
-     {"name": "class: setup-info-module"},
-     {"name": "h2"},{
+     {"name": "class: -dialog-container js-topbar-dialog-corral"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: topbar-dialog siteSwitcher-dialog dno"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: header"},{
+ "name": "h3",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modal-content current-site-container"},{
  "name": "ul",
 "children": [
     
-     {"name": "class: features-list"},{
- "name": "li",
-"children": [
-    
-     {"name": "strong"}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "strong"}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: list-divider"}
-]
-},{
+     {"name": "class: current-site"},{
  "name": "li",
 "children": [
     {
- "name": "svg",
+ "name": "div",
 "children": [
     
-     {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-check"},
-     {"name": "height: 16"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 12 16"},
-     {"name": "width: 12"},{
- "name": "path",
+     {"name": "class: related-links"},{
+ "name": "a",
 "children": [
     
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"}
+     {"name": "href: https://stackoverflow.com/help"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site_switcher.click({ item_type:14 })"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://chat.stackoverflow.com"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site_switcher.click({ item_type:6 })"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com"},
+     {"name": "class: current-site-link site-link js-gps-track"},
+     {"name": "data-id: 1"},
+     {"name": "data-gps-track: site_switcher.click({ item_type:3 })"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: site-icon favicon favicon-stackoverflow"},
+     {"name": "title: Stack Overflow"}
 ]
 }
 ]
@@ -607,157 +297,16 @@
 },{
  "name": "li",
 "children": [
-    {
- "name": "svg",
-"children": [
     
-     {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-check"},
-     {"name": "height: 16"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 12 16"},
-     {"name": "width: 12"},{
- "name": "path",
-"children": [
-    
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"}
-]
-}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    {
- "name": "svg",
-"children": [
-    
-     {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-check"},
-     {"name": "height: 16"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 12 16"},
-     {"name": "width: 12"},{
- "name": "path",
-"children": [
-    
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-}
-]
-},{
+     {"name": "class: related-site"},{
  "name": "div",
 "children": [
     
-     {"name": "class: modal-backdrop js-touch-events"}
-]
-}
-]
-},{
- "name": "div",
-"children": [
-    
-     {"name": "class: footer container-lg px-3"},
-     {"name": "role: contentinfo"},{
- "name": "div",
-"children": [
-    
-     {"name": "class: position-relative d-flex flex-justify-between py-6 mt-6 f6 text-gray border-top border-gray-light "},{
- "name": "ul",
-"children": [
-    
-     {"name": "class: list-style-none d-flex flex-wrap "},{
- "name": "li",
-"children": [
-    
-     {"name": "class: mr-3"},{
+     {"name": "class: L-shaped-icon-container"},{
  "name": "span",
 "children": [
     
-     {"name": "title: 0.04775s from unicorn-1568441119-bx7n8"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: mr-3"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: https://github.com/site/terms"},
-     {"name": "data-ga-click: Footer, go to terms, text:terms"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: mr-3"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: https://github.com/site/privacy"},
-     {"name": "data-ga-click: Footer, go to privacy, text:privacy"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: mr-3"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: https://github.com/security"},
-     {"name": "data-ga-click: Footer, go to security, text:security"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: mr-3"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: https://status.github.com/"},
-     {"name": "data-ga-click: Footer, go to status, text:status"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    {
- "name": "a",
-"children": [
-    
-     {"name": "href: https://help.github.com"},
-     {"name": "data-ga-click: Footer, go to help, text:help"}
-]
-}
+     {"name": "class: L-shaped-icon"}
 ]
 }
 ]
@@ -765,107 +314,15 @@
  "name": "a",
 "children": [
     
-     {"name": "href: https://github.com"},
-     {"name": "aria-label: Homepage"},
-     {"name": "class: footer-octicon"},
-     {"name": "title: GitHub"},{
- "name": "svg",
+     {"name": "href: https://meta.stackoverflow.com"},
+     {"name": "class: site-link js-gps-track"},
+     {"name": "data-id: 552"},
+     {"name": "data-gps-track: site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"},{
+ "name": "div",
 "children": [
     
-     {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-mark-github"},
-     {"name": "height: 24"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 16 16"},
-     {"name": "width: 24"},{
- "name": "path",
-"children": [
-    
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"}
-]
-}
-]
-}
-]
-},{
- "name": "ul",
-"children": [
-    
-     {"name": "class: list-style-none d-flex flex-wrap "},{
- "name": "li",
-"children": [
-    
-     {"name": "class: mr-3"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: https://github.com/contact"},
-     {"name": "data-ga-click: Footer, go to contact, text:contact"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: mr-3"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: https://developer.github.com"},
-     {"name": "data-ga-click: Footer, go to api, text:api"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: mr-3"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: https://training.github.com"},
-     {"name": "data-ga-click: Footer, go to training, text:training"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: mr-3"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: https://shop.github.com"},
-     {"name": "data-ga-click: Footer, go to shop, text:shop"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    
-     {"name": "class: mr-3"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: https://github.com/blog"},
-     {"name": "data-ga-click: Footer, go to blog, text:blog"}
-]
-}
-]
-},{
- "name": "li",
-"children": [
-    {
- "name": "a",
-"children": [
-    
-     {"name": "href: https://github.com/about"},
-     {"name": "data-ga-click: Footer, go to about, text:about"}
+     {"name": "class: site-icon favicon favicon-stackoverflowmeta"},
+     {"name": "title: Meta Stack Overflow"}
 ]
 }
 ]
@@ -879,46 +336,281 @@
  "name": "div",
 "children": [
     
-     {"name": "id: ajax-error-message"},
-     {"name": "class: ajax-error-message flash flash-error"},{
- "name": "svg",
+     {"name": "class: header"},
+     {"name": "id: your-communities-header"},
+     {"name": "h3"}
+]
+},{
+ "name": "div",
 "children": [
     
-     {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-alert"},
-     {"name": "height: 16"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 16 16"},
-     {"name": "width: 16"},{
- "name": "path",
+     {"name": "class: modal-content"},
+     {"name": "id: your-communities-section"},{
+ "name": "div",
 "children": [
     
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"}
+     {"name": "class: call-to-login"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com/users/signup?ssrc=site_switcher&returnurl=%2fusers%2fstory%2fcurrent&amp;utm_source=stackoverflow.com&amp;utm_medium=dev-story&amp;utm_campaign=signup-redirect"},
+     {"name": "class: login-link js-gps-track"},
+     {"name": "data-gps-track: site_switcher.click({ item_type:10 })"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com/users/login?ssrc=site_switcher&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f5159185%2fcreate-a-git-patch-from-the-changes-in-the-current-working-directory"},
+     {"name": "class: login-link js-gps-track"},
+     {"name": "data-gps-track: site_switcher.click({ item_type:11 })"}
+]
+}
 ]
 }
 ]
 },{
- "name": "button",
+ "name": "div",
 "children": [
     
-     {"name": "type: button"},
-     {"name": "class: flash-close js-flash-close js-ajax-error-dismiss"},
-     {"name": "aria-label: Dismiss error"},{
+     {"name": "class: header"},{
+ "name": "h3",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/sites"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.blog"},
+     {"name": "class: fr"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modal-content"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: child-content"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: topbar-dialog help-dialog js-help-dialog dno"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modal-content"},{
+ "name": "ul",
+"children": [
+    {
+ "name": "li",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: /tour"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: help_popup.click({ item_type:1 })"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: item-summary"}
+]
+}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: /help"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: help_popup.click({ item_type:4 })"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: item-summary"}
+]
+}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://meta.stackoverflow.com"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: help_popup.click({ item_type:2 })"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: item-summary"}
+]
+}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com/company/about"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: help_popup.click({ item_type:6 })"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: item-summary"}
+]
+}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://www.stackoverflowbusiness.com/?ref=topbar_help"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: help_popup.click({ item_type:7 })"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: item-summary"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "ol",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "class: -link js-help-button"},
+     {"name": "title: Help Center and other resources"},{
  "name": "svg",
 "children": [
     
      {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-x"},
-     {"name": "height: 16"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 12 16"},
-     {"name": "width: 12"},{
+     {"name": "class: svg-icon iconHelp"},
+     {"name": "width: 18"},
+     {"name": "height: 18"},
+     {"name": "viewbox: 0 0 18 18"},{
  "name": "path",
 "children": [
     
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"}
+     {"name": "d: M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com"},
+     {"name": "class: -link js-site-switcher-button js-gps-track"},
+     {"name": "data-gps-track: site_switcher.show"},
+     {"name": "title: A list of all 171 Stack Exchange sites"},{
+ "name": "svg",
+"children": [
+    
+     {"name": "aria-hidden: true"},
+     {"name": "class: svg-icon iconStackExchange"},
+     {"name": "width: 18"},
+     {"name": "height: 18"},
+     {"name": "viewbox: 0 0 18 18"},{
+ "name": "path",
+"children": [
+    
+     {"name": "d: M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -ctas"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com/users/login?ssrc=head&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f5159185%2fcreate-a-git-patch-from-the-changes-in-the-current-working-directory"},
+     {"name": "class: login-link btn-clear"},
+     {"name": "rel: nofollow"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com/users/signup?ssrc=head&returnurl=%2fusers%2fstory%2fcurrent&utm_source=stackoverflow.com&utm_medium=dev-story&utm_campaign=signup-redirect"},
+     {"name": "class: login-link btn"},
+     {"name": "rel: nofollow"}
+]
+}
 ]
 }
 ]
@@ -927,105 +619,7163 @@
 }
 ]
 },
+     {"name": "script"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: container  "},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: content"},
+     {"name": "class: snippet-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "itemscope"},
+     {"name": "itemtype: http://schema.org/Question"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: herobox"},
+     {"name": "class: alternate hero-container"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: test"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: close"},{
+ "name": "a",
+"children": [
+    
+     {"name": "title: click to minimize"},
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: content"},
+     {"name": "b"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: separator"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: blurb"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://es.stackoverflow.com/users/signup?ssrc=en_hero&returnurl=https%3a%2f%2fes.stackoverflow.com"},
+     {"name": "id: tell-me-more"},
+     {"name": "class: button"}
+]
+}
+]
+}
+]
+},
+     {"name": "script"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: inner-content"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: question-header"},{
+ "name": "h1",
+"children": [
+    
+     {"name": "itemprop: name"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/5159185/create-a-git-patch-from-the-changes-in-the-current-working-directory"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: aside-cta"},
+     {"name": "role: navigation"},
+     {"name": "aria-label: ask new question"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/ask"},
+     {"name": "class: btn-outlined"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: mainbar"},
+     {"name": "role: main"},
+     {"name": "aria-label: question and answers"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: question"},
+     {"name": "data-questionid: 5159185"},
+     {"name": "id: question"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: everyonelovesstackoverflow"},
+     {"name": "id: clc-tlb"}
+]
+},{
+ "name": "table",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: vote"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-up-off"},
+     {"name": "title: This question shows research effort; it is useful and clear"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "itemprop: upvoteCount"},
+     {"name": "class: vote-count-post "}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-down-off"},
+     {"name": "title: This question does not show any research effort; it is unclear or not useful"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: star-off"},
+     {"name": "href: #"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favoritecount"},
+     {"name": "b"}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: postcell"},{
+ "name": "div",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-text"},
+     {"name": "itemprop: text"},
+     {"name": "p"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-taglist"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/tagged/git"},
+     {"name": "class: post-tag"},
+     {"name": "title: show questions tagged 'git'"},
+     {"name": "rel: tag"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/tagged/git-patch"},
+     {"name": "class: post-tag"},
+     {"name": "title: show questions tagged 'git-patch'"},
+     {"name": "rel: tag"}
+]
+}
+]
+},{
+ "name": "table",
+"children": [
+    
+     {"name": "class: fw"},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: vt"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-menu"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/5159185"},
+     {"name": "title: short permalink to this question"},
+     {"name": "class: short-link"},
+     {"name": "id: link-post-5159185"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: lsep"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /posts/5159185/edit"},
+     {"name": "class: suggest-edit-post"},
+     {"name": "title: "}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: post-signature owner"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-info user-hover"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-action-time"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2011-03-01 19:14:36Z"},
+     {"name": "class: relativetime"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-gravatar32"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/72113/vrish88"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: gravatar-wrapper-32"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-details"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/72113/vrish88"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -flair"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: reputation-score"},
+     {"name": "title: reputation score "},
+     {"name": "dir: ltr"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 6 gold badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge1"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 29 silver badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge2"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 50 bronze badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge3"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"}
+]
+},{
+ "name": "td",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-5159185"},
+     {"name": "class: comments  dno"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    
+     {"name": "data-remaining-comments-count: 0"},
+     {"name": "data-canpost: false"},
+     {"name": "data-cansee: true"},
+     {"name": "data-comments-unavailable: false"},
+     {"name": "data-addlink-disabled: true"},{
+ "name": "tr",
+"children": [
+    
+     {"name": "td"},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-link-5159185"},
+     {"name": "data-rep: 50"},
+     {"name": "data-anon: true"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-add-link comments-link disabled-link "},
+     {"name": "title: Use comments to ask for more information or suggest improvements. Avoid answering questions in comments."}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: js-link-separator dno"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-show-link comments-link dno"},
+     {"name": "title: expand to show all comments on this post"},
+     {"name": "href: #"},
+     {"name": "onclick: "}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: answers"},{
+ "name": "a",
+"children": [
+    
+     {"name": "name: tab-top"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: answers-header"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: subheader answers-subheader"},{
+ "name": "h2",
+"children": [
+    {
+ "name": "span",
+"children": [
+    
+     {"name": "style: display:none;"},
+     {"name": "itemprop: answerCount"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "id: tabs"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/5159185/create-a-git-patch-from-the-changes-in-the-current-working-directory?answertab=active#tab-top"},
+     {"name": "data-nav-xhref: "},
+     {"name": "title: Answers with the latest activity first"},
+     {"name": "data-value: active"},
+     {"name": "data-shortcut: A"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/5159185/create-a-git-patch-from-the-changes-in-the-current-working-directory?answertab=oldest#tab-top"},
+     {"name": "data-nav-xhref: "},
+     {"name": "title: Answers in the order they were provided"},
+     {"name": "data-value: oldest"},
+     {"name": "data-shortcut: O"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: youarehere"},
+     {"name": "href: /questions/5159185/create-a-git-patch-from-the-changes-in-the-current-working-directory?answertab=votes#tab-top"},
+     {"name": "data-nav-xhref: "},
+     {"name": "title: Answers with the highest score first"},
+     {"name": "data-value: votes"},
+     {"name": "data-shortcut: V"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "name: 5159205"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: answer-5159205"},
+     {"name": "class: answer accepted-answer"},
+     {"name": "data-answerid: 5159205"},
+     {"name": "itemscope"},
+     {"name": "itemtype: http://schema.org/Answer"},
+     {"name": "itemprop: acceptedAnswer"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: vote"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-up-off"},
+     {"name": "title: This answer is useful"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "itemprop: upvoteCount"},
+     {"name": "class: vote-count-post "}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-down-off"},
+     {"name": "title: This answer is not useful"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: vote-accepted-on load-accepted-answer-date"},
+     {"name": "title: loading when this answer was accepted..."}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: answercell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-text"},
+     {"name": "itemprop: text"},{
+ "name": "p",
+"children": [
+    
+     {"name": "code"},
+     {"name": "code"}
+]
+}
+]
+},{
+ "name": "table",
+"children": [
+    
+     {"name": "class: fw"},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: vt"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-menu"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /a/5159205"},
+     {"name": "title: short permalink to this answer"},
+     {"name": "class: short-link"},
+     {"name": "id: link-post-5159205"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: lsep"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /posts/5159205/edit"},
+     {"name": "class: suggest-edit-post"},
+     {"name": "title: "}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "align: right"},
+     {"name": "class: post-signature"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-info "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-action-time"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /posts/5159205/revisions"},
+     {"name": "title: show all edits to this post"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2013-12-24 07:09:01Z"},
+     {"name": "class: relativetime"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-gravatar32"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-details"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -flair"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "align: right"},
+     {"name": "class: post-signature"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-info user-hover"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-action-time"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2011-03-01 19:16:20Z"},
+     {"name": "class: relativetime"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-gravatar32"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/78720/sigjuice"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: gravatar-wrapper-32"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-details"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/78720/sigjuice"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -flair"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: reputation-score"},
+     {"name": "title: reputation score 15,917"},
+     {"name": "dir: ltr"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 9 gold badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge1"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 48 silver badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge2"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 80 bronze badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge3"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"}
+]
+},{
+ "name": "td",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-5159205"},
+     {"name": "class: comments "},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    
+     {"name": "data-remaining-comments-count: 8"},
+     {"name": "data-canpost: false"},
+     {"name": "data-cansee: true"},
+     {"name": "data-comments-unavailable: false"},
+     {"name": "data-addlink-disabled: true"},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-5793116"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: warm"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/438512/spike-gronim"},
+     {"name": "title: 5,593 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2011-03-01 19:20:29Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-12415496"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: warm"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"},
+     {"name": "code"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/745603/eric"},
+     {"name": "title: 751 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2012-03-18 12:24:16Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-19716857"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: warm"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"},
+     {"name": "code"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/1129542/ejboy"},
+     {"name": "title: 2,735 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2013-01-08 14:03:15Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: edited-yes"},
+     {"name": "title: this comment was edited 1 time"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-20780611"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: warm"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/438627/qasimzee"},
+     {"name": "title: 456 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2013-02-12 11:33:40Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-30544707"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: supernova"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/44437/air"},
+     {"name": "title: 2,522 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2013-12-07 19:03:15Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-link-5159205"},
+     {"name": "data-rep: 50"},
+     {"name": "data-anon: true"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-add-link comments-link  dno"},
+     {"name": "title: Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: js-link-separator dno"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-show-link comments-link "},
+     {"name": "title: expand to show all comments on this post"},
+     {"name": "href: #"},
+     {"name": "onclick: "},
+     {"name": "b"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: everyonelovesstackoverflow"},
+     {"name": "id: clc-mlb"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "name: 15438863"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: answer-15438863"},
+     {"name": "class: answer"},
+     {"name": "data-answerid: 15438863"},
+     {"name": "itemscope"},
+     {"name": "itemtype: http://schema.org/Answer"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: vote"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-up-off"},
+     {"name": "title: This answer is useful"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "itemprop: upvoteCount"},
+     {"name": "class: vote-count-post "}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-down-off"},
+     {"name": "title: This answer is not useful"}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: answercell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-text"},
+     {"name": "itemprop: text"},
+     {"name": "p"},{
+ "name": "pre",
+"children": [
+    
+     {"name": "code"}
+]
+},{
+ "name": "p",
+"children": [
+    
+     {"name": "code"}
+]
+},{
+ "name": "pre",
+"children": [
+    
+     {"name": "code"}
+]
+},
+     {"name": "p"},{
+ "name": "pre",
+"children": [
+    
+     {"name": "code"}
+]
+},
+     {"name": "p"},{
+ "name": "pre",
+"children": [
+    
+     {"name": "code"}
+]
+}
+]
+},{
+ "name": "table",
+"children": [
+    
+     {"name": "class: fw"},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: vt"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-menu"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /a/15438863"},
+     {"name": "title: short permalink to this answer"},
+     {"name": "class: short-link"},
+     {"name": "id: link-post-15438863"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: lsep"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /posts/15438863/edit"},
+     {"name": "class: suggest-edit-post"},
+     {"name": "title: "}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "align: right"},
+     {"name": "class: post-signature"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-info "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-action-time"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /posts/15438863/revisions"},
+     {"name": "title: show all edits to this post"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2016-11-03 08:10:48Z"},
+     {"name": "class: relativetime"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-gravatar32"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/4037019/cst1992"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: gravatar-wrapper-32"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-details"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/4037019/cst1992"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -flair"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: reputation-score"},
+     {"name": "title: reputation score "},
+     {"name": "dir: ltr"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 7 silver badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge2"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 23 bronze badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge3"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "align: right"},
+     {"name": "class: post-signature"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-info "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-action-time"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2013-03-15 17:43:08Z"},
+     {"name": "class: relativetime"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-gravatar32"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/1247192/jcarballo"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: gravatar-wrapper-32"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-details"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/1247192/jcarballo"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -flair"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: reputation-score"},
+     {"name": "title: reputation score "},
+     {"name": "dir: ltr"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2 gold badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge1"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 11 silver badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge2"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 21 bronze badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge3"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"}
+]
+},{
+ "name": "td",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-15438863"},
+     {"name": "class: comments "},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    
+     {"name": "data-remaining-comments-count: 4"},
+     {"name": "data-canpost: false"},
+     {"name": "data-cansee: true"},
+     {"name": "data-comments-unavailable: false"},
+     {"name": "data-addlink-disabled: true"},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-25037476"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: supernova"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/1063730/yoshi"},
+     {"name": "title: 2,056 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2013-06-24 09:18:03Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-31064902"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: cool"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/67878/vitaly"},
+     {"name": "title: 1,430 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2013-12-22 20:11:25Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-31065827"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: cool"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"},
+     {"name": "code"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/1247192/jcarballo"},
+     {"name": "title: 8,723 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2013-12-22 21:06:26Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-74260467"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: cool"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/1458552/anonymous"},
+     {"name": "title: 1,669 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2017-04-25 08:41:37Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-78917446"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: cool"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/421398/john-hunt"},
+     {"name": "title: 1,426 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2017-08-31 10:34:36Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-link-15438863"},
+     {"name": "data-rep: 50"},
+     {"name": "data-anon: true"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-add-link comments-link  dno"},
+     {"name": "title: Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: js-link-separator dno"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-show-link comments-link "},
+     {"name": "title: expand to show all comments on this post"},
+     {"name": "href: #"},
+     {"name": "onclick: "},
+     {"name": "b"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "name: 9864603"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: answer-9864603"},
+     {"name": "class: answer"},
+     {"name": "data-answerid: 9864603"},
+     {"name": "itemscope"},
+     {"name": "itemtype: http://schema.org/Answer"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: vote"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-up-off"},
+     {"name": "title: This answer is useful"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "itemprop: upvoteCount"},
+     {"name": "class: vote-count-post "}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-down-off"},
+     {"name": "title: This answer is not useful"}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: answercell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-text"},
+     {"name": "itemprop: text"},{
+ "name": "p",
+"children": [
+    
+     {"name": "code"},
+     {"name": "code"}
+]
+},
+     {"name": "p"},{
+ "name": "pre",
+"children": [
+    
+     {"name": "code"}
+]
+},
+     {"name": "p"},{
+ "name": "pre",
+"children": [
+    
+     {"name": "code"}
+]
+},
+     {"name": "p"},{
+ "name": "p",
+"children": [
+    
+     {"name": "code"}
+]
+},
+     {"name": "p"},
+     {"name": "p"},{
+ "name": "ol",
+"children": [
+    
+     {"name": "li"},{
+ "name": "li",
+"children": [
+    
+     {"name": "code"},
+     {"name": "code"},{
+ "name": "ol",
+"children": [
+    {
+ "name": "li",
+"children": [
+    
+     {"name": "code"},
+     {"name": "code"}
+]
+},
+     {"name": "li"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "code"},
+     {"name": "code"}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "em"},
+     {"name": "code"}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "code"}
+]
+}
+]
+},
+     {"name": "p"},{
+ "name": "ol",
+"children": [
+    {
+ "name": "li",
+"children": [
+    
+     {"name": "code"},
+     {"name": "code"}
+]
+},
+     {"name": "li"},{
+ "name": "li",
+"children": [
+    
+     {"name": "code"},
+     {"name": "code"}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "em"},
+     {"name": "code"}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "code"}
+]
+}
+]
+}
+]
+},{
+ "name": "table",
+"children": [
+    
+     {"name": "class: fw"},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: vt"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-menu"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /a/9864603"},
+     {"name": "title: short permalink to this answer"},
+     {"name": "class: short-link"},
+     {"name": "id: link-post-9864603"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: lsep"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /posts/9864603/edit"},
+     {"name": "class: suggest-edit-post"},
+     {"name": "title: "}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "align: right"},
+     {"name": "class: post-signature"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-info user-hover"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-action-time"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2012-03-25 22:18:36Z"},
+     {"name": "class: relativetime"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-gravatar32"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/232593/merlyn-morgan-graham"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: gravatar-wrapper-32"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-details"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/232593/merlyn-morgan-graham"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -flair"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: reputation-score"},
+     {"name": "title: reputation score 43,473"},
+     {"name": "dir: ltr"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 9 gold badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge1"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 93 silver badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge2"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 152 bronze badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge3"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"}
+]
+},{
+ "name": "td",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-9864603"},
+     {"name": "class: comments "},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    
+     {"name": "data-remaining-comments-count: 0"},
+     {"name": "data-canpost: false"},
+     {"name": "data-cansee: true"},
+     {"name": "data-comments-unavailable: false"},
+     {"name": "data-addlink-disabled: true"},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-32177327"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-actions"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: number of 'useful comment' votes received"},
+     {"name": "class: cool"}
+]
+}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/4777/davenpcj"},
+     {"name": "title: 6,063 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2014-01-24 21:25:31Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-link-9864603"},
+     {"name": "data-rep: 50"},
+     {"name": "data-anon: true"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-add-link comments-link disabled-link "},
+     {"name": "title: Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: js-link-separator dno"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-show-link comments-link dno"},
+     {"name": "title: expand to show all comments on this post"},
+     {"name": "href: #"},
+     {"name": "onclick: "}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "name: 33098742"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: answer-33098742"},
+     {"name": "class: answer"},
+     {"name": "data-answerid: 33098742"},
+     {"name": "itemscope"},
+     {"name": "itemtype: http://schema.org/Answer"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: vote"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-up-off"},
+     {"name": "title: This answer is useful"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "itemprop: upvoteCount"},
+     {"name": "class: vote-count-post "}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-down-off"},
+     {"name": "title: This answer is not useful"}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: answercell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-text"},
+     {"name": "itemprop: text"},
+     {"name": "p"},{
+ "name": "pre",
+"children": [
+    
+     {"name": "code"}
+]
+}
+]
+},{
+ "name": "table",
+"children": [
+    
+     {"name": "class: fw"},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: vt"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-menu"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /a/33098742"},
+     {"name": "title: short permalink to this answer"},
+     {"name": "class: short-link"},
+     {"name": "id: link-post-33098742"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: lsep"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /posts/33098742/edit"},
+     {"name": "class: suggest-edit-post"},
+     {"name": "title: "}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "align: right"},
+     {"name": "class: post-signature"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-info "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-action-time"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2015-10-13 09:17:20Z"},
+     {"name": "class: relativetime"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-gravatar32"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/4121936/ionel-sirbu"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: gravatar-wrapper-32"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-details"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/4121936/ionel-sirbu"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -flair"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: reputation-score"},
+     {"name": "title: reputation score "},
+     {"name": "dir: ltr"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 1 silver badge"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge2"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2 bronze badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge3"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"}
+]
+},{
+ "name": "td",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-33098742"},
+     {"name": "class: comments "},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    
+     {"name": "data-remaining-comments-count: 0"},
+     {"name": "data-canpost: false"},
+     {"name": "data-cansee: true"},
+     {"name": "data-comments-unavailable: false"},
+     {"name": "data-addlink-disabled: true"},{
+ "name": "tr",
+"children": [
+    
+     {"name": "id: comment-66610068"},
+     {"name": "class: comment "},{
+ "name": "td",
+"children": [
+    {
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class:  comment-score"}
+]
+},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: comment-text"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display: block;"},
+     {"name": "class: comment-body"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-copy"},
+     {"name": "code"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/2495287/mining"},
+     {"name": "title: 971 reputation"},
+     {"name": "class: comment-user"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: comment-date"},
+     {"name": "dir: ltr"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2016-09-23 06:12:09Z"},
+     {"name": "class: relativetime-clean"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-link-33098742"},
+     {"name": "data-rep: 50"},
+     {"name": "data-anon: true"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-add-link comments-link disabled-link "},
+     {"name": "title: Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: js-link-separator dno"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-show-link comments-link dno"},
+     {"name": "title: expand to show all comments on this post"},
+     {"name": "href: #"},
+     {"name": "onclick: "}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "name: 12775706"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: answer-12775706"},
+     {"name": "class: answer"},
+     {"name": "data-answerid: 12775706"},
+     {"name": "itemscope"},
+     {"name": "itemtype: http://schema.org/Answer"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: vote"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-up-off"},
+     {"name": "title: This answer is useful"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "itemprop: upvoteCount"},
+     {"name": "class: vote-count-post "}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: vote-down-off"},
+     {"name": "title: This answer is not useful"}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "class: answercell"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-text"},
+     {"name": "itemprop: text"},{
+ "name": "p",
+"children": [
+    
+     {"name": "code"},
+     {"name": "code"}
+]
+}
+]
+},{
+ "name": "table",
+"children": [
+    
+     {"name": "class: fw"},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: vt"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: post-menu"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /a/12775706"},
+     {"name": "title: short permalink to this answer"},
+     {"name": "class: short-link"},
+     {"name": "id: link-post-12775706"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: lsep"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /posts/12775706/edit"},
+     {"name": "class: suggest-edit-post"},
+     {"name": "title: "}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "align: right"},
+     {"name": "class: post-signature"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-info user-hover"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-action-time"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /posts/12775706/revisions"},
+     {"name": "title: show all edits to this post"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2014-05-21 13:32:42Z"},
+     {"name": "class: relativetime"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-gravatar32"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/289466/s%c3%a9bastien-le-callonnec"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: gravatar-wrapper-32"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-details"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/289466/s%c3%a9bastien-le-callonnec"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -flair"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: reputation-score"},
+     {"name": "title: reputation score 15,272"},
+     {"name": "dir: ltr"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 5 gold badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge1"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 44 silver badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge2"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 69 bronze badges"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge3"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "align: right"},
+     {"name": "class: post-signature"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-info "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-action-time"},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 2012-10-08 05:19:03Z"},
+     {"name": "class: relativetime"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-gravatar32"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/1727798/gitster"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: gravatar-wrapper-32"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: user-details"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /users/1727798/gitster"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -flair"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: reputation-score"},
+     {"name": "title: reputation score "},
+     {"name": "dir: ltr"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "title: 1 bronze badge"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badge3"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: badgecount"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: votecell"}
+]
+},{
+ "name": "td",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-12775706"},
+     {"name": "class: comments  dno"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tbody",
+"children": [
+    
+     {"name": "data-remaining-comments-count: 0"},
+     {"name": "data-canpost: false"},
+     {"name": "data-cansee: true"},
+     {"name": "data-comments-unavailable: false"},
+     {"name": "data-addlink-disabled: true"},{
+ "name": "tr",
+"children": [
+    
+     {"name": "td"},
+     {"name": "td"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: comments-link-12775706"},
+     {"name": "data-rep: 50"},
+     {"name": "data-anon: true"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-add-link comments-link disabled-link "},
+     {"name": "title: Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”."}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: js-link-separator dno"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-show-link comments-link dno"},
+     {"name": "title: expand to show all comments on this post"},
+     {"name": "href: #"},
+     {"name": "onclick: "}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "name: new-answer"}
+]
+},{
+ "name": "form",
+"children": [
+    
+     {"name": "id: post-form"},
+     {"name": "action: /questions/5159185/answer/submit"},
+     {"name": "method: post"},
+     {"name": "class: post-form"},{
+ "name": "h2",
+"children": [
+    
+     {"name": "class: space"}
+]
+},
      {"name": "script"},
      {"name": "script"},{
  "name": "div",
 "children": [
     
-     {"name": "class: js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none"},{
+     {"name": "id: post-editor"},
+     {"name": "class: post-editor js-post-editor"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: position: relative;"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: wmd-container"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: wmd-button-bar"},
+     {"name": "class: wmd-button-bar"}
+]
+},{
+ "name": "textarea",
+"children": [
+    
+     {"name": "id: wmd-input"},
+     {"name": "class: wmd-input"},
+     {"name": "name: post-text"},
+     {"name": "cols: 92"},
+     {"name": "rows: 15"},
+     {"name": "tabindex: 101"},
+     {"name": "data-min-length: "}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: fl"},
+     {"name": "style: margin-top: 8px; height:24px;"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: draft-saved"},
+     {"name": "class: draft-saved community-option fl"},
+     {"name": "style: margin-top: 8px; height:24px; display:none;"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: draft-discarded"},
+     {"name": "class: draft-discarded community-option fl"},
+     {"name": "style: margin-top: 8px; height:24px; display:none;"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: wmd-preview"},
+     {"name": "class: wmd-preview"}
+]
+},
+     {"name": "div"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: edit-block"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: position: relative;"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: form-item dno new-post-login"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: new-login-form"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: new-login-left"},{
+ "name": "h3",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "id: login-link"},
+     {"name": "href: /users/login?ssrc=question_page&returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f5159185%2fcreate-a-git-patch-from-the-changes-in-the-current-working-directory%23new-answer"}
+]
+}
+]
+},
+     {"name": "script"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: preferred-login google-login"},{
+ "name": "p",
+"children": [
+    {
+ "name": "span",
+"children": [
+    
+     {"name": "class: icon"}
+]
+},
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: preferred-login facebook-login"},{
+ "name": "p",
+"children": [
+    {
+ "name": "span",
+"children": [
+    
+     {"name": "class: icon"}
+]
+},
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: preferred-login stackexchange-login"},{
+ "name": "p",
+"children": [
+    {
+ "name": "span",
+"children": [
+    
+     {"name": "class: icon"}
+]
+},
+     {"name": "span"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: new-login-right"},
+     {"name": "h3"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: form-item"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: vm"},{
+ "name": "div",
+"children": [
+    {
+ "name": "label",
+"children": [
+    
+     {"name": "for: display-name"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    {
+ "name": "label",
+"children": [
+    
+     {"name": "for: m-address"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+     {"name": "script"},{
+ "name": "noscript",
+"children": [
+    
+     {"name": "h3"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: form-item"},{
+ "name": "table",
+"children": [
+    {
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    
+     {"name": "class: vm"},{
+ "name": "div",
+"children": [
+    {
+ "name": "label",
+"children": [
+    
+     {"name": "for: display-name"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    {
+ "name": "label",
+"children": [
+    
+     {"name": "for: m-address"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: form-submit cbt"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "class: btn-clear discard-answer dno"}
+]
+},{
+ "name": "p",
+"children": [
+    
+     {"name": "class: privacy-policy-agreement"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/legal/privacy-policy"},
+     {"name": "name: privacy"},
+     {"name": "target: _blank"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/legal/terms-of-service"},
+     {"name": "name: tos"},
+     {"name": "target: _blank"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "h2",
+"children": [
+    
+     {"name": "class: bottom-notice"},
+     {"name": "data-loc: 1"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/tagged/git"},
+     {"name": "class: post-tag"},
+     {"name": "title: show questions tagged 'git'"},
+     {"name": "rel: tag"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/tagged/git-patch"},
+     {"name": "class: post-tag"},
+     {"name": "title: show questions tagged 'git-patch'"},
+     {"name": "rel: tag"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/ask"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: sidebar"},
+     {"name": "class: show-votes"},
+     {"name": "role: complementary"},
+     {"name": "aria-label: sidebar"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: module question-stats"},{
+ "name": "table",
+"children": [
+    
+     {"name": "id: qinfo"},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    {
+ "name": "p",
+"children": [
+    
+     {"name": "class: label-key"}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "style: padding-left: 10px"},{
+ "name": "p",
+"children": [
+    
+     {"name": "class: label-key"},
+     {"name": "title: 2011-03-01 19:14:36Z"},
+     {"name": "b"}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    {
+ "name": "p",
+"children": [
+    
+     {"name": "class: label-key"}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "style: padding-left: 10px"},{
+ "name": "p",
+"children": [
+    
+     {"name": "class: label-key"},
+     {"name": "b"}
+]
+}
+]
+}
+]
+},{
+ "name": "tr",
+"children": [
+    {
+ "name": "td",
+"children": [
+    {
+ "name": "p",
+"children": [
+    
+     {"name": "class: label-key"}
+]
+}
+]
+},{
+ "name": "td",
+"children": [
+    
+     {"name": "style: padding-left: 10px"},{
+ "name": "p",
+"children": [
+    
+     {"name": "class: label-key"},{
+ "name": "b",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: ?lastactivity"},
+     {"name": "class: lastactivity-link"},
+     {"name": "title: 2016-11-03 08:10:48Z"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: module community-bulletin"},
+     {"name": "data-tracker: cb=1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: related"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: bulletin-title"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: bulletin-item-type"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.blog/2017/09/06/incredible-growth-python/"},
+     {"name": "class: question-hyperlink"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-stackexchangemeta"},
+     {"name": "title: Meta Stack Exchange"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: bulletin-item-content"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.blog/2017/09/06/incredible-growth-python/"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: everyonelovesstackoverflow"},
+     {"name": "id: clc-tsb"}
+]
+},
+     {"name": "script"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: hireme"}
+]
+},
+     {"name": "script"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: margin-bottom: 10px;"},
+     {"name": "script"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: newsletter-ad"},{
+ "name": "p",
+"children": [
+    
+     {"name": "id: newsletter-ad-header"},
+     {"name": "b"}
+]
+},{
+ "name": "ul",
+"children": [
+    
+     {"name": "li"},
+     {"name": "li"},
+     {"name": "li"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: newsletter-signup-container"}
+]
+},{
+ "name": "p",
+"children": [
+    
+     {"name": "id: newsletter-preview-container"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/newsletters/newsletter?site=stackoverflow.com"},
+     {"name": "id: newsletter-preview"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: dno"},{
+ "name": "p",
+"children": [
+    
+     {"name": "class: privacy-policy-agreement"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/legal/privacy-policy"},
+     {"name": "name: privacy"},
+     {"name": "target: _blank"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/legal/terms-of-service"},
+     {"name": "name: tos"},
+     {"name": "target: _blank"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: module sidebar-linked"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "id: h-linked"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: linked"},
+     {"name": "data-tracker: lq=1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/15377847"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted default"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/15377847/move-all-new-code-on-master-to-a-new-branch-in-git?noredirect=1"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/32140443"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted default"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/32140443/upload-unfinished-work?noredirect=1"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/35725787"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted default"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/35725787/github-create-pull-request-between-two-disconnected-repositories?noredirect=1"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/30582663"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes  default"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/30582663/how-to-create-patch-using-git-and-apply-it-as-well?noredirect=1"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/44426860"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted default"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/44426860/where-does-git-keep-the-local-repository-stashed-file?noredirect=1"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/46069335"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes  default"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/46069335/unable-to-create-patch-using-tortoisegit-with-working-copy-changes?noredirect=1"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/45141299"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes  default"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/45141299/how-to-apply-changes-in-any-version-of-code-in-python?noredirect=1"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: module sidebar-related"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "id: h-related"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: related js-gps-related-questions"},
+     {"name": "data-tracker: rq=1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/52704"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted extra-large"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/52704/how-do-i-discard-unstaged-changes-in-git"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/61212"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted extra-large"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/61212/how-to-remove-local-untracked-files-from-the-current-git-working-tree"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/179123"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted extra-large"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/179123/how-to-modify-existing-unpushed-commits"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/278192"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted extra-large"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/278192/view-the-change-history-of-a-file-using-git-versioning"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/927358"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted extra-large"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/927358/how-to-undo-the-last-commits-in-git"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/936249"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted extra-large"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/936249/how-to-stop-tracking-and-ignore-changes-to-a-file-in-git"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/1338728"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted extra-large"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/1338728/delete-commits-from-a-branch-in-git"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/1394797"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted extra-large"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/1394797/move-existing-uncommited-work-to-a-new-branch-in-git"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/2432764"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted extra-large"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/2432764/change-the-uri-url-for-a-remote-git-repository"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: spacer"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /q/4114095"},
+     {"name": "title: Vote score (upvotes - downvotes)"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: answer-votes answered-accepted extra-large"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions/4114095/how-to-revert-git-repository-to-a-previous-commit"},
+     {"name": "class: question-hyperlink"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: hot-network-questions"},
+     {"name": "class: module tex2jax_ignore"},{
+ "name": "h4",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/questions?tab=hot"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: posts_hot_network.click({ item_type:1, location:11 })"}
+]
+}
+]
+},{
+ "name": "ul",
+"children": [
+    {
+ "name": "li",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-electronics"},
+     {"name": "title: Electrical Engineering Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://electronics.stackexchange.com/questions/328226/what-does-oscilloscopes-input-resistor-and-capacitor-do"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-workplace"},
+     {"name": "title: The Workplace Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://workplace.stackexchange.com/questions/98404/how-do-i-stop-getting-all-of-this-work-placed-on-me"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-travel"},
+     {"name": "title: Travel Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://travel.stackexchange.com/questions/101762/what-does-tsa-mean-by-pivot-point"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-rpg"},
+     {"name": "title: Role-playing Games Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://rpg.stackexchange.com/questions/106521/can-you-use-a-weapon-magic-at-once"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-interpersonal"},
+     {"name": "title: Interpersonal Skills Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://interpersonal.stackexchange.com/questions/3560/what-is-the-most-respectful-way-to-respond-when-invited-into-a-prayer-circle-or"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:680 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-bicycles"},
+     {"name": "title: Bicycles Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://bicycles.stackexchange.com/questions/50047/training-wheels-for-adults"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-mathoverflow"},
+     {"name": "title: MathOverflow"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://mathoverflow.net/questions/280648/3d-billiards-problem-inside-a-torus"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-physics"},
+     {"name": "title: Physics Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://physics.stackexchange.com/questions/356257/if-electrons-were-positive-and-protons-were-negative-would-life-be-different"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-chinese"},
+     {"name": "title: Chinese Language Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://chinese.stackexchange.com/questions/26405/speak-greek-in-chinese"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:371 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-gaming"},
+     {"name": "title: Arqade"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://gaming.stackexchange.com/questions/317891/what-is-this-item-from-the-wiki-homepage"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:41 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-politics"},
+     {"name": "title: Politics Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://politics.stackexchange.com/questions/24415/what-exactly-is-the-purpose-of-the-non-proliferation-treaty-when-nuclear-weapons"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-physics"},
+     {"name": "title: Physics Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://physics.stackexchange.com/questions/355774/why-is-the-potential-energy-of-a-spring-the-same-when-it-is-compressed-and-stret"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-tex"},
+     {"name": "title: TeX - LaTeX Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://tex.stackexchange.com/questions/390559/the-ifstreq-from-xstring-package-does-not-work-properly"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-scifi"},
+     {"name": "title: Science Fiction & Fantasy Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://scifi.stackexchange.com/questions/169207/why-was-the-breaking-of-the-wall-of-helms-deep-so-important-in-the-two-towers"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-parenting"},
+     {"name": "title: Parenting Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://parenting.stackexchange.com/questions/31510/my-16-year-old-daughter-got-a-speeding-ticket"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:228 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-ell"},
+     {"name": "title: English Language Learners Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://ell.stackexchange.com/questions/141567/what-does-have-a-pop-up-feel-mean"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-politics"},
+     {"name": "title: Politics Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://politics.stackexchange.com/questions/24304/why-does-the-us-not-just-accept-north-koreas-nuclear-ambitions-and-attempt-to-m"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-workplace"},
+     {"name": "title: The Workplace Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://workplace.stackexchange.com/questions/98551/how-to-ask-boss-for-written-authorization-to-violate-a-strict-company-policy"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-askubuntu"},
+     {"name": "title: Ask Ubuntu"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://askubuntu.com/questions/954173/what-are-dlls-doing-in-linux-programs"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:89 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-outdoors"},
+     {"name": "title: The Great Outdoors Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://outdoors.stackexchange.com/questions/17101/would-a-gunshot-echo-in-a-cave"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:395 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-aviation"},
+     {"name": "title: Aviation Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://aviation.stackexchange.com/questions/43571/what-would-be-the-drawbacks-of-using-a-rotating-engine-as-thrust-reverser-on-air"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-workplace"},
+     {"name": "title: The Workplace Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://workplace.stackexchange.com/questions/98594/software-marketer-is-aggressively-emailing-my-work-email-address"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-unix"},
+     {"name": "title: Unix & Linux Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://unix.stackexchange.com/questions/391210/prepending-each-line-with-how-long-it-took-to-generate-it"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: dno js-hidden"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: favicon favicon-scifi"},
+     {"name": "title: Science Fiction & Fantasy Stack Exchange"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://scifi.stackexchange.com/questions/169200/why-are-there-lords-and-sers-on-the-wall"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })"}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "class: show-more js-show-more js-gps-track"},
+     {"name": "data-gps-track: posts_hot_network.click({ item_type:3, location:11 })"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: feed-link"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: feed-link-text"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /feeds/question/5159185"},
+     {"name": "title: feed of this question and its answers"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: feed-icon"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+     {"name": "script"},{
+ "name": "noscript",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none"},
+     {"name": "id: prettify-lang"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "footer",
+"children": [
+    
+     {"name": "id: footer"},
+     {"name": "class: s-footer js-footer"},
+     {"name": "role: contentinfo"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -container"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: g-row js-sp-between"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -logo"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com"},{
  "name": "svg",
 "children": [
     
      {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-alert"},
-     {"name": "height: 16"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 16 16"},
-     {"name": "width: 16"},{
+     {"name": "class: svg-icon iconLogo"},
+     {"name": "width: 150"},
+     {"name": "height: 30"},
+     {"name": "viewbox: 0 0 150 30"},{
+ "name": "g",
+"children": [
+    {
  "name": "path",
 "children": [
     
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"}
+     {"name": "d: M33.9 18.6l-1.7-.2c-1.3-.1-1.9-.6-1.9-1.6 0-1.1.8-1.8 2.4-1.8 1.1 0 2.1.3 2.8.8l1-1c-1-.8-2.3-1.1-3.8-1.1-2.3 0-3.9 1.2-3.9 3.1 0 1.8 1.1 2.7 3.2 2.9l1.8.2c1.2.1 1.8.6 1.8 1.6 0 1.3-1.1 1.9-2.8 1.9-1.3 0-2.5-.3-3.3-1.2l-1 1c1.2 1.1 2.6 1.5 4.4 1.5 2.6 0 4.3-1.2 4.3-3.2-.2-2-1.5-2.7-3.3-2.9zm13.3-4.8c-1.7 0-2.8.3-3.7 1.5l1 1c.6-.9 1.3-1.2 2.7-1.2 1.9 0 2.7.8 2.7 2.3v1h-3.2c-2.4 0-3.7 1.2-3.7 3.1 0 .8.3 1.6.8 2.2.7.7 1.5 1 3 1 1.4 0 2.2-.3 3.1-1.1v1h1.6v-7.2c-.1-2.4-1.5-3.6-4.3-3.6zm2.7 7c0 .9-.2 1.5-.5 1.8-.7.6-1.5.7-2.4.7-1.7 0-2.4-.6-2.4-1.8 0-1.2.8-1.9 2.4-1.9h3l-.1 1.2zm7.6-5.6c1 0 1.6.3 2.4 1.2l1-1c-1.1-1.2-2-1.6-3.5-1.6-2.7 0-4.7 1.8-4.7 5.5 0 3.6 2 5.5 4.7 5.5 1.5 0 2.4-.4 3.5-1.6l-1.1-1c-.8.9-1.4 1.2-2.4 1.2s-1.9-.4-2.5-1.2c-.5-.7-.7-1.5-.7-2.9 0-1.3.2-2.2.7-2.9.7-.8 1.6-1.2 2.6-1.2zm13.4-1.3H69l-4.8 4.7V9.1h-1.6v15.4h1.6v-3.9l1.9-1.9 3.6 5.8h1.9l-4.4-6.9 3.7-3.7zm7.3-.33c-1.6 0-2.7.6-3.4 1.4-1 1-1.3 2.3-1.3 4.3s.3 3.3 1.3 4.3c.7.7 1.8 1.4 3.4 1.4 1.6 0 2.8-.6 3.4-1.4 1-1 1.3-2.3 1.3-4.3s-.3-3.3-1.3-4.3c-.6-.8-1.7-1.4-3.4-1.4zm1.3 8.3c-.3.3-.7.5-1.3.5-.6 0-1-.2-1.3-.5-.6-.6-.6-1.6-.6-2.7 0-1.2.1-2.1.6-2.7.3-.3.7-.5 1.3-.5.6 0 1 .2 1.3.5.6.6.6 1.5.6 2.7.1 1.2 0 2.2-.6 2.7zm10.8-8.2l-2.2 6.9-2.3-6.9h-2.9l4.1 11.1h2.2l4.1-11.1h-3zm7.6-.1c-2.9 0-4.8 2-4.8 5.7 0 4.5 2.5 5.7 5.1 5.7 2 0 3.1-.6 4.2-1.7l-1.7-1.6c-.7.7-1.3 1-2.5 1-1.6 0-2.4-1-2.4-2.5h6.9v-1.2c0-3.2-1.7-5.4-4.8-5.4zm-2.1 4.6c0-.5.1-.8.3-1.2.3-.7.9-1.2 1.9-1.2.9 0 1.6.5 1.9 1.2.2.4.2.7.3 1.2h-4.4zm11-3.4v-1.1h-2.7v11.1h2.8v-6.7c0-1.4.9-2 1.8-2 .7 0 1 .2 1.5.7l2.1-2.1c-.8-.8-1.5-1-2.6-1-1.3-.1-2.3.4-2.9 1.1zm6.3-2.3v12.3h2.8v-8.8h2v-2.1h-2v-1.2c0-.6.3-1 1-1h1.1v-2.3h-1.6c-2.3 0-3.3 1.6-3.3 3.1zm16.2 1.1c-1.6 0-2.7.6-3.4 1.4-1 1-1.3 2.3-1.3 4.3s.3 3.3 1.3 4.3c.7.7 1.8 1.4 3.4 1.4 1.6 0 2.8-.6 3.4-1.4 1-1 1.3-2.3 1.3-4.3s-.3-3.3-1.3-4.3c-.6-.8-1.8-1.4-3.4-1.4zm1.3 8.3c-.3.3-.7.5-1.3.5-.6 0-1-.2-1.3-.5-.6-.6-.6-1.6-.6-2.7 0-1.2.1-2.1.6-2.7.3-.3.7-.5 1.3-.5.6 0 1 .2 1.3.5.6.6.6 1.5.6 2.7 0 1.2 0 2.2-.6 2.7zm16.5-8.2l-1.8 6.9-2.3-6.9h-2l-2.3 6.9-1.8-6.9H134l3.4 11.1h2.3l2.3-7 2.3 7h2.3l3.4-11.1h-2.9zm-25.1 7.7V9.27h-2.8v12.3c0 1.6 1 3.2 3.2 3.2h1.6v-2.3h-1c-.7 0-1-.4-1-1.1zM41.3 15.6l1.4-1.4h-3v-3.5h-1.6v11.1c0 1.6.9 2.9 2.7 2.9h1.1v-1.3h-.8c-1 0-1.5-.6-1.5-1.6v-6.1h1.7v-.1z"},
+     {"name": "fill: #222426"}
+]
+},{
+ "name": "path",
+"children": [
+    
+     {"name": "fill: #BCBBBB"},
+     {"name": "d: M21 27v-8h3v11H0V19h3v8z"}
+]
+},{
+ "name": "path",
+"children": [
+    
+     {"name": "d: M5.4 19.1l13.56 1.96.17-2.38-13.26-2.55-.47 2.97zm1.8-6.8l12 5.6 1.1-2.4-12-5.6-1.1 2.4zm3.4-5.9l10.2 8.5 1.7-2-10.2-8.5-1.7 2zM17.1.2L15 1.8l7.9 10.6 2.1-1.6L17.1.2zM5 25h14v-3H5v3z"},
+     {"name": "fill: #F48024"}
 ]
 }
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category _visible"},
+     {"name": "data-name: default"},{
+ "name": "h5",
+"children": [
+    
+     {"name": "class: -title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 15})"}
+]
+}
+]
+},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /questions"},
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 16})"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com/jobs"},
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 17})"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.com/jobs/directory/developer-jobs"},
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 11})"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /help"},
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 3 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "onclick"},
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 12 })"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category _visible"},
+     {"name": "data-name: default"},{
+ "name": "h5",
+"children": [
+    
+     {"name": "class: -title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://www.stackoverflowbusiness.com/?utm_source=so-footer&utm_medium=referral&utm_campaign=brand-activation"},
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 19 })"}
+]
+}
+]
+},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&utm_medium=referral&utm_campaign=brand-activation"},
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 20 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&utm_medium=referral&utm_campaign=brand-activation"},
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 21 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&utm_medium=referral&utm_campaign=brand-activation"},
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 22 })"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://www.stackoverflowbusiness.com/insights?utm_source=so-footer&utm_medium=referral&utm_campaign=brand-activation"},
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 23 })"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category _visible"},
+     {"name": "data-name: default"},{
+ "name": "h5",
+"children": [
+    
+     {"name": "class: -title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 1 })"},
+     {"name": "href: https://stackoverflow.com/company/about"}
+]
+}
+]
+},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 1 })"},
+     {"name": "href: https://stackoverflow.com/company/about"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 27 })"},
+     {"name": "href: https://stackoverflow.com/company/press"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 9 })"},
+     {"name": "href: https://stackoverflow.com/company/work-here"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 7 })"},
+     {"name": "href: https://stackexchange.com/legal"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 8 })"},
+     {"name": "href: https://stackexchange.com/legal/privacy-policy"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 13 })"},
+     {"name": "href: https://stackoverflow.com/company/contact"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -network g-row"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "class: -back-trigger js-back"},{
+ "name": "svg",
+"children": [
+    
+     {"name": "aria-hidden: true"},
+     {"name": "class: svg-icon iconArrowLeftAlt"},
+     {"name": "width: 18"},
+     {"name": "height: 18"},
+     {"name": "viewbox: 0 0 18 18"},{
+ "name": "path",
+"children": [
+    
+     {"name": "d: M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    {
+ "name": "h5",
+"children": [
+    
+     {"name": "class: -title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com"}
+]
+}
+]
+},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "class: -link _expandable js-category-trigger js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 24 })"},
+     {"name": "data-target: Technology"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "class: -link _expandable js-category-trigger js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 24 })"},
+     {"name": "data-target: Life / Arts"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "class: -link _expandable js-category-trigger js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 24 })"},
+     {"name": "data-target: Culture / Recreation"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "class: -link _expandable js-category-trigger js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 24 })"},
+     {"name": "data-target: Science"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "class: -link _expandable js-category-trigger js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 24 })"},
+     {"name": "data-target: Other"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Technology"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //stackoverflow.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: professional and enthusiast programmers"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //serverfault.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: system and network administrators"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //superuser.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: computer enthusiasts and power users"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //webapps.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: power users of web applications"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //askubuntu.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: Ubuntu users and developers"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //webmasters.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: pro webmasters"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //gamedev.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: professional and independent game developers"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Technology"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //tex.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: users of TeX, LaTeX, ConTeXt, and related typesetting systems"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //softwareengineering.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: professionals, academics, and students working within the systems development life cycle"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //unix.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: users of Linux, FreeBSD and other Un*x-like operating systems"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //apple.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: power users of Apple hardware and software"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //wordpress.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: WordPress developers and administrators"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //gis.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: cartographers, geographers and GIS professionals"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //electronics.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: electronics and electrical engineering professionals, students, and enthusiasts"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Technology"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //android.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: enthusiasts and power users of the Android operating system"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //security.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: information security professionals"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //dba.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: database professionals who wish to improve their database skills and learn from others in the community"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //drupal.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: Drupal developers and administrators"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //sharepoint.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: SharePoint enthusiasts"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //ux.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: user experience researchers and experts"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //mathematica.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: users of Wolfram Mathematica"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Technology"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //salesforce.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: Salesforce administrators, implementation experts, developers and anybody in-between"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //expressionengine.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: administrators, end users, developers and designers for ExpressionEngine® CMS"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //blender.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: people who use Blender to create 3D graphics, animations, or games"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //networkengineering.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: network engineers"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //crypto.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: software developers, mathematicians and others interested in cryptography"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //codereview.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: peer programmer code reviews"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //magento.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: users of the Magento e-Commerce platform"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Technology"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //softwarerecs.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: people seeking specific software recommendations"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //dsp.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: practitioners of the art and science of signal, image and video processing"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //emacs.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: those using, extending or developing Emacs"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //raspberrypi.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: users and developers of hardware and software for Raspberry Pi"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //codegolf.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: programming puzzle enthusiasts and code golfers"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //ethereum.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: users of Ethereum, the decentralized application platform and smart contract enabled blockchain"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //datascience.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: Data science professionals, Machine Learning specialists, and those interested in learning more about the field"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Technology"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //arduino.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: developers of open-source hardware and software that is compatible with Arduino"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/sites#technology"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 26 })"},
+     {"name": "strong"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Life / Arts"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //photo.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: professional, enthusiast and amateur photographers"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //scifi.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: science fiction and fantasy enthusiasts"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //graphicdesign.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: Graphic Design professionals, students, and enthusiasts"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //movies.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: movie and tv enthusiasts"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //music.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: musicians, students, and enthusiasts"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //worldbuilding.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: writers/artists using science, geography and culture to construct imaginary worlds and settings"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //cooking.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: professional and amateur chefs"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Life / Arts"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //diy.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: contractors and serious DIYers"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //money.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: people who want to be financially literate"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //academia.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: academics and those enrolled in higher education"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //law.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: legal professionals, students, and others with experience or interest in law"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/sites#lifearts"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 26 })"},
+     {"name": "strong"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Culture / Recreation"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //english.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: linguists, etymologists, and serious English language enthusiasts"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //skeptics.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: scientific skepticism"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //judaism.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: those who base their lives on Jewish law and tradition and anyone interested in learning more"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //travel.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: road warriors and seasoned travelers"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //christianity.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: committed Christians, experts in Christianity and those interested in learning more"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //ell.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: speakers of other languages learning English"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //japanese.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: students, teachers, and linguists wanting to discuss the finer points of the Japanese language"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Culture / Recreation"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //gaming.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: passionate videogamers on all platforms"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //bicycles.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: people who build and repair bicycles, people who train cycling, or commute on bicycles"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //rpg.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: gamemasters and players of tabletop, paper-and-pencil role-playing games"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //anime.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: anime and manga fans"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //puzzling.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: those who create, solve, and study puzzles"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //mechanics.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: mechanics and DIY enthusiast owners of cars, trucks, and motorcycles"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/sites#culturerecreation"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 26 })"},
+     {"name": "strong"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Science"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //mathoverflow.net"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: professional mathematicians"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //math.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: people studying math at any level and professionals in related fields"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //stats.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: people interested in statistics, machine learning, data analysis, data mining, and data visualization"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //cstheory.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: theoretical computer scientists and researchers in related fields"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //physics.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: active researchers, academics and students of physics"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //chemistry.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: scientists, academics, teachers and students"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //biology.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: biology researchers, academics, and students"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Science"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //cs.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: students, researchers and practitioners of computer science"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //philosophy.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: those interested in the study of the fundamental nature of knowledge, reality, and existence"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackexchange.com/sites#science"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 26 })"},
+     {"name": "strong"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "class: -nav js-category"},
+     {"name": "data-name: Other"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //meta.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: meta-discussion of the Stack Exchange family of Q&A websites"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //stackapps.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: apps, scripts, and development with the Stack Exchange API"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://api.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: programmatic interaction with Stack Exchange sites"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://data.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: querying Stack Exchange data using SQL"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: //area51.stackexchange.com"},
+     {"name": "class: -link js-gps-track"},
+     {"name": "data-gps-track: footer.click({ location: 2, link: 25 })"},
+     {"name": "title: proposing new sites in the Stack Exchange network"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: -copyright text-right"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: g-column jc-sp-between"},{
+ "name": "ul",
+"children": [
+    
+     {"name": "class: -list"},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: js-gps-track -link"},
+     {"name": "data-gps-track: footer.click({ location: 2, link:4 })"},
+     {"name": "href: https://stackoverflow.blog?blb=1"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://www.facebook.com/officialstackoverflow/"},
+     {"name": "class: -link"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://twitter.com/stackoverflow"},
+     {"name": "class: -link"}
+]
+}
+]
+},{
+ "name": "li",
+"children": [
+    
+     {"name": "class: -item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://linkedin.com/company/stack-overflow"},
+     {"name": "class: -link"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    {
+ "name": "p",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://creativecommons.org/licenses/by-sa/3.0/"},
+     {"name": "rel: license"},
+     {"name": "class: -link"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://stackoverflow.blog/2009/06/25/attribution-required/"},
+     {"name": "rel: license"},
+     {"name": "class: -link"}
 ]
 },{
  "name": "span",
 "children": [
     
-     {"name": "class: signed-in-tab-flash"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: "}
+     {"name": "id: svnrev"}
 ]
 }
 ]
-},{
- "name": "span",
-"children": [
-    
-     {"name": "class: signed-out-tab-flash"},{
- "name": "a",
-"children": [
-    
-     {"name": "href: "}
+}
+]
+}
+]
+}
+]
+}
 ]
 }
 ]
 }
 ]
 },{
+ "name": "noscript",
+"children": [
+    {
  "name": "div",
 "children": [
     
-     {"name": "class: facebox"},
-     {"name": "id: facebox"},
-     {"name": "style: display:none;"},{
- "name": "div",
-"children": [
-    
-     {"name": "class: facebox-popup"},{
- "name": "div",
-"children": [
-    
-     {"name": "class: facebox-content"},
-     {"name": "role: dialog"},
-     {"name": "aria-labelledby: facebox-header"},
-     {"name": "aria-describedby: facebox-description"}
-]
-},{
- "name": "button",
-"children": [
-    
-     {"name": "type: button"},
-     {"name": "class: facebox-close js-facebox-close"},
-     {"name": "aria-label: Close modal"},{
- "name": "svg",
-"children": [
-    
-     {"name": "aria-hidden: true"},
-     {"name": "class: octicon octicon-x"},
-     {"name": "height: 16"},
-     {"name": "version: 1.1"},
-     {"name": "viewbox: 0 0 12 16"},
-     {"name": "width: 12"},{
- "name": "path",
-"children": [
-    
-     {"name": "fill-rule: evenodd"},
-     {"name": "d: M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"}
+     {"name": "id: noscript-warning"}
 ]
 }
 ]
-}
-]
-}
-]
-}
-]
-}
+},
+     {"name": "script"},
+     {"name": "script"},
+     {"name": "script"}
 ]
 }
 ]
