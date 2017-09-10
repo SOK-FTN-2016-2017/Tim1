@@ -44,12 +44,26 @@
   }
 
 </style>
+
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 {% load static %}
 <script src="{% static "dndTree.js" %}"></script>
 </head>
 <body>
+    <div>
+        Field1: <input type="text" id="field1" value="asdfs.html"><br>
+
+
+        <button onclick="myFunction()">HTML</button>
+        <button onclick="myFunction2()">Tree</button>
+        <br><br>
+        Field2: <input type="text" id="field2"><br>
+        Field3: <input type="text" id="field3"><br><br>
+        <p id="demo"></p>
+    </div>
+
+
     <div id="tree-container"></div>
 </body>
 </html>
