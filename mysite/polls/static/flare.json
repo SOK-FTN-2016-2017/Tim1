@@ -38,14 +38,10 @@
  "name": "directories",
 "children": [
     
-     {"name": "builder.py:Size = 965bytes"},
+     {"name": "builder.py:Size = 939bytes"},
      {"name": "flare.json:Size = 1110bytes"},
      {"name": "jsonmaker.py:Size = 540bytes"},
-     {"name": "ksonmaker.py:Size = 503bytes"},
-     {"name": "maker.py:Size = 2944bytes"},
-     {"name": "MiddleFile:Size = 36496bytes"},
-     {"name": "Tree test.zip:Size = 5016bytes"},
-     {"name": "tree.py:Size = 1279bytes"},{
+     {"name": "Tree test.zip:Size = 5016bytes"},{
  "name": "Tree test",
 "children": [
     
@@ -142,7 +138,7 @@
     
      {"name": "dndTree.js:Size = 20122bytes"},
      {"name": "flare - copia.json:Size = 20661bytes"},
-     {"name": "flare.json:Size = 57358bytes"}
+     {"name": "flare.json:Size = 4098bytes"}
 ]
 },{
  "name": "templates",
@@ -163,6 +159,16 @@
      {"name": "indexoriginal.html:Size = 2048bytes"},
      {"name": "README.txt:Size = 29bytes"},
      {"name": "src:Size = 0bytes"}
+]
+},{
+ "name": "Zeljko",
+"children": [
+    
+     {"name": "elpais.html:Size = 51204bytes"},
+     {"name": "htmlBuilder.py:Size = 3734bytes"},
+     {"name": "jsonmaker.py:Size = 542bytes"},
+     {"name": "MiddleFile:Size = 2276bytes"},
+     {"name": "treeBuilder.py:Size = 1015bytes"}
 ]
 }
 ]
