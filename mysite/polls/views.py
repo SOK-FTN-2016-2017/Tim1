@@ -26,3 +26,8 @@ def index(request):
  #       html = fp.read()
   #     '''
     return render(request, 'index.html')
+def submit(request):
+	if request.method == 'POST':
+		a = request.POST['which_choice']
+		print(a)
+	return render(request, '404.html')
