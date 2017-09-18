@@ -26,3 +26,11 @@ def index(request):
  #       html = fp.read()
   #     '''
     return render(request, 'index.html')
+def submit(request):
+    if request.method == 'POST':
+        a = request.POST.get('Path','none')
+        b = request.POST.get('which_choice', 'none')
+        print(a,b)
+
+    return render(request, '404.html')
+#redirect to index
