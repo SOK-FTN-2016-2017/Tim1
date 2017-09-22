@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import datetime
 import os
-p='f'
+
 outfile = open('pco.pdo', 'w')
 outfile.write(p)
 outfile.close()
