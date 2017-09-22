@@ -19,6 +19,7 @@ def treeBuilder(startpath):
             cod = cod + str(level+1)
             # path = os.path.join(root, f)
             # size = os.stat(path).st_size
+            
             data = data + f + ':Size = ' + str(os.stat(os.path.join(root, f)).st_size) + 'bytes' + '\n'
     cod = cod + '0'
     for i in range(1, len(cod)):
