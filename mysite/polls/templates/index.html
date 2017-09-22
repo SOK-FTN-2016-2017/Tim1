@@ -54,11 +54,12 @@
     
     <form method="post" action="{% url 'submit' %}"> 
       {% csrf_token %}
-    <input type="radio" name="which_choice" value="1">Directory tree<br>
+    <input type="radio" name="which_choice" value="1" checked>Directory tree<br>
     <input type="radio" name="which_choice" value="2">HTML<br>
-    <input type="text" name="Path" value=".">Choice 4<br>
+    <input type="text" name="Path" value=".">Path/File<br>
     <input type="submit" value="Submit">
     </form> 
-    <div id="tree-container"></div>
+    <!-- <svg width="960" height="500" class="overlay"><g transform="translate(480,237.5)"><div id="tree-container"></div></svg> -->
+    <div id="tree-container" width=75%></div>
 </body>
 </html>
