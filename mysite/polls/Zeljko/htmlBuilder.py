@@ -1,5 +1,6 @@
 def htmlMaker(direc):
     import sys
+    import jsonmaker as fn
     from html.parser import HTMLParser
 
 
@@ -118,8 +119,8 @@ def htmlMaker(direc):
         p2=p2+a
 
     print(p2)
+    json=fn.maker(p2)
 
-    outfile = open('MiddleFile', 'w')
-    outfile.write(p2)
+    outfile = open('polls/static/flare.json', 'w')
+    outfile.write(json)
     outfile.close()
-
