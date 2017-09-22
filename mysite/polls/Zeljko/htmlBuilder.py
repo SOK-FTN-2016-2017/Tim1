@@ -124,3 +124,5 @@ def htmlMaker(direc):
     outfile = open('polls/static/flare.json', 'w')
     outfile.write(json)
     outfile.close()
+
+#htmlMaker("./polls/Zeljko/elpais.html")

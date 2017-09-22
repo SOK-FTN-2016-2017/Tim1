@@ -9,12 +9,11 @@ def index(request):
     return render(request, 'index.html')
 
 def submit(request):
-	if request.method == 'POST':
-            print('Selector')
+    if request.method == 'POST':
         b = request.POST['which_choice']
         a = request.POST['Path']
         if b == '1':
             tools.treeBuilder(a)
         else:
             utils.htmlMaker(a)
-	return render(request, 'index.html')
+    return render(request, 'index.html')
