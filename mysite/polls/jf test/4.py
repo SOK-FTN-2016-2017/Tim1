@@ -1,57 +1,46 @@
 import sys
-from html.parser import *
+from html.parser import HTMLParser
 
 
 class MyHTMLParser(HTMLParser):
+
     def handle_starttag(self, tag, attrs):
 
-        global round
-        global openings
-        global o
-        global data
+#        global round
+#        global openings
+#        global o
+#        global data
 
         if round == 0:
             openings.append(tag)
         else:
             if not openings.count(tag):
-            #     print('ignoro a ', tag)
-            # else:
-            #     print(tag,'juega')
-                o=o+'O'
-                data = data + tag + '\n'
-
-
-                # print ('1number of attrs:',len(attrs))
-                # print ('1 attrs:', attrs)
-
+#                o=o+'O'
+                olist.append('O')
+#                data = data + tag + '\n'
+                datalist.append(tag)
+                datalist.append('\n')
                 if (len(attrs) > 0) and (tag !='script'):
                     i = 0
-                    # print('2antesdelwhile nu hiperatt', len(attrs))
                     while i < len(attrs):
-                        o = o + 'O' + 'D'
-                        # print ('i=', i)
-                        # print ('3number of attrs:', len(attrs[i]))
-                        # if (attrs[i][0].find('"')!=-1)and(attrs[i][1].find('"')!=-1):
-                        # print ('attr',attrs[i])
-                        # print ('attr[1]',attrs[i][1])
-                        # kilo=attrs[i][1]
-                        # print(kilo)
-                        # comillas=kilo.find('i')
-                        # print('\n\ncomillas', comillas)
-
-                            # print('ok')
+#                        o = o + 'O' + 'D'
+                        olist.append('O')
+                        olist.append('D')
                         if (len(attrs[i]) > 1) and (attrs[i][1]!= None):
                             if (attrs[i][1].find('"') == -1):
-                                data = data + attrs[i][0] + ': ' + attrs[i][1] + '\n'
+#                                data = data + attrs[i][0] + ': ' + attrs[i][1] + '\n'
+                                datalist.append(attrs[i][0])
+                                datalist.append(': ')
+                                datalist.append(attrs[i][1])
+                                datalist.append('\n')
                             else:
-                                # print('omitido',attrs[i][1])
-                                data = data + attrs[i][0] + '\n'
+#                                data = data + attrs[i][0] + '\n'
+                                datalist.append(attrs[i][0])
+                                datalist.append('\n')
                         else:
-                            data = data + attrs[i][0] + '\n'
-
-
-                        # print ('tam attrs:', len(attrs[2]))
-                        # print ("Encountered a attrvs:", attrs)  # tag)
+#                            data = data + attrs[i][0] + '\n'
+                            datalist.append(attrs[i][0])
+                            datalist.append('\n')
                         i += 1
 
 
@@ -59,30 +48,28 @@ class MyHTMLParser(HTMLParser):
     #######################################################################################
 
     def handle_endtag(self, tag):
-#        print ("Encountered an end tag :", tag)
-        global round
-        global endings
-        global o
-        global data
+ #       global round
+ #       global endings
+#        global o
+#        global data
 
+
+        print (t)
 
         if round == 0:
           endings.append(tag)
         else:
             if not endings.count(tag):
-            #     print('Signoro a ', tag)
-            # else:
-                o=o+'D'
-                # print('Sjuega ', tag)
-            # if (tag != 'meta') and (tag !='link'):
-            #     o=o+'D'
+#                o=o+'D'
+                olist.append('D')
+###################################################################################################
 
-        # o=o+'D'
-
-
-data = '\n'
-o = ''
-p = ''
+#data = '\n'
+#o = ''
+#p = ''
+t=[1]
+olist=[]
+datalist=[]
 openings=[]
 endings=[]
 round=0
@@ -130,25 +117,47 @@ endings=openings[:]
 
 parser.feed(s)
 
-n=0
+#n=0
 # print(o)
-while n<(len(o)-1):
-    if ((o[n]=='O')and(o[n+1]=='O')):
-        p=p+'1'
-    elif ((o[n]=='O')and(o[n+1]=='D')):
-        p=p+'2'
-    elif ((o[n]=='D')and(o[n+1]=='O')):
-        p=p+'3'
+#while n<(len(o)-1):
+#    if ((o[n]=='O')and(o[n+1]=='O')):
+#        p=p+'1'
+#    elif ((o[n]=='O')and(o[n+1]=='D')):
+#        p=p+'2'
+#    elif ((o[n]=='D')and(o[n+1]=='O')):
+#        p=p+'3'
+#    else:
+#        p=p+'4'
+#    n+=1
+
+#p=p + data
+o2=''
+data2=''
+for a in olist:
+    o2=o2+a
+n=0
+p2=''
+# print(o)
+while n<(len(o2)-1):
+    if ((o2[n]=='O')and(o2[n+1]=='O')):
+        p2=p2+'1'
+    elif ((o2[n]=='O')and(o2[n+1]=='D')):
+        p2=p2+'2'
+    elif ((o2[n]=='D')and(o2[n+1]=='O')):
+        p2=p2+'3'
     else:
-        p=p+'4'
+        p2=p2+'4'
     n+=1
 
-p=p + data
-
-# print(p)
+p2=p2+'\n'
+for a in datalist:
+    p2=p2+a
+#print(p)
+#print(p)
+print(p2)
 
 outfile = open('MiddleFile', 'w')
-outfile.write(p)
+outfile.write(p2)
 outfile.close()
 
 
