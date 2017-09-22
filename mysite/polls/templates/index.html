@@ -44,21 +44,21 @@
   }
 
 </style>
-<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
 {% load static %}
 
-<script src="{% static "dndTree.js" %}"></script>
+  <script src="{% static "dndTree.js" %}"></script>
 </head>
 <body>
-    <div id="tree-container"></div>
+    
     <form method="post" action="{% url 'submit' %}"> 
       {% csrf_token %}
-    <input type="radio" name="which_choice" value="1">Choice 1<br>
-    <input type="radio" name="which_choice" value="2">Choice 2<br>
-    <input type="radio" name="which_choice" value="3">Choice 3<br>
-    <input type="text" name="Path" value="3">Choice 4<br>
+    <input type="radio" name="which_choice" value="1">Directory tree<br>
+    <input type="radio" name="which_choice" value="2">HTML<br>
+    <input type="text" name="Path" value=".">Choice 4<br>
     <input type="submit" value="Submit">
     </form> 
+    <div id="tree-container"></div>
 </body>
 </html>

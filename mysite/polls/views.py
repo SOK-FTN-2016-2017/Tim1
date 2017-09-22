@@ -33,7 +33,9 @@ def index(request):
     return render(request, 'index.html')
 def submit(request):
 	if request.method == 'POST':
-		a = request.POST['which_choice']
+		a = request.POST['Path']
+        tools.treeBuilder(a)
+        '''
         if a == '1':
             outfile = open('Option 1', 'w')
             outfile.close()
@@ -45,5 +47,7 @@ def submit(request):
         else:
             outfile = open('Nofunciona', 'w')
             outfile.close()
+        print request.POST['Path']
         print(type(a))
+        '''
 	return render(request, 'index.html')
