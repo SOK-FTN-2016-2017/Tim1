@@ -1,6 +1,6 @@
 def htmlMaker(direc):
     import sys
-    from polls.jsonmaker import maker as fn
+    import jsonmaker as fn
     from html.parser import HTMLParser
 
 
