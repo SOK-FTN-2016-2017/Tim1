@@ -11,10 +11,10 @@ def index(request):
 
 '''
 
-
+from Zeljko import treeBuilder as tools
 from django.shortcuts import render
 from django.http import HttpResponse
-from polls.Zeljko import treeBuilder
+#import treeBuilder
 import datetime
 import os
 #import sys
@@ -37,7 +37,7 @@ def submit(request):
         if a == '1':
             outfile = open('Option 1', 'w')
             outfile.close()
-            builder('../..')
+            tools.treeBuilder('.')
             #os.system("py polls\\Zeljko\\treeBuilder.py")
         elif a == '2':
             outfile = open('Option 2', 'w')
