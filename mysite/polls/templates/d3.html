@@ -3,11 +3,7 @@
 <head>
 <meta charset="utf-8">
 <style type="text/css">
-
-  body {
-    background-color: #151515;
-  }
-
+  
   .node {
     cursor: pointer;
   }
@@ -54,17 +50,7 @@
 
   <script src="{% static "dndTree.js" %}"></script>
 </head>
-<body text="white">
-    
-    <form method="post" action="{% url 'submit' %}"> 
-      {% csrf_token %}
-    <input type="radio" name="which_choice" value="1" checked>Directory tree 
-    <input type="radio" name="which_choice" value="2">HTML <br>
-    <input type="text" name="Path" value=".">Path/File 
-    <input type="submit" value="Submit">
-    </form> 
-    <!-- <div id="tree-container" style="color:blue; max-width:100%; margin:auto; align:right;"></div> -->
-    <iframe id="encoder_iframe" height="600px" width="100%" src="{% url 'views' %}">
-</iframe>
+<body>
+    <div id="tree-container" style="color:blue; max-width:100%; margin:auto; align:right;"></div>
 </body>
 </html>

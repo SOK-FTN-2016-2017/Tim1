@@ -30,6 +30,6 @@ def treeBuilder(startpath):
             fin = fin + (int(cod[i-1])-int(cod[i]))*'4' + '32'
     fin = fin[:len(fin)-2] + '\n' + data
     json = parsingtool.maker(fin)
-    outfile = open('polls/static/flare.json', 'w') # Indicamos el valor 'w'.
+    outfile = open('polls/static/flare.json', 'w') 
     outfile.write(json)
     outfile.close()
