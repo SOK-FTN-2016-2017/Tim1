@@ -14,7 +14,12 @@ def index(request):
 
 from django.shortcuts import render
 from django.http import HttpResponse
+from polls.Zeljko import treeBuilder
 import datetime
+import os
+#import sys
+#sys.path.insert(0, 'Zeljko')
+
 
 def index(request):
     now = datetime.datetime.now()
@@ -29,5 +34,16 @@ def index(request):
 def submit(request):
 	if request.method == 'POST':
 		a = request.POST['which_choice']
-		print(a)
-	return render(request, '404.html')
+        if a == '1':
+            outfile = open('Option 1', 'w')
+            outfile.close()
+            builder('../..')
+            #os.system("py polls\\Zeljko\\treeBuilder.py")
+        elif a == '2':
+            outfile = open('Option 2', 'w')
+            outfile.close()
+        else:
+            outfile = open('Nofunciona', 'w')
+            outfile.close()
+        print(type(a))
+	return render(request, 'index.html')
