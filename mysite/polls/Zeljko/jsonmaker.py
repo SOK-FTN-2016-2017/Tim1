@@ -3,9 +3,7 @@ def maker(seed):
     data = lines[1:]
     master = lines[0]
     s = ''
-
     for a in master:
-        # print ("a=",a[0])
         if a[0]=='1':
            s = s+ '{\n "name": "' + data.pop(0)
            s = s[:len(s)] +'",\n"children": [\n    '
@@ -20,8 +18,3 @@ def maker(seed):
 
     print (s)
     return s
-'''
-    outfile = open('../static/flare.json', 'w') # Indicamos el valor 'w'.
-    outfile.write(s)
-    outfile.close()
-'''

@@ -5,7 +5,6 @@ def treeBuilder(startpath):
     import jsonmaker as parsingtool
     from os.path import join
 
-
     if not startpath:
         startpath = '..\..'
     data = ''
@@ -30,7 +29,6 @@ def treeBuilder(startpath):
         else:
             fin = fin + (int(cod[i-1])-int(cod[i]))*'4' + '32'
     fin = fin[:len(fin)-2] + '\n' + data
-
     json = parsingtool.maker(fin)
     outfile = open('polls/static/flare.json', 'w') # Indicamos el valor 'w'.
     outfile.write(json)
