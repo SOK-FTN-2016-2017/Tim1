@@ -11,10 +11,15 @@ def index(request):
 
 '''
 
-
+from Zeljko import treeBuilder as tools
 from django.shortcuts import render
 from django.http import HttpResponse
+#import treeBuilder
 import datetime
+import os
+#import sys
+#sys.path.insert(0, 'Zeljko')
+
 
 def index(request):
     now = datetime.datetime.now()
@@ -27,10 +32,22 @@ def index(request):
   #     '''
     return render(request, 'index.html')
 def submit(request):
-    if request.method == 'POST':
-        a = request.POST.get('Path','none')
-        b = request.POST.get('which_choice', 'none')
-        print(a,b)
-
-    return render(request, '404.html')
-#redirect to index
+	if request.method == 'POST':
+		a = request.POST['Path']
+        tools.treeBuilder(a)
+        '''
+        if a == '1':
+            outfile = open('Option 1', 'w')
+            outfile.close()
+            tools.treeBuilder('.')
+            #os.system("py polls\\Zeljko\\treeBuilder.py")
+        elif a == '2':
+            outfile = open('Option 2', 'w')
+            outfile.close()
+        else:
+            outfile = open('Nofunciona', 'w')
+            outfile.close()
+        print request.POST['Path']
+        print(type(a))
+        '''
+	return render(request, 'index.html')
