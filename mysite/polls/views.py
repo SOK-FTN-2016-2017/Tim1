@@ -15,22 +15,10 @@ from Zeljko import treeBuilder as tools
 from Zeljko import htmlBuilder as utils
 from django.shortcuts import render
 from django.http import HttpResponse
-#import treeBuilder
 import datetime
 import os
-#import sys
-#sys.path.insert(0, 'Zeljko')
-
 
 def index(request):
-    now = datetime.datetime.now()
-#    html = "<html><body>It is now %s.</body></html>" % now
-# Get the data from the file
-
-#    with open('polls/test/index.html', 'rb') as fp:
-   
-#       html = fp.read()
-#     '''
     return render(request, 'index.html')
 
 def submit(request):
@@ -42,19 +30,4 @@ def submit(request):
             tools.treeBuilder(a)
         else:
             utils.htmlMaker(a)
-        # '''
-        # if a == '1':
-        #     outfile = open('Option 1', 'w')
-        #     outfile.close()
-        #     tools.treeBuilder('.')
-        #     #os.system("py polls\\Zeljko\\treeBuilder.py")
-        # elif a == '2':
-        #     outfile = open('Option 2', 'w')
-        #     outfile.close()
-        # else:
-        #     outfile = open('Nofunciona', 'w')
-        #     outfile.close()
-        # print request.POST['Path']
-        # print(type(a))
-        # '''
 	return render(request, 'index.html')
