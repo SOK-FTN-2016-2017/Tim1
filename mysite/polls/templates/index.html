@@ -3,57 +3,14 @@
 <head>
 <meta charset="utf-8">
 <style type="text/css">
-
   body {
     background-color: #151515;
+    font-size:14px; 
+    font-family:courier;
+    color: white;
   }
-
-  .node {
-    cursor: pointer;
-  }
-
-  .overlay{
-      background-color:#EEE;
-  }
-   
-  .node circle {
-    fill: #fff;
-    stroke: steelblue;
-    stroke-width: 1.5px;
-  }
-   
-  .node text {
-    font-size:10px; 
-    font-family:sans-serif;
-  }
-   
-  .link {
-    fill: none;
-    stroke: #ccc;
-    stroke-width: 1.5px;
-  }
-
-  .templink {
-    fill: none;
-    stroke: red;
-    stroke-width: 3px;
-  }
-
-  .ghostCircle.show{
-      display:block;
-  }
-
-  .ghostCircle, .activeDrag .ghostCircle{
-       display: none;
-  }
-
 </style>
-  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-  <script src="http://d3js.org/d3.v3.min.js"></script>
-{% load static %}
-
-  <script src="{% static "dndTree.js" %}"></script>
-</head>
+ </head>
 <body text="white">
     
     <form method="post" action="{% url 'submit' %}"> 
