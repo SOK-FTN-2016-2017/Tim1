@@ -1,41 +1,68 @@
 {
- "name": "html",
-"children": [
-    {
- "name": "head",
-"children": [
-    {
- "name": "style",
+ "name": "polls",
 "children": [
     
-     {"name": "type: text/css"}
-]
-},
-     {"name": "script"},
-     {"name": "script"},
-     {"name": "script"}
-]
-},{
- "name": "body",
+     {"name": "admin.py:Size = 134bytes"},
+     {"name": "admin.pyc:Size = 262bytes"},
+     {"name": "apps.py:Size = 158bytes"},
+     {"name": "apps.pyc:Size = 486bytes"},
+     {"name": "models.py:Size = 175bytes"},
+     {"name": "models.pyc:Size = 329bytes"},
+     {"name": "tests.py:Size = 131bytes"},
+     {"name": "tests.pyc:Size = 262bytes"},
+     {"name": "urls.py:Size = 342bytes"},
+     {"name": "urls.pyc:Size = 561bytes"},
+     {"name": "views.py:Size = 543bytes"},
+     {"name": "views.pyc:Size = 996bytes"},
+     {"name": "__init__.py:Size = 0bytes"},
+     {"name": "__init__.pyc:Size = 141bytes"},{
+ "name": "migrations",
 "children": [
     
-     {"name": "text: white"},{
- "name": "form",
-"children": [
-    
-     {"name": "method: post"},
-     {"name": "action: /polls/submit/"}
+     {"name": "__init__.py:Size = 0bytes"},
+     {"name": "__init__.pyc:Size = 152bytes"}
 ]
 },{
- "name": "iframe",
+ "name": "static",
 "children": [
     
-     {"name": "id: encoder_iframe"},
-     {"name": "height: 600px"},
-     {"name": "width: 100%"},
-     {"name": "src: /polls/templates/"}
+     {"name": "dndTree.js:Size = 20122bytes"},
+     {"name": "flare.json:Size = 639bytes"}
 ]
-}
+},{
+ "name": "templates",
+"children": [
+    
+     {"name": "404.html:Size = 2199bytes"},
+     {"name": "d3.html:Size = 1037bytes"},
+     {"name": "index.html:Size = 800bytes"}
+]
+},{
+ "name": "test",
+"children": [
+    
+     {"name": "d3.v3.min.js:Size = 151725bytes"},
+     {"name": "highlight.min.js:Size = 17717bytes"}
+]
+},{
+ "name": "Zeljko",
+"children": [
+    
+     {"name": "404.html:Size = 2195bytes"},
+     {"name": "australian.html:Size = 226153bytes"},
+     {"name": "elpais.html:Size = 51204bytes"},
+     {"name": "htmlBuilder.py:Size = 3369bytes"},
+     {"name": "htmlBuilder.pyc:Size = 3144bytes"},
+     {"name": "jsonmaker.py:Size = 495bytes"},
+     {"name": "jsonmaker.pyc:Size = 806bytes"},
+     {"name": "national.html:Size = 328754bytes"},
+     {"name": "post.html:Size = 306189bytes"},
+     {"name": "times.html:Size = 943120bytes"},
+     {"name": "treeBuilder.py:Size = 1215bytes"},
+     {"name": "treeBuilder.pyc:Size = 1463bytes"},
+     {"name": "web.html:Size = 1497bytes"},
+     {"name": "__init__.py:Size = 0bytes"},
+     {"name": "__init__.pyc:Size = 148bytes"}
 ]
 }
 ]
