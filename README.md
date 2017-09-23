@@ -1,4 +1,8 @@
-## Cloning the repository
+## TIM1 - Structure analyzer
+
+In this project we have developped two importation modules. First one is to show the current directory tree of the project by using os module. The other one permit to visualize in a hierarchy form how HTML tags of a document relate to each other.
+
+<!-- ## Cloning the repository
 
 You can clone the repository with the command:  
   
@@ -26,3 +30,4 @@ git add .
 git commit -m "Conflicts resolved"
 
 
+ -->
