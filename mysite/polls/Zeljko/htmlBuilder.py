@@ -127,5 +127,3 @@ def htmlMaker(direc):
    # outfile = open('../static/flare.json','w')
     outfile.write(json)
     outfile.close()
-
-#htmlMaker("elpais.html")

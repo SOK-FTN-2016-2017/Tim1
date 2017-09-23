@@ -34,5 +34,4 @@ def treeBuilder(startpath):
     outfile = open('polls/static/flare.json', 'w') 
     outfile.write(json)
     outfile.close()
-    print("hecho")
-
+    
