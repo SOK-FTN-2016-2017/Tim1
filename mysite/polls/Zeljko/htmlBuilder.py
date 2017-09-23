@@ -1,7 +1,7 @@
 def htmlMaker(direc):
     import sys
     from polls.Zeljko.jsonmaker import maker as fn
-#    from jsonmaker import maker as fn
+#    from jsonmaker import maker as  fn
 
     from html.parser import HTMLParser
 
