@@ -4,13 +4,6 @@ def htmlMaker(direc):
 #    from jsonmaker import maker as  fn
 
     from html.parser import HTMLParser
-    from django.utils.encoding import force_bytes
-
-    def __str__(self):
-        return force_bytes(self.name)
-
-    def __unicode__(self):
-        return self.name
 
     class MyHTMLParser(HTMLParser):
 
