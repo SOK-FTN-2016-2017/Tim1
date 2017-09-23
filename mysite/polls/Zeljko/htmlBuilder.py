@@ -4,7 +4,13 @@ def htmlMaker(direc):
 #    from jsonmaker import maker as  fn
 
     from html.parser import HTMLParser
+    from django.utils.encoding import force_bytes
 
+    def __str__(self):
+        return force_bytes(self.name)
+
+    def __unicode__(self):
+        return self.name
 
     class MyHTMLParser(HTMLParser):
 
@@ -121,7 +127,7 @@ def htmlMaker(direc):
         p2=p2+a
 
     print(p2)
-    json=fn(p2)
+    json=fn(str(p2))
 
     outfile = open('polls/static/flare.json', 'w')
    # outfile = open('../static/flare.json','w')
