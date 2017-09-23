@@ -2,7 +2,7 @@ def treeBuilder(startpath):
 
     import os
     import sys
-    import jsonmaker as parsingtool
+    import polls.Zeljko.jsonmaker as parsingtool
     from os.path import join
 
     if not startpath:
@@ -34,3 +34,5 @@ def treeBuilder(startpath):
     outfile = open('polls/static/flare.json', 'w') 
     outfile.write(json)
     outfile.close()
+    print("hecho")
+

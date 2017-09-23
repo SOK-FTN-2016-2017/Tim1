@@ -5,9 +5,6 @@ from django.http import HttpResponse
 import datetime
 import os
 
-outfile = open('pco.pdo', 'w')
-outfile.write(p)
-outfile.close()
 
 def index(request):
     return render(request, 'index.html')

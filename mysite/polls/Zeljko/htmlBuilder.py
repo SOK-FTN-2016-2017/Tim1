@@ -1,6 +1,8 @@
 def htmlMaker(direc):
     import sys
-    from polls.jsonmaker import maker as fn
+    from polls.Zeljko.jsonmaker import maker as fn
+#    from jsonmaker import maker as fn
+
     from html.parser import HTMLParser
 
 
@@ -119,10 +121,11 @@ def htmlMaker(direc):
         p2=p2+a
 
     print(p2)
-    json=fn.maker(p2)
+    json=fn(p2)
 
     outfile = open('polls/static/flare.json', 'w')
+   # outfile = open('../static/flare.json','w')
     outfile.write(json)
     outfile.close()
 
-#htmlMaker("./polls/Zeljko/elpais.html")
+#htmlMaker("elpais.html")
