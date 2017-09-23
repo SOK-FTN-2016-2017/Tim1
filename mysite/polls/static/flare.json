@@ -25,8 +25,8 @@
      {"name": "admin.pyc:Size = 262bytes"},
      {"name": "apps.py:Size = 158bytes"},
      {"name": "apps.pyc:Size = 486bytes"},
-     {"name": "models.py:Size = 278bytes"},
-     {"name": "models.pyc:Size = 674bytes"},
+     {"name": "models.py:Size = 175bytes"},
+     {"name": "models.pyc:Size = 329bytes"},
      {"name": "tests.py:Size = 131bytes"},
      {"name": "tests.pyc:Size = 262bytes"},
      {"name": "urls.py:Size = 342bytes"},
@@ -46,14 +46,14 @@
 "children": [
     
      {"name": "dndTree.js:Size = 20122bytes"},
-     {"name": "flare.json:Size = 1bytes"}
+     {"name": "flare.json:Size = 2632bytes"}
 ]
 },{
  "name": "templates",
 "children": [
     
      {"name": "404.html:Size = 2199bytes"},
-     {"name": "d3.html:Size = 979bytes"},
+     {"name": "d3.html:Size = 1037bytes"},
      {"name": "index.html:Size = 1487bytes"}
 ]
 },{
@@ -70,8 +70,8 @@
      {"name": "404.html:Size = 2195bytes"},
      {"name": "australian.html:Size = 226153bytes"},
      {"name": "elpais.html:Size = 51204bytes"},
-     {"name": "htmlBuilder.py:Size = 3541bytes"},
-     {"name": "htmlBuilder.pyc:Size = 3590bytes"},
+     {"name": "htmlBuilder.py:Size = 3369bytes"},
+     {"name": "htmlBuilder.pyc:Size = 3144bytes"},
      {"name": "jsonmaker.py:Size = 495bytes"},
      {"name": "jsonmaker.pyc:Size = 806bytes"},
      {"name": "national.html:Size = 328754bytes"},
