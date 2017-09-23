@@ -1,1 +1,8094 @@
+{
+ "name": "html",
+"children": [
+    
+     {"name": "class: no-js"},
+     {"name": "itemscope: itemscope"},
+     {"name": "itemtype: http://schema.org/WebPage"},
+     {"name": "lang: en-CA"},
+     {"name": "prefix: og: http://ogp.me/ns#"},{
+ "name": "head",
+"children": [
+    
+     {"name": "script"},
+     {"name": "script"},
+     {"name": "script"},{
+ "name": "title",
+"children": [
+    
+     {"name": "instart_patch_id: 12"}
+]
+},{
+ "name": "style",
+"children": [
+    
+     {"name": "type: text/css"},
+     {"name": "instart_patch_id: 42"}
+]
+},
+     {"name": "script"},
+     {"name": "script"},
+     {"name": "script"},
+     {"name": "script"},{
+ "name": "style",
+"children": [
+    
+     {"name": "type: text/css"},
+     {"name": "instart_patch_id: 139"}
+]
+},{
+ "name": "style",
+"children": [
+    
+     {"name": "type: text/css"},
+     {"name": "id: syntaxhighlighteranchor"},
+     {"name": "instart_patch_id: 145"}
+]
+}
+]
+},{
+ "name": "body",
+"children": [
+    
+     {"name": "class: home blog mp6 customizer-styles-applied site-np highlander-enabled highlander-light infinite-scroll"},
+     {"name": "id: home"},
+     {"name": "script"},
+     {"name": "script"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: gpt-nulladslot"},
+     {"name": "style: height:0; display:none;"},
+     {"name": "script"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: fb-root"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "itemscope"},
+     {"name": "itemtype: http://schema.org/Organization"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: out-of-page"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: gpt-oop"},
+     {"name": "class: pn_dfpads adslot"},
+     {"name": "script"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: wallpaper-container"},
+     {"name": "style: position:absolute"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: gpt-wallpaper"},
+     {"name": "class: pn_dfpads adslot"},
+     {"name": "script"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: page"},
+     {"name": "class: hfeed site desktop"},{
+ "name": "header",
+"children": [
+    
+     {"name": "class: l-header full-width   "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: header-wrapper"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: top-bar"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: l-constrained"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: javascript:void(0);"},
+     {"name": "onclick: janrain.capture.ui.renderScreen('signIn')"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.nationalpost.com/subscribe/index.html"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: masthead"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: track_event"},
+     {"name": "data-event-tracking: Header - Logo"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: logo"},
+     {"name": "href: http://nationalpost.com"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: track_event"},
+     {"name": "data-event-tracking: Header Mobile - Nagigation Open Close"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: javascript:void(0)"},
+     {"name": "class: nav-button"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: nav-wrap"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: search track_event"},
+     {"name": "data-event-tracking: Header - Search"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: l-constrained"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: start-search"},
+     {"name": "title: Open Search"},
+     {"name": "href: javascript:void(0)"}
+]
+},{
+ "name": "form",
+"children": [
+    
+     {"name": "class: search-form"},
+     {"name": "action: /?"},
+     {"name": "method: get"},{
+ "name": "label",
+"children": [
+    
+     {"name": "class: search-label"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: close-search"},
+     {"name": "title: Close Search"},
+     {"name": "href: javascript:void(0)"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "nav",
+"children": [
+    
+     {"name": "id: primary-nav"},
+     {"name": "class: navigation"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/news"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: subnav"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/news"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/news/national"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/news/world"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/news/toronto"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/news/politics"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/opinion"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: subnav"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/hockey/nhl"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: subnav"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/hockey/nhl/vancouver-canucks"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/hockey/nhl/calgary-flames"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/hockey/nhl/edmonton-oilers"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/hockey/nhl/winnipeg-jets"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/hockey/nhl/toronto-mapleleafs"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/hockey/nhl/ottawa-senators"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/hockey/nhl/montreal-canadiens"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/baseball"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/basketball"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: subnav"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/basketball/nba"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/basketball/ncaa"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/football"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: subnav"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/football/cfl"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/football/nfl"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/soccer"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/golf"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/tennis"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/sports/olympics"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/entertainment"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: subnav"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/entertainment"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/entertainment/books"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/entertainment/celebrity"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/entertainment/movies"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/entertainment/music"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/entertainment/theatre"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/entertainment/television"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/life"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: subnav"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/life"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/health"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/life/homes"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/life/food"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/life/fashion-beauty"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/travel"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/life/life-by-design"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/life/parenting"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: "}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: subnav"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/life/horoscopes"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.nationalpost.com/contests/index.html"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://driving.ca/"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://classifieds.nationalpost.com/"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://working.com/toronto"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.nationalpost.com/subscribe/index.html"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.financialpost.com/index.html"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-wrap"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: content"},
+     {"name": "class: site-content"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: l-content"},{
+ "name": "section",
+"children": [
+    
+     {"name": "class: l-top-content"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: adunit"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: widget-advertisement advertisement pnLeaderboard"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: gpt-billboard"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: pn-leaderboard-ad-large"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: gpt-leaderboard"},
+     {"name": "class: pn_dfpads adslot"},
+     {"name": "script"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: l-constrained site-container contentbody"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: feature-bar"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: feature-title"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "itemprop: significantLink"},
+     {"name": "href: http://nationalpost.com/tag/north-korea"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "itemprop: significantLink"},
+     {"name": "href: http://news.nationalpost.com/tag/donald-trump"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "itemprop: significantLink"},
+     {"name": "href: http://news.nationalpost.com/tag/justin-trudeau"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "itemprop: significantLink"},
+     {"name": "href: http://nationalpost.com/tag/nafta"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "itemprop: significantLink"},
+     {"name": "href: http://nationalpost.com/tag/myanmar"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "itemprop: significantLink"},
+     {"name": "href: http://news.nationalpost.com/tag/russia"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "itemprop: significantLink"},
+     {"name": "href: http://business.financialpost.com/category/personal-finance/mortgages-real-estate"},
+     {"name": "target: _blank"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "itemprop: significantLink"},
+     {"name": "href: http://nationalpost.com/tag/taxes"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "itemprop: significantLink"},
+     {"name": "href: http://nationalpost.com/tag/marijuana"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "itemprop: significantLink"},
+     {"name": "href: http://nationalpost.com/lottery-results/lotto-max-numbers-for-friday-september-22-2017"},
+     {"name": "target: _blank"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: l-main track_event "},
+     {"name": "id: main"},
+     {"name": "data-event-tracking: outfit"},{
+ "name": "section",
+"children": [
+    
+     {"name": "id: section_1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit primary clearfix adsizewrapper d1"},
+     {"name": "data-outfit-name: d1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-d1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: nativead"},
+     {"name": "data-category: "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: row"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: w190 fixed left"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: text-style-feature-heading"}
+]
+},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					full-comment no-margrin-title"},{
+ "name": "data-event-tracking: Outfit|0|Primary – D1|0|1|zon|",
+"children": [
+    {
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /opinion/christie-blatchford-ex-cops-impartiality-as-expert-witness-questioned-as-gas-plants-trial-begins/wcm/2a201a60-890a-426c-bd04-de4a3d1609b9"},
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "span"},{
+ "name": "class: icon-label-holder",
+"children": [
+    
+     {"name": "span"}
+]
+},{
+ "name": "class: media-icon watch",
+"children": [
+    
+     {"name": "span"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: media-label",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					full-comment no-margrin-title",
+"children": [
+    {
+ "name": "data-event-tracking: Outfit|0|Primary – D1|0|2|zon|",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /opinion/leonid-bershidsky-merkels-minimalist-campaign-rightly-emphasizes-consistency-over-change/wcm/5e8c6485-ecdf-4054-a20b-8ac79a265cf2"},
+     {"name": "target: _self"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "article"},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    {
+ "name": "					health no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|0|Primary – D1|0|3|zon|"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /health/health-canada-prepares-to-rewrite-the-food-guide/wcm/4b48a29c-5aa6-4cab-915c-46cb588a7ce6"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},{
+ "name": "article",
+"children": [
+    {
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					news no-margrin-title"},{
+ "name": "data-event-tracking: Outfit|0|Primary – D1|0|4|zon|",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"},
+     {"name": "a"},{
+ "name": "href: /news/world/kim-fires-off-insults-at-trump-and-hints-at-weapons-test/wcm/94b6d2e1-bcaa-4afa-b823-8243a5c05ff7",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: icon-label-holder"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: media-icon watch"},
+     {"name": "span"},{
+ "name": "class: media-label",
+"children": [
+    {
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					full-comment no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|0|Primary – D1|0|5|zon|"},
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /opinion/conrad-black-trump-the-best-defence-against-world-becoming-dangerous-playpen-of-nuclear-powers/wcm/e90c9f7d-d5da-4ef6-ad9e-c3996daafdd5"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"}
+]
+},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "span"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: icon-label-holder",
+"children": [
+    
+     {"name": "span"},{
+ "name": "class: media-icon watch",
+"children": [
+    
+     {"name": "span"},
+     {"name": "class: media-label"},
+     {"name": "div"},{
+ "name": "class: w590 fluid",
+"children": [
+    {
+ "name": "article",
+"children": [
+    {
+ "name": "id: post-0",
+"children": [
+    
+     {"name": "class: post-0 					full-comment"},{
+ "name": "					post post-excerpt hentry track_event post-0",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|0|Primary – D1|0|1|zon|"},
+     {"name": "div"},
+     {"name": "header"},
+     {"name": "h2"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /opinion/andrew-coyne-the-odd-merger-of-bombardier-and-the-canadian-government/wcm/daec7007-c6ca-4a77-8cd5-8a3ac569b892",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},
+     {"name": "title: "}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76665999"},{
+ "name": "href: /opinion/andrew-coyne-the-odd-merger-of-bombardier-and-the-canadian-government/wcm/daec7007-c6ca-4a77-8cd5-8a3ac569b892",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: entry-content"},
+     {"name": "div"},{
+ "name": "class: w300 fixed right ad-holder",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: widget-sticky",
+"children": [
+    
+     {"name": "div"},
+     {"name": "id: postmedia_layouts_ad-top"},
+     {"name": "class: widget-wrap clearfix widget_postmedia_layouts_ad"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: widget"},
+     {"name": "div"},{
+ "name": "id: gpt-bigboxtop",
+"children": [
+    
+     {"name": "class: pn_dfpads adslot"},{
+ "name": "script",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: row smaller-row",
+"children": [
+    
+     {"name": "hr"},
+     {"name": "div"},
+     {"name": "class: clearfix row-container"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: w260 fluid"},{
+ "name": "article",
+"children": [
+    
+     {"name": "id: post-331"},
+     {"name": "class: post-331 					full-comment"},
+     {"name": "					post post-excerpt hentry track_event post-0"}
+]
+}
+]
+},{
+ "name": "data-event-tracking: Outfit|0|Primary – D1|1|1|zon|",
+"children": [
+    {
+ "name": "figure",
+"children": [
+    {
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},{
+ "name": "id: link-76665091",
+"children": [
+    
+     {"name": "href: /opinion/say-what-you-will-about-wab-kinew-his-alleged-victim-deserved-better/wcm/331cf519-a740-4959-a7d2-b0f5337781a0"},
+     {"name": "target: _self"},
+     {"name": "div"},
+     {"name": "header"}
+]
+}
+]
+}
+]
+},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /opinion/say-what-you-will-about-wab-kinew-his-alleged-victim-deserved-better/wcm/331cf519-a740-4959-a7d2-b0f5337781a0"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "div"},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: w260 fluid",
+"children": [
+    
+     {"name": "article"},
+     {"name": "id: post-0"},
+     {"name": "class: post-0 					financial-post"}
+]
+}
+]
+},{
+ "name": "					post post-excerpt hentry track_event post-0",
+"children": [
+    {
+ "name": "data-event-tracking: Outfit|0|Primary – D1|1|1|zon|",
+"children": [
+    {
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76665423"},
+     {"name": "href: http://business.financialpost.com/news/inside-the-rise-and-fall-of-home-capital"},
+     {"name": "target: _self"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://business.financialpost.com/news/inside-the-rise-and-fall-of-home-capital",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},
+     {"name": "title: "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: entry-content"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: w260 fluid"},
+     {"name": "article"},
+     {"name": "id: post-9"}
+]
+}
+]
+},{
+ "name": "class: post-9 					full-comment",
+"children": [
+    {
+ "name": "					post post-excerpt hentry track_event post-0",
+"children": [
+    {
+ "name": "data-event-tracking: Outfit|0|Primary – D1|1|1|zon|",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},
+     {"name": "id: link-76664424"},
+     {"name": "href: /opinion/chris-selley-ontarios-crackdown-on-dangerous-driving-is-kind-of-pathetic/wcm/9d41a778-7c53-4f62-b8b8-dfeb54ed44ee"},
+     {"name": "target: _self"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "header"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /opinion/chris-selley-ontarios-crackdown-on-dangerous-driving-is-kind-of-pathetic/wcm/9d41a778-7c53-4f62-b8b8-dfeb54ed44ee"},
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: w260 fluid last"},
+     {"name": "article"}
+]
+}
+]
+},{
+ "name": "id: post-42",
+"children": [
+    {
+ "name": "class: post-42 					financial-post",
+"children": [
+    {
+ "name": "					post post-excerpt hentry track_event post-0",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|0|Primary – D1|1|1|zon|"},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},
+     {"name": "a"},
+     {"name": "id: link-76656764"},
+     {"name": "href: http://business.financialpost.com/opinion/lawrence-solomon-paris-is-dead-the-global-warming-deniers-have-won"}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://business.financialpost.com/opinion/lawrence-solomon-paris-is-dead-the-global-warming-deniers-have-won"}
+]
+},
+     {"name": "target: _self"}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: entry-content"},
+     {"name": "section"},{
+ "name": "class: pm_layouts_news_ticker",
+"children": [
+    
+     {"name": "id: pm_layouts_news_ticker_1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: pn_video_748272"},{
+ "name": "script",
+"children": [
+    
+     {"name": "section"},{
+ "name": "id: section_2",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: outfit primary clearfix adsizewrapper d12",
+"children": [
+    
+     {"name": "data-outfit-name: d12"},
+     {"name": "div"},{
+ "name": "class: outfit-d12",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: row",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: w300 fixed left"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: list-holder",
+"children": [
+    
+     {"name": "div"},
+     {"name": "id: postmedia_layouts_ad-mid"},{
+ "name": "class: widget-wrap clearfix widget_postmedia_layouts_ad",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: widget"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: gpt-bigboxmid"},
+     {"name": "class: pn_dfpads adslot"},
+     {"name": "script"},
+     {"name": "article"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					financial-post"},{
+ "name": "data-event-tracking: Outfit|1|Secondary – D12|2|1|zon|",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://business.financialpost.com/opinion/peter-foster-how-dare-rich-white-guys-name-the-buildings-they-paid-for"}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},{
+ "name": "figure",
+"children": [
+    {
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},{
+ "name": "id: link-76653900",
+"children": [
+    
+     {"name": "href: http://business.financialpost.com/opinion/peter-foster-how-dare-rich-white-guys-name-the-buildings-they-paid-for"},
+     {"name": "target: _self"},
+     {"name": "div"},
+     {"name": "class: entry-content"}
+]
+}
+]
+}
+]
+},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					news",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|2|2|zon|"},
+     {"name": "header"},
+     {"name": "h4"}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"}
+]
+}
+]
+},{
+ "name": "href: /news/local-news/federal-privacy-head-to-approach-google-over-linking-secret-court-protected-names-to-online-coverage/wcm/474fa4e6-130a-4345-bf73-bdb301dcf8cf/wcm/474fa4e6-130a-4345-bf73-bdb301dcf8cf",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    {
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76662244"},
+     {"name": "href: /news/local-news/federal-privacy-head-to-approach-google-over-linking-secret-court-protected-names-to-online-coverage/wcm/474fa4e6-130a-4345-bf73-bdb301dcf8cf/wcm/474fa4e6-130a-4345-bf73-bdb301dcf8cf"},
+     {"name": "target: _self"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "article"},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					news"},
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|2|3|zon|"},
+     {"name": "header"}
+]
+}
+]
+},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /news/world/federal-government-notifies-21-states-of-election-hacking/wcm/6ed2f845-8197-4748-9598-6e0495e1b380"},
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    {
+ "name": "title: ",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},
+     {"name": "id: link-76667242"},
+     {"name": "href: /news/world/federal-government-notifies-21-states-of-election-hacking/wcm/6ed2f845-8197-4748-9598-6e0495e1b380"},
+     {"name": "target: _self"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: entry-content"},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					full-comment"},
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|2|1|zon|"}
+]
+}
+]
+},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /opinion/robert-fulford-a-history-of-islamophobia-a-word-of-dubious-value/wcm/cc263581-17ce-4a9f-abd7-b1737a197e36",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},{
+ "name": "id: link-671311",
+"children": [
+    
+     {"name": "href: /opinion/robert-fulford-a-history-of-islamophobia-a-word-of-dubious-value/wcm/cc263581-17ce-4a9f-abd7-b1737a197e36"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: entry-content"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: w590 fluid"},
+     {"name": "div"},
+     {"name": "class: section-header-wrap track_event"},{
+ "name": "data-event-tracking: Outfit|1|Secondary – D12|1|Header|No type|No name",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://nationalpost.com/category/entertainment",
+"children": [
+    
+     {"name": "header"},
+     {"name": "class: section-header news"},
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: section-label news",
+"children": [
+    {
+ "name": "h1",
+"children": [
+    {
+ "name": "class: cat-head news",
+"children": [
+    
+     {"name": "span"},{
+ "name": "article",
+"children": [
+    
+     {"name": "id: post-0"},
+     {"name": "class: post-0 					sports"},
+     {"name": "					post post-excerpt hentry track_event post-0"},
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|0|1|zon|"}
+]
+}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76665459"},
+     {"name": "href: /sports/baseball/mlb/pride-confidence-swagger-the-legend-of-jose-bautista-leaves-an-indelible-mark-on-the-toronto-blue-jays/wcm/de1bedd7-bb9b-432e-b044-cfaec20586e8"},
+     {"name": "target: _self"},
+     {"name": "div"},
+     {"name": "header"},{
+ "name": "h2",
+"children": [
+    
+     {"name": "class: entry-title"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /sports/baseball/mlb/pride-confidence-swagger-the-legend-of-jose-bautista-leaves-an-indelible-mark-on-the-toronto-blue-jays/wcm/de1bedd7-bb9b-432e-b044-cfaec20586e8"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: entry-content"},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: continue-reading-link"},
+     {"name": "href: /sports/baseball/mlb/pride-confidence-swagger-the-legend-of-jose-bautista-leaves-an-indelible-mark-on-the-toronto-blue-jays/wcm/de1bedd7-bb9b-432e-b044-cfaec20586e8"},
+     {"name": "target: _self"}
+]
+}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    {
+ "name": "title: ",
+"children": [
+    
+     {"name": "span"},{
+ "name": "class: continue-reading-link-text",
+"children": [
+    
+     {"name": "span"},
+     {"name": "class: arrow"},
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"}
+]
+}
+]
+}
+]
+},{
+ "name": "					full-comment",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|0|1|zon|"}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},
+     {"name": "a"},{
+ "name": "id: link-76604258",
+"children": [
+    
+     {"name": "href: /opinion/colby-cosh-calgary-catches-edmontons-arena-fever-but-its-immune-system-is-stronger/wcm/4155f46c-89c7-4df1-b200-91b0db07d4af"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    {
+ "name": "href: /opinion/colby-cosh-calgary-catches-edmontons-arena-fever-but-its-immune-system-is-stronger/wcm/4155f46c-89c7-4df1-b200-91b0db07d4af",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "div"},
+     {"name": "class: entry-content"},
+     {"name": "article"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					financial-post"}
+]
+}
+]
+},{
+ "name": "data-event-tracking: Outfit|1|Secondary – D12|0|2|zon|",
+"children": [
+    
+     {"name": "figure"},
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76659994"},{
+ "name": "href: http://business.financialpost.com/news/retail-marketing/walmart-wants-to-send-people-into-your-house-to-stock-the-fridge-even-when-youre-not-home",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "header"},
+     {"name": "h4"}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://business.financialpost.com/news/retail-marketing/walmart-wants-to-send-people-into-your-house-to-stock-the-fridge-even-when-youre-not-home"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "div"},
+     {"name": "class: entry-content"}
+]
+}
+]
+}
+]
+},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"}
+]
+}
+]
+},{
+ "name": "					financial-post",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|0|3|zon|"},
+     {"name": "figure"},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},{
+ "name": "id: link-76662308",
+"children": [
+    
+     {"name": "href: http://business.financialpost.com/investing/investing-pro/better-to-bet-with-buffett-than-against-him-barry-ritholtz"},
+     {"name": "target: _self"},
+     {"name": "header"}
+]
+}
+]
+},{
+ "name": "h4",
+"children": [
+    {
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://business.financialpost.com/investing/investing-pro/better-to-bet-with-buffett-than-against-him-barry-ritholtz",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "div"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "article"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					life"},{
+ "name": "data-event-tracking: Outfit|1|Secondary – D12|0|4|zon|",
+"children": [
+    
+     {"name": "figure"},
+     {"name": "class: thumbnail "},
+     {"name": "a"},{
+ "name": "id: link-76656771",
+"children": [
+    
+     {"name": "href: /life/food/were-playing-with-fire-new-worlds-hottest-chili-makes-ghost-pepper-taste-like-a-cucumber/wcm/e7ff0fad-f3a5-4636-a59b-a01f13513029"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    {
+ "name": "href: /life/food/were-playing-with-fire-new-worlds-hottest-chili-makes-ghost-pepper-taste-like-a-cucumber/wcm/e7ff0fad-f3a5-4636-a59b-a01f13513029",
+"children": [
+    {
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: entry-content"},
+     {"name": "div"},
+     {"name": "class: w190 fixed right "}
+]
+}
+]
+}
+]
+},{
+ "name": "article",
+"children": [
+    
+     {"name": "id: post-91502"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: post-91502 					culture",
+"children": [
+    
+     {"name": "					post post-excerpt hentry track_event post-0"},
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|1|1|zon|"},{
+ "name": "figure",
+"children": [
+    {
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},{
+ "name": "id: link-76657147",
+"children": [
+    
+     {"name": "href: /entertainment/music/the-important-questions-gene-simmons-kiss-box-set-worth-it/wcm/91502aae-97fd-4d4c-ad89-fde6838c32b7"},
+     {"name": "target: _self"},
+     {"name": "div"},
+     {"name": "header"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},{
+ "name": "href: /entertainment/music/the-important-questions-gene-simmons-kiss-box-set-worth-it/wcm/91502aae-97fd-4d4c-ad89-fde6838c32b7",
+"children": [
+    {
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: entry-content"},
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "					sports no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|1|1|zon|"},
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    {
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /sports/hockey/nhl/toronto-mapleleafs/nhl-reportedly-plans-to-have-independent-doctor-asses-health-of-leafs-lupul/wcm/cd7cd64f-5037-4c0a-b2be-2227947ff296",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "article"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					culture no-margrin-title"},
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|1|2|zon|"},{
+ "name": "header",
+"children": [
+    {
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /entertainment/television/jimmy-kimmel-says-trump-would-do-anything-if-it-meant-he-could-get-rid-of-obamacare/wcm/5bbbd330-38e3-43c8-9dda-4db0cc5bc6ce"},
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},
+     {"name": "title: "}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					news no-margrin-title"},{
+ "name": "data-event-tracking: Outfit|1|Secondary – D12|1|3|zon|",
+"children": [
+    {
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://nationalpost.com/life/food/acclaimed-french-chef-abandons-three-michelin-stars-due-to-huge-pressure"},
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					sports no-margrin-title",
+"children": [
+    {
+ "name": "data-event-tracking: Outfit|1|Secondary – D12|1|4|zon|",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /sports/hockey/nhl/vancouver-canucks/canucks-in-china-mike-keenan-has-a-difficult-task-in-trying-to-build-chinese-national-team/wcm/7bdba8d8-edcc-4c41-80c3-8fabd640a7ff/wcm/7bdba8d8-edcc-4c41-80c3-8fabd640a7ff"},
+     {"name": "target: _self"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "article"},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    {
+ "name": "					news no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|1|5|zon|"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /news/world/the-end-of-the-world-is-coming-but-not-this-saturday-despite-what-revelations-12-foretells/wcm/bb1cb521-99aa-4f93-9ef1-b9435579d7f7"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},{
+ "name": "article",
+"children": [
+    {
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					life no-margrin-title"},{
+ "name": "data-event-tracking: Outfit|1|Secondary – D12|1|6|zon|",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"},
+     {"name": "a"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "href: /life/homes/mike-holmes-what-weeping-windows-might-be-telling-you-about-your-homes-moisture/wcm/c0c5a0de-2648-4e06-934e-bfb2d21ab788",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "article"},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					news no-margrin-title"},{
+ "name": "data-event-tracking: Outfit|1|Secondary – D12|1|7|zon|",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /news/canada/happy-equinox-heres-how-quickly-the-days-are-getting-shorter-where-you-live/wcm/e2a2952d-6b60-4d43-bcf7-b09fbb2f8bc6"},
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					sports no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|1|Secondary – D12|1|8|zon|"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},
+     {"name": "class: entry-title"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /sports/football/nfl/dazn-offers-disgruntled-nfl-streaming-subscribers-a-20-refund-for-botched-canadian-launch/wcm/4db9f4d0-a73d-46b7-a679-75d147ae7d86"},
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "section"},{
+ "name": "id: section_3",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: outfit primary clearfix adsizewrapper d13",
+"children": [
+    
+     {"name": "data-outfit-name: d13"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-d13"},
+     {"name": "div"},
+     {"name": "class: row"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: w480 fixed left"},
+     {"name": "div"}
+]
+}
+]
+},
+     {"name": "class: section-header-wrap track_event"}
+]
+},{
+ "name": "data-event-tracking: Outfit|2|Secondary – D13|1|Header|No type|No name",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/news"},{
+ "name": "header",
+"children": [
+    
+     {"name": "class: section-header news"},
+     {"name": "div"},
+     {"name": "class: section-label news"},
+     {"name": "h1"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: cat-head news",
+"children": [
+    
+     {"name": "span"},
+     {"name": "article"},
+     {"name": "id: post-236"},{
+ "name": "class: post-236 					news",
+"children": [
+    
+     {"name": "					post post-excerpt hentry track_event post-0"},{
+ "name": "data-event-tracking: Outfit|2|Secondary – D13|0|1|zon|",
+"children": [
+    
+     {"name": "figure"},
+     {"name": "class: thumbnail "},
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "id: container-76667149",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "id: pn_video_1439562247"},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76667149"},
+     {"name": "href: javascript:void(0);"},
+     {"name": "target: _self"},
+     {"name": "button"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "aria-hidden: true",
+"children": [
+    
+     {"name": "class: play-button"},{
+ "name": "script",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h2",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},{
+ "name": "href: /news/world/trump-lashes-out-at-gop-opponents-of-health-care-bill/wcm/236bb703-8b84-4bbe-b99b-2836df2651ec",
+"children": [
+    {
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},
+     {"name": "id: post-0"},
+     {"name": "class: post-0 					full-comment"},
+     {"name": "					post post-excerpt hentry track_event post-0"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "data-event-tracking: Outfit|2|Secondary – D13|0|1|zon|",
+"children": [
+    
+     {"name": "figure"},
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    {
+ "name": "id: link-76653902",
+"children": [
+    
+     {"name": "href: /opinion/np-view-trumps-un-speech-was-properly-forceful-and-pragmatic/wcm/c5674de9-271e-40e6-a516-6b75dbbc720a"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h2"},
+     {"name": "class: entry-title"},
+     {"name": "a"},{
+ "name": "href: /opinion/np-view-trumps-un-speech-was-properly-forceful-and-pragmatic/wcm/c5674de9-271e-40e6-a516-6b75dbbc720a",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: w300 fluid"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: list-holder"},
+     {"name": "article"},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    {
+ "name": "					news no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|2|Secondary – D13|0|1|zon|"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /news/politics/niki-ashton-on-millennials-bernie-sanders-and-the-medias-coverage-of-her-pregnancy/wcm/82b86193-6823-4035-bd1a-93d336e6a577"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},{
+ "name": "article",
+"children": [
+    {
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					news no-margrin-title"},{
+ "name": "data-event-tracking: Outfit|2|Secondary – D13|0|2|zon|",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"},
+     {"name": "a"},{
+ "name": "href: /news/world/puerto-rico-rushes-to-evacuate-70000-people-from-shadow-of-extremely-dangerous-hurricane-damaged-dam/wcm/cac87f1e-b133-4d87-9d1e-3515524920e6",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: icon-label-holder"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: media-icon watch"},
+     {"name": "span"},{
+ "name": "class: media-label",
+"children": [
+    {
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					full-comment no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|2|Secondary – D13|0|3|zon|"},
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /opinion/rex-murphy-all-global-warming-predictions-are-infallible-until-theyre-not/wcm/479b0987-fcef-4235-8790-4c866d23ff45"},
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    {
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					news no-margrin-title"},
+     {"name": "data-event-tracking: Outfit|2|Secondary – D13|0|4|zon|"},
+     {"name": "header"},
+     {"name": "h4"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /news/world/what-is-a-dotard-anyway-what-kim-jong-un-meant-when-he-insulted-donald-trump/wcm/842158d4-2680-4510-842b-ccd62b7de941"},{
+ "name": "target: _self",
+"children": [
+    {
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: icon-label-holder"},
+     {"name": "span"},
+     {"name": "class: media-icon watch"},
+     {"name": "span"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: media-label",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					news no-margrin-title",
+"children": [
+    {
+ "name": "data-event-tracking: Outfit|2|Secondary – D13|0|5|zon|",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /news/canada/tax-changes-anti-rich-rhetoric-have-already-inspired-big-fish-to-leave-manley/wcm/dfb0fdcc-31f8-4200-ad74-89e7dd4a6783"},
+     {"name": "target: _self"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					news no-margrin-title",
+"children": [
+    {
+ "name": "data-event-tracking: Outfit|2|Secondary – D13|0|6|zon|",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},{
+ "name": "href: /news/canada/royal-welcome-prince-harry-arrives-in-toronto-for-the-invictus-games/wcm/d71a16d6-ae67-407d-b39e-35567446ca6f",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					news no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|2|Secondary – D13|0|7|zon|"},
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "href: /news/world/lawyer-hacker-in-spanish-custody-sought-by-us-russia/wcm/ed991fb8-a7c8-4cbc-bbd8-07c5642bfe23",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					full-comment no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|2|Secondary – D13|0|8|zon|"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /opinion/john-ivison-with-proposed-liberal-reforms-impacting-less-than-one-in-10-small-businesses-this-tax-revolt-will-fail/wcm/d3b2e1b4-b11e-4f31-ba91-a369d015e351",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},
+     {"name": "title: "}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: w300 fixed right"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: widget-sticky list-holder"},
+     {"name": "div"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: business-wire-widget widget-outfit sponsored",
+"children": [
+    
+     {"name": "div"},{
+ "name": "id: businesswire-2",
+"children": [
+    
+     {"name": "class: widget-wrap clearfix widget_businesswire"}
+]
+},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: widget",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: section-header-wrap",
+"children": [
+    
+     {"name": "header"},
+     {"name": "class: section-header"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: section-label"},{
+ "name": "class: section-label clearfix",
+"children": [
+    
+     {"name": "h2"},
+     {"name": "class: cat-head"},{
+ "name": "span",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: category-branding clearfix",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: sponsor-bar clearfix",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: sponsor-details empty_info_box",
+"children": [
+    
+     {"name": "span"},
+     {"name": "class: logo_label"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: sponsored_by_label empty_info_box"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: sponsor"},
+     {"name": "a"},
+     {"name": "href: http://www.financialpost.com/news/business-wire/index.html"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "title: Business Wire"},
+     {"name": "span"},{
+ "name": "class: sponsorship-img",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://www.financialpost.com/news/business-wire/index.html",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "title: Business Wire",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: widget-body-wrapper",
+"children": [
+    
+     {"name": "div"},
+     {"name": "id: business-wire-widget"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "script",
+"children": [
+    
+     {"name": "section"},
+     {"name": "id: section_4"},{
+ "name": "div",
+"children": [
+    {
+ "name": "class: outfit primary clearfix adsizewrapper d12",
+"children": [
+    
+     {"name": "data-outfit-name: d12"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: outfit-d12"},
+     {"name": "div"},
+     {"name": "class: nativead"},
+     {"name": "data-category: "}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: row"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: w300 fixed left"},
+     {"name": "div"},
+     {"name": "class: list-holder"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: postmedia_layouts_ad-bot"}
+]
+}
+]
+},{
+ "name": "class: widget-wrap clearfix widget_postmedia_layouts_ad",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: widget"},{
+ "name": "div",
+"children": [
+    {
+ "name": "id: gpt-bigboxbot",
+"children": [
+    
+     {"name": "class: pn_dfpads adslot"},{
+ "name": "script",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: section-header-wrap track_event"},
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|3|Header|No type|No name"},
+     {"name": "a"}
+]
+}
+]
+}
+]
+},{
+ "name": "href: http://nationalpost.com/category/news/world",
+"children": [
+    
+     {"name": "header"},{
+ "name": "class: section-header news",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: section-label news"},
+     {"name": "h1"}
+]
+}
+]
+},{
+ "name": "class: cat-head news",
+"children": [
+    
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					news"},{
+ "name": "data-event-tracking: Outfit|3|Secondary – D12|2|1|cax|World",
+"children": [
+    {
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /news/world/not-a-veggie-saurus-dinosaur-dung-reveals-giant-plant-eaters-ate-crustacean-meat/wcm/fea35826-c81b-48fe-9f1f-e68444c9e830"},
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"}
+]
+}
+]
+}
+]
+},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},
+     {"name": "id: link-76663801"},
+     {"name": "href: /news/world/not-a-veggie-saurus-dinosaur-dung-reveals-giant-plant-eaters-ate-crustacean-meat/wcm/fea35826-c81b-48fe-9f1f-e68444c9e830"}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					news",
+"children": [
+    {
+ "name": "data-event-tracking: Outfit|3|Secondary – D12|2|2|cax|World",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /news/world/nasas-asteroid-chaser-swings-by-earth-on-way-to-space-rock/wcm/0b4b5940-5726-4cce-b22e-711afae1f62f"},
+     {"name": "target: _self"}
+]
+}
+]
+}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},
+     {"name": "a"},
+     {"name": "id: link-76656934"}
+]
+}
+]
+},{
+ "name": "href: /news/world/nasas-asteroid-chaser-swings-by-earth-on-way-to-space-rock/wcm/0b4b5940-5726-4cce-b22e-711afae1f62f",
+"children": [
+    
+     {"name": "target: _self"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: entry-content"},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					news"},{
+ "name": "data-event-tracking: Outfit|3|Secondary – D12|2|3|cax|World",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /news/world/a-step-forward-theresa-may-says-britain-will-pay-to-smooth-departure-from-eu/wcm/cab5c507-1495-4dc1-8abe-8122cd2f4b57"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},
+     {"name": "a"},
+     {"name": "id: link-76661509"},{
+ "name": "href: /news/world/a-step-forward-theresa-may-says-britain-will-pay-to-smooth-departure-from-eu/wcm/cab5c507-1495-4dc1-8abe-8122cd2f4b57",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: entry-content"},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"}
+]
+},{
+ "name": "					news",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|2|1|cax|World"},
+     {"name": "header"},
+     {"name": "h4"}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /news/world/another-u-s-trip-for-turkish-president-erdogan-another-video-of-his-bodyguards-beating-protesters/wcm/471fa58a-c108-4f73-ab43-191b788b1944"}
+]
+}
+]
+},
+     {"name": "target: _self"}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    {
+ "name": "title: ",
+"children": [
+    {
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76658569"},
+     {"name": "href: /news/world/another-u-s-trip-for-turkish-president-erdogan-another-video-of-his-bodyguards-beating-protesters/wcm/471fa58a-c108-4f73-ab43-191b788b1944"},
+     {"name": "target: _self"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: w590 fluid",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: section-header-wrap track_event"},
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|1|Header|No type|No name"},
+     {"name": "a"},
+     {"name": "href: http://nationalpost.com/category/news/opinion"},{
+ "name": "header",
+"children": [
+    
+     {"name": "class: section-header arts"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: section-label arts"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "h1",
+"children": [
+    
+     {"name": "class: cat-head arts"},
+     {"name": "span"},{
+ "name": "article",
+"children": [
+    
+     {"name": "id: post-9"},{
+ "name": "class: post-9 					full-comment",
+"children": [
+    
+     {"name": "					post post-excerpt hentry track_event post-0"},
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|0|1|zon|"},
+     {"name": "figure"}
+]
+}
+]
+},{
+ "name": "class: thumbnail ",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "id: container-76647453"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: pn_video_521290408"},
+     {"name": "a"},
+     {"name": "id: link-76647453"},
+     {"name": "href: javascript:void(0);"}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "button"}
+]
+}
+]
+},{
+ "name": "aria-hidden: true",
+"children": [
+    
+     {"name": "class: play-button"},
+     {"name": "script"},{
+ "name": "div",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h2",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /opinion/christie-blatchford-unfashionable-as-it-is-to-say-trump-spoke-the-ugly-truth-in-his-refreshing-un-speech/wcm/9ccd5dbc-a95d-46c1-ac5c-2f3397dba5d4"}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    {
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: entry-content"},
+     {"name": "a"},
+     {"name": "class: continue-reading-link"},
+     {"name": "href: /opinion/christie-blatchford-unfashionable-as-it-is-to-say-trump-spoke-the-ugly-truth-in-his-refreshing-un-speech/wcm/9ccd5dbc-a95d-46c1-ac5c-2f3397dba5d4"}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"}
+]
+}
+]
+},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "span"},
+     {"name": "class: continue-reading-link-text"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: arrow"},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					full-comment"},
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|0|1|zon|"}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    {
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},{
+ "name": "id: link-76537860",
+"children": [
+    
+     {"name": "href: /opinion/kelly-mcparland-why-do-fair-tax-crusaders-trudeau-and-morneau-suddenly-look-so-nervous/wcm/95cc32d5-689d-49f7-90bd-936b54acad4f"},
+     {"name": "target: _self"},
+     {"name": "header"},
+     {"name": "h4"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"}
+]
+}
+]
+},{
+ "name": "href: /opinion/kelly-mcparland-why-do-fair-tax-crusaders-trudeau-and-morneau-suddenly-look-so-nervous/wcm/95cc32d5-689d-49f7-90bd-936b54acad4f",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					full-comment"}
+]
+}
+]
+},{
+ "name": "data-event-tracking: Outfit|3|Secondary – D12|0|2|zon|",
+"children": [
+    {
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-1322098"},
+     {"name": "href: /opinion/john-robson-mcmaster-university-thinks-adults-cant-decide-for-themselves-whether-to-smoke/wcm/c1c3e8c9-18a3-4352-97a3-e3181405eb92"},
+     {"name": "target: _self"},
+     {"name": "header"}
+]
+}
+]
+}
+]
+},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /opinion/john-robson-mcmaster-university-thinks-adults-cant-decide-for-themselves-whether-to-smoke/wcm/c1c3e8c9-18a3-4352-97a3-e3181405eb92"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: entry-content"},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					full-comment",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|0|3|zon|"},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},
+     {"name": "a"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "id: link-673806",
+"children": [
+    
+     {"name": "href: /opinion/marni-soupcoff-bureaucrats-shouldnt-make-moral-decisions-about-who-has-to-die/wcm/4f90a389-d562-47c9-b00b-8b91887bf680"},
+     {"name": "target: _self"},
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /opinion/marni-soupcoff-bureaucrats-shouldnt-make-moral-decisions-about-who-has-to-die/wcm/4f90a389-d562-47c9-b00b-8b91887bf680"},
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"}
+]
+}
+]
+},{
+ "name": "title: ",
+"children": [
+    {
+ "name": "div",
+"children": [
+    {
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "article"},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					financial-post"},
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|0|4|zon|"},
+     {"name": "figure"},
+     {"name": "class: thumbnail "}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76641122"}
+]
+}
+]
+}
+]
+},{
+ "name": "href: http://business.financialpost.com/opinion/terence-corcoran-trudeau-fires-the-shots-of-war-and-hits-himself-in-the-foot",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    {
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://business.financialpost.com/opinion/terence-corcoran-trudeau-fires-the-shots-of-war-and-hits-himself-in-the-foot",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: w190 fixed right "},{
+ "name": "div",
+"children": [
+    {
+ "name": "class: section-header-wrap track_event",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|2|Header|No type|No name"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://nationalpost.com/category/news/politics"},
+     {"name": "header"},
+     {"name": "class: section-header news"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: section-label news",
+"children": [
+    
+     {"name": "h1"},
+     {"name": "class: cat-head news"},{
+ "name": "span",
+"children": [
+    {
+ "name": "article",
+"children": [
+    
+     {"name": "id: post-6"},{
+ "name": "class: post-6 					news",
+"children": [
+    
+     {"name": "					post post-excerpt hentry track_event post-0"},
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|1|1|cax|Canadian Politics"},
+     {"name": "figure"},
+     {"name": "class: thumbnail "}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-414352"},
+     {"name": "href: /news/extradition-of-b-c-mother-uncle-for-alleged-honour-killing-halted-by-last-minute-ruling/wcm/6b1632aa-00d6-46e1-93e3-2bfda9510b86"},{
+ "name": "target: _self",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /news/extradition-of-b-c-mother-uncle-for-alleged-honour-killing-halted-by-last-minute-ruling/wcm/6b1632aa-00d6-46e1-93e3-2bfda9510b86"},
+     {"name": "target: _self"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "div"},{
+ "name": "class: entry-content",
+"children": [
+    {
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					news no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|1|1|cax|Canadian Politics"},
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /news/politics/liberals-hired-headhunters-to-help-choose-madeleine-meilleur-for-languages-czar-and-now-ethics-lobbying-information-commissioners/wcm/9505390d-368f-4951-85b9-b0b5ab6fd7ea"},
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    {
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					news no-margrin-title"},
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|1|2|cax|Canadian Politics"},
+     {"name": "header"},
+     {"name": "h4"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /news/politics/missing-and-murdered-inquiry-offloading-responsibility-onto-communities-ndp-mp-claims/wcm/27d98e69-76c6-4a38-9edf-ca5d20471643"},{
+ "name": "target: _self",
+"children": [
+    {
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					news no-margrin-title"},
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|1|3|cax|Canadian Politics"},
+     {"name": "header"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},{
+ "name": "href: /news/politics/government-fell-short-in-protecting-privacy-during-electoral-reform-consultation-privacy-commissioner-finds/wcm/4db8e147-1854-4936-b4b8-81ab6269262e",
+"children": [
+    {
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					news no-margrin-title"},
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|1|4|cax|Canadian Politics"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "href: /news/politics/other-countries-security-refugees-here-are-some-of-the-things-trudeau-didnt-talk-about-at-the-un/wcm/fe5b643b-ff69-49da-8e22-d4d47542174e",
+"children": [
+    
+     {"name": "target: _self"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					news no-margrin-title"},{
+ "name": "data-event-tracking: Outfit|3|Secondary – D12|1|5|cax|Canadian Politics",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /news/politics/canadas-trade-deal-with-europe-takes-effect-today-heres-what-you-need-to-know/wcm/9134b1b8-187f-4c9c-a411-456e4a272226"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					news no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|1|6|cax|Canadian Politics"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /news/politics/tory-senator-loses-committee-jobs-keeps-caucus-spot-after-controversial-letter/wcm/6f17fd52-329c-4390-9da2-9fa0f8619339",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					news no-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|1|7|cax|Canadian Politics"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},
+     {"name": "class: entry-title"},
+     {"name": "a"}
+]
+}
+]
+},{
+ "name": "href: /news/politics/legalized-marijuana-will-lead-to-more-impaired-driving-police-tell-commons-committee/wcm/487f91a5-cf5a-4aef-a5f2-83ed01ae800d",
+"children": [
+    {
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					news no-margrin-title"},
+     {"name": "data-event-tracking: Outfit|3|Secondary – D12|1|8|cax|Canadian Politics"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /news/politics/conservatives-accuse-trudeau-of-hypocrisy-in-avoiding-tax-changes-targeting-wealthy-canadians/wcm/c2b147d0-73f6-4c60-8feb-a99303dd4d6f"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "class: icon-label-holder",
+"children": [
+    {
+ "name": "span",
+"children": [
+    
+     {"name": "class: media-icon watch"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: media-label"},
+     {"name": "section"},
+     {"name": "id: section_5"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: outfit primary clearfix adsizewrapper d25",
+"children": [
+    
+     {"name": "data-outfit-name: d25"},
+     {"name": "div"},{
+ "name": "class: outfit-d25",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: row",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: w360 left"},
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: header-slot",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: section-header-wrap track_event"},{
+ "name": "data-event-tracking: Outfit|4|Show More – D25|1|Header|No type|No name",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://financialpost.com"},
+     {"name": "header"},
+     {"name": "class: section-header arts"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: section-label arts"},{
+ "name": "h1",
+"children": [
+    
+     {"name": "class: cat-head arts"},{
+ "name": "span",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					 no-margrin-title col-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|0|1|rss|News – Financial Post"},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-0"},{
+ "name": "href: http://business.financialpost.com/news/fp-street/private-debt-the-last-bastion-of-alternative-assets-gains-a-new-management-entrant",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "header"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},{
+ "name": "href: http://business.financialpost.com/news/fp-street/private-debt-the-last-bastion-of-alternative-assets-gains-a-new-management-entrant",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"}
+]
+}
+]
+},{
+ "name": "					 no-margrin-title col-margrin-title",
+"children": [
+    {
+ "name": "data-event-tracking: Outfit|4|Show More – D25|0|2|rss|News – Financial Post",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},
+     {"name": "id: link-0"},
+     {"name": "href: http://business.financialpost.com/news/fp-street/former-legal-assistant-at-prominent-bay-street-law-firm-at-centre-of-insider-tripping-and-trading-case"},
+     {"name": "target: _blank"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://business.financialpost.com/news/fp-street/former-legal-assistant-at-prominent-bay-street-law-firm-at-centre-of-insider-tripping-and-trading-case"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "article"}
+]
+}
+]
+},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    {
+ "name": "					 no-margrin-title col-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|0|3|rss|News – Financial Post"},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},
+     {"name": "a"},
+     {"name": "id: link-0"},
+     {"name": "href: http://business.financialpost.com/news/fp-street/brazils-votorantim-metais-files-for-new-york-toronto-ipo"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h4"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://business.financialpost.com/news/fp-street/brazils-votorantim-metais-files-for-new-york-toronto-ipo",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "rel: bookmark"},
+     {"name": "title: "}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    {
+ "name": "class: w360",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: header-slot",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: section-header-wrap track_event"},
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|2|Header|No type|No name"},
+     {"name": "a"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "href: /category/sports",
+"children": [
+    
+     {"name": "header"},{
+ "name": "class: section-header arts",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: section-label arts",
+"children": [
+    
+     {"name": "h1"},
+     {"name": "class: cat-head arts"},{
+ "name": "span",
+"children": [
+    
+     {"name": "article"},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					sports no-margrin-title col-margrin-title"},{
+ "name": "data-event-tracking: Outfit|4|Show More – D25|1|1|zon|",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},
+     {"name": "id: link-76667728"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "href: /sports/hockey/nhl/montreal-canadiens/stu-cowan-7/wcm/9a3da1e1-0b16-4f81-9aab-652a24fa0496/wcm/9a3da1e1-0b16-4f81-9aab-652a24fa0496",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /sports/hockey/nhl/montreal-canadiens/stu-cowan-7/wcm/9a3da1e1-0b16-4f81-9aab-652a24fa0496/wcm/9a3da1e1-0b16-4f81-9aab-652a24fa0496"},
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"}
+]
+}
+]
+},{
+ "name": "title: ",
+"children": [
+    {
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					sports no-margrin-title col-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|1|2|zon|"},
+     {"name": "figure"},
+     {"name": "class: thumbnail "},
+     {"name": "a"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "id: link-76657841",
+"children": [
+    
+     {"name": "href: /sports/football/nfl/how-does-the-cte-diagnosis-of-murderer-aaron-hernandez-fit-into-the-large-concussion-context/wcm/e454b4f0-efe5-4d54-8c95-d61ef0a00856"},
+     {"name": "target: _self"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /sports/football/nfl/how-does-the-cte-diagnosis-of-murderer-aaron-hernandez-fit-into-the-large-concussion-context/wcm/e454b4f0-efe5-4d54-8c95-d61ef0a00856"},
+     {"name": "target: _self"}
+]
+}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    {
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					sports no-margrin-title col-margrin-title"},
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|1|3|zon|"},
+     {"name": "figure"},
+     {"name": "class: thumbnail "}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76664994"},
+     {"name": "href: /sports/basketball/nba/an-early-look-at-the-questions-the-toronto-raptors-will-have-to-answer-this-season/wcm/3f2d34fb-671f-40e1-9e34-4a3d650c17e1"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /sports/basketball/nba/an-early-look-at-the-questions-the-toronto-raptors-will-have-to-answer-this-season/wcm/3f2d34fb-671f-40e1-9e34-4a3d650c17e1"}
+]
+}
+]
+},{
+ "name": "target: _self",
+"children": [
+    {
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: w360 right"},
+     {"name": "div"},
+     {"name": "class: header-slot"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: section-header-wrap track_event",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|3|Header|No type|No name"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /category/entertainment/"},{
+ "name": "header",
+"children": [
+    
+     {"name": "class: section-header arts"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: section-label arts"},
+     {"name": "h1"},{
+ "name": "class: cat-head arts",
+"children": [
+    
+     {"name": "span"},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					culture no-margrin-title col-margrin-title"},
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|2|1|zon|"}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    {
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},{
+ "name": "id: link-76633101",
+"children": [
+    
+     {"name": "href: /entertainment/in-our-rush-to-be-more-technologically-efficient-weve-become-less-practically-effective-so-how-do-we-fix-that/wcm/d4e98fe9-3de2-4553-8382-c151818509a4"},
+     {"name": "target: _self"},
+     {"name": "header"},
+     {"name": "h4"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /entertainment/in-our-rush-to-be-more-technologically-efficient-weve-become-less-practically-effective-so-how-do-we-fix-that/wcm/d4e98fe9-3de2-4553-8382-c151818509a4"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					culture no-margrin-title col-margrin-title"}
+]
+}
+]
+},{
+ "name": "data-event-tracking: Outfit|4|Show More – D25|2|2|zon|",
+"children": [
+    {
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76633013"},
+     {"name": "href: /entertainment/movies/kingsman-the-golden-circle-shamelessly-doubles-down-on-everything-that-made-the-original-so-odious/wcm/1d511f2c-905a-49d0-bde8-306da00ae761"},
+     {"name": "target: _self"},
+     {"name": "header"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},{
+ "name": "href: /entertainment/movies/kingsman-the-golden-circle-shamelessly-doubles-down-on-everything-that-made-the-original-so-odious/wcm/1d511f2c-905a-49d0-bde8-306da00ae761",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"}
+]
+}
+]
+},{
+ "name": "					culture no-margrin-title col-margrin-title",
+"children": [
+    {
+ "name": "data-event-tracking: Outfit|4|Show More – D25|2|3|zon|",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},
+     {"name": "id: link-76643686"},
+     {"name": "href: /entertainment/movies/are-we-finally-starting-to-see-the-impact-a-trump-presidency-has-on-cinema/wcm/4baf40e0-bd62-48d3-a8f9-ba75e7d8fc3c"},
+     {"name": "target: _self"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /entertainment/movies/are-we-finally-starting-to-see-the-impact-a-trump-presidency-has-on-cinema/wcm/4baf40e0-bd62-48d3-a8f9-ba75e7d8fc3c"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "label"},
+     {"name": "for: check_id"},
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: row",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: w360 left"},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					 no-margrin-title col-margrin-title"},
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|0|1|rss|News – Financial Post"},
+     {"name": "figure"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},
+     {"name": "id: link-0"},{
+ "name": "href: http://business.financialpost.com/news/economy/refile-wrapup-1-mixed-bag-of-canada-economic-data-leaves-room-for-more-rate-hikes",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},
+     {"name": "class: entry-title"},
+     {"name": "a"}
+]
+}
+]
+},{
+ "name": "href: http://business.financialpost.com/news/economy/refile-wrapup-1-mixed-bag-of-canada-economic-data-leaves-room-for-more-rate-hikes",
+"children": [
+    {
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					 no-margrin-title col-margrin-title"},
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|0|2|rss|News – Financial Post"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},
+     {"name": "a"},{
+ "name": "id: link-0",
+"children": [
+    
+     {"name": "href: http://business.financialpost.com/news/designer-of-fashion-worlds-it-shoe-and-ivanka-trump-head-for-courtroom-battle"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    {
+ "name": "href: http://business.financialpost.com/news/designer-of-fashion-worlds-it-shoe-and-ivanka-trump-head-for-courtroom-battle",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "article"},
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					 no-margrin-title col-margrin-title"},{
+ "name": "data-event-tracking: Outfit|4|Show More – D25|0|3|rss|News – Financial Post",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "id: link-0",
+"children": [
+    
+     {"name": "href: http://business.financialpost.com/news/retail-marketing/tim-hortons-franchisee-association-accused-of-leaking-information"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"},{
+ "name": "href: http://business.financialpost.com/news/retail-marketing/tim-hortons-franchisee-association-accused-of-leaking-information",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "div"},
+     {"name": "class: w360"}
+]
+}
+]
+},{
+ "name": "article",
+"children": [
+    {
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					sports no-margrin-title col-margrin-title"},{
+ "name": "data-event-tracking: Outfit|4|Show More – D25|1|1|zon|",
+"children": [
+    
+     {"name": "figure"},
+     {"name": "class: thumbnail "},
+     {"name": "a"},
+     {"name": "id: link-76663124"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "href: /sports/olympics/damian-warners-end-of-season-decathlon-victory-in-france-eases-world-championship-disappointment/wcm/fac63a63-a920-44e9-8610-a0bb397b4db0",
+"children": [
+    
+     {"name": "target: _self"},
+     {"name": "header"},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /sports/olympics/damian-warners-end-of-season-decathlon-victory-in-france-eases-world-championship-disappointment/wcm/fac63a63-a920-44e9-8610-a0bb397b4db0"},
+     {"name": "target: _self"},
+     {"name": "rel: bookmark"}
+]
+}
+]
+},{
+ "name": "title: ",
+"children": [
+    {
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					sports no-margrin-title col-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|1|2|zon|"},
+     {"name": "figure"},
+     {"name": "class: thumbnail "},
+     {"name": "a"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "id: link-76667352",
+"children": [
+    
+     {"name": "href: /sports/baseball/ryan-goins-grand-slam-homer-helps-power-toronto-blue-jays-past-new-york-yankees-8-1/wcm/f9d5f5be-7fbb-4b0c-9cbf-72eb3807d9f4"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h4"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /sports/baseball/ryan-goins-grand-slam-homer-helps-power-toronto-blue-jays-past-new-york-yankees-8-1/wcm/f9d5f5be-7fbb-4b0c-9cbf-72eb3807d9f4",
+"children": [
+    
+     {"name": "target: _self"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},{
+ "name": "					sports no-margrin-title col-margrin-title",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|1|3|zon|"},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-76643726"},
+     {"name": "href: /sports/hockey/nhl/we-dont-like-them-buffalo-sabres-star-jack-eichel-fans-flames-of-budding-rivalry-with-toronto-maple-leafs/wcm/f065bad9-1614-4497-a792-cfa5519b627d"},
+     {"name": "target: _self"},{
+ "name": "header",
+"children": [
+    
+     {"name": "h4"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /sports/hockey/nhl/we-dont-like-them-buffalo-sabres-star-jack-eichel-fans-flames-of-budding-rivalry-with-toronto-maple-leafs/wcm/f065bad9-1614-4497-a792-cfa5519b627d"},
+     {"name": "target: _self"}
+]
+}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: icon-label-holder"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: media-icon watch"},
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "class: media-label",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: w360 right"},{
+ "name": "article",
+"children": [
+    
+     {"name": "class: post post-excerpt hentry track_event"},
+     {"name": "					culture no-margrin-title col-margrin-title"},
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|2|1|zon|"},
+     {"name": "figure"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "id: link-76641879",
+"children": [
+    
+     {"name": "href: /entertainment/movies/battle-of-the-sexes-delightfully-puts-the-show-in-chauvinism/wcm/8856051c-e3e4-455b-9980-db8ef676a38a"}
+]
+},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h4"},
+     {"name": "class: entry-title"},
+     {"name": "a"},
+     {"name": "href: /entertainment/movies/battle-of-the-sexes-delightfully-puts-the-show-in-chauvinism/wcm/8856051c-e3e4-455b-9980-db8ef676a38a"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"}
+]
+},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "article"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: post post-excerpt hentry track_event",
+"children": [
+    
+     {"name": "					culture no-margrin-title col-margrin-title"},
+     {"name": "data-event-tracking: Outfit|4|Show More – D25|2|2|zon|"},
+     {"name": "figure"},{
+ "name": "class: thumbnail ",
+"children": [
+    
+     {"name": "a"},{
+ "name": "id: link-76633159",
+"children": [
+    
+     {"name": "href: /entertainment/books/book-reviews/hillary-clintons-what-happened-is-a-salve-for-those-whose-wounds-have-yet-to-close/wcm/73d6b4b8-8a74-458f-8993-be0f20fde843"},
+     {"name": "target: _self"},
+     {"name": "header"}
+]
+}
+]
+},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: entry-title"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /entertainment/books/book-reviews/hillary-clintons-what-happened-is-a-salve-for-those-whose-wounds-have-yet-to-close/wcm/73d6b4b8-8a74-458f-8993-be0f20fde843"},{
+ "name": "target: _self",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "}
+]
+}
+]
+},{
+ "name": "section",
+"children": [
+    {
+ "name": "id: section_6",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: outfit primary adsizewrapper d24",
+"children": [
+    
+     {"name": "data-outfit-name: d24"},
+     {"name": "div"},
+     {"name": "class: outfit-d24"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: row",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: fullwidth",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: outfit-slider",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: slide-window"},
+     {"name": "div"},
+     {"name": "class: slot"},
+     {"name": "article"},{
+ "name": "id: post-0",
+"children": [
+    
+     {"name": "class: post-0"}
+]
+},{
+ "name": "					post post-excerpt hentry track_event post-0",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|5|Single Story Slider - D24|0|1|rss|New and Used Car Reviews, Comparisons and News | Driving"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "},
+     {"name": "a"},
+     {"name": "id: link-0"},{
+ "name": "href: http://driving.ca/audi/rs-7/auto-news/news/next-gen-audi-rs7-could-pack-more-than-700-horsepower/",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: article_content"},
+     {"name": "span"},
+     {"name": "class: label"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: "},{
+ "name": "class: ",
+"children": [
+    
+     {"name": "header"},{
+ "name": "h2",
+"children": [
+    
+     {"name": "class: entry-title"},
+     {"name": "a"}
+]
+}
+]
+},{
+ "name": "href: http://driving.ca/audi/rs-7/auto-news/news/next-gen-audi-rs7-could-pack-more-than-700-horsepower/",
+"children": [
+    {
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "h4"},
+     {"name": "class: author_name"},
+     {"name": "div"},
+     {"name": "class: entry-content"}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: continue-reading-link"}
+]
+},{
+ "name": "href: http://driving.ca/audi/rs-7/auto-news/news/next-gen-audi-rs7-could-pack-more-than-700-horsepower/",
+"children": [
+    
+     {"name": "target: _blank"}
+]
+},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "span"},
+     {"name": "class: continue-reading-link-text"},
+     {"name": "span"},
+     {"name": "class: arrow"},{
+ "name": "article",
+"children": [
+    
+     {"name": "id: post-0"}
+]
+},{
+ "name": "class: post-0",
+"children": [
+    
+     {"name": "					post post-excerpt hentry track_event post-1"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "data-event-tracking: Outfit|5|Single Story Slider - D24|0|2|rss|New and Used Car Reviews, Comparisons and News | Driving",
+"children": [
+    
+     {"name": "figure"},
+     {"name": "class: thumbnail "},
+     {"name": "a"},{
+ "name": "id: link-0",
+"children": [
+    
+     {"name": "href: http://driving.ca/alfa-romeo/giulia/auto-news/news/two-door-alfa-romeo-giulia-reportedly-due-out-next-year/"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: article_content"},
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "class: label",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: ",
+"children": [
+    
+     {"name": "class: "},{
+ "name": "header",
+"children": [
+    
+     {"name": "h2"},
+     {"name": "class: entry-title"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    {
+ "name": "href: http://driving.ca/alfa-romeo/giulia/auto-news/news/two-door-alfa-romeo-giulia-reportedly-due-out-next-year/",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "rel: bookmark",
+"children": [
+    
+     {"name": "title: "},
+     {"name": "h4"},
+     {"name": "class: author_name"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "class: continue-reading-link",
+"children": [
+    
+     {"name": "href: http://driving.ca/alfa-romeo/giulia/auto-news/news/two-door-alfa-romeo-giulia-reportedly-due-out-next-year/"}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "span"},
+     {"name": "class: continue-reading-link-text"},
+     {"name": "span"},{
+ "name": "class: arrow",
+"children": [
+    
+     {"name": "article"}
+]
+},{
+ "name": "id: post-0",
+"children": [
+    
+     {"name": "class: post-0"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "					post post-excerpt hentry track_event post-2",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|5|Single Story Slider - D24|0|3|rss|New and Used Car Reviews, Comparisons and News | Driving"},
+     {"name": "figure"},
+     {"name": "class: thumbnail "},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-0"},{
+ "name": "href: http://driving.ca/jaguar/epace/auto-news/news/jaguars-e-pace-inspired-by-the-f-type-says-designer/",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "div"},
+     {"name": "class: article_content"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: label"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: "},{
+ "name": "class: ",
+"children": [
+    
+     {"name": "header"},
+     {"name": "h2"}
+]
+}
+]
+},{
+ "name": "class: entry-title",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://driving.ca/jaguar/epace/auto-news/news/jaguars-e-pace-inspired-by-the-f-type-says-designer/"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "h4"},
+     {"name": "class: author_name"}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: entry-content"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "class: continue-reading-link"}
+]
+},{
+ "name": "href: http://driving.ca/jaguar/epace/auto-news/news/jaguars-e-pace-inspired-by-the-f-type-says-designer/",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "span"},
+     {"name": "class: continue-reading-link-text"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: arrow"}
+]
+},{
+ "name": "article",
+"children": [
+    
+     {"name": "id: post-0"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: post-0",
+"children": [
+    
+     {"name": "					post post-excerpt hentry track_event post-3"},
+     {"name": "data-event-tracking: Outfit|5|Single Story Slider - D24|0|4|rss|New and Used Car Reviews, Comparisons and News | Driving"}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-0"},
+     {"name": "href: http://driving.ca/subaru/legacy/reviews/road-test/first-drive-2018-subaru-legacy/"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: article_content"},
+     {"name": "span"},{
+ "name": "class: label",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: ",
+"children": [
+    
+     {"name": "class: "},
+     {"name": "header"},
+     {"name": "h2"},{
+ "name": "class: entry-title",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://driving.ca/subaru/legacy/reviews/road-test/first-drive-2018-subaru-legacy/"}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "rel: bookmark"},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "h4"},{
+ "name": "class: author_name",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "class: continue-reading-link",
+"children": [
+    
+     {"name": "href: http://driving.ca/subaru/legacy/reviews/road-test/first-drive-2018-subaru-legacy/"}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "rel: bookmark"}
+]
+},{
+ "name": "title: ",
+"children": [
+    
+     {"name": "span"}
+]
+},{
+ "name": "class: continue-reading-link-text",
+"children": [
+    
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "class: arrow",
+"children": [
+    
+     {"name": "article"},{
+ "name": "id: post-0",
+"children": [
+    
+     {"name": "class: post-0"}
+]
+},{
+ "name": "					post post-excerpt hentry track_event post-4",
+"children": [
+    
+     {"name": "data-event-tracking: Outfit|5|Single Story Slider - D24|0|5|rss|New and Used Car Reviews, Comparisons and News | Driving"}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: thumbnail "}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "id: link-0"}
+]
+}
+]
+},{
+ "name": "href: http://driving.ca/nissan/armada/auto-news/news/three-massive-suvs-with-equally-massive-deals/",
+"children": [
+    
+     {"name": "target: _blank"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: article_content"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: label"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: "}
+]
+},{
+ "name": "class: ",
+"children": [
+    
+     {"name": "header"}
+]
+},{
+ "name": "h2",
+"children": [
+    
+     {"name": "class: entry-title"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://driving.ca/nissan/armada/auto-news/news/three-massive-suvs-with-equally-massive-deals/"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "rel: bookmark"},
+     {"name": "title: "},{
+ "name": "h4",
+"children": [
+    
+     {"name": "class: author_name"},
+     {"name": "div"},{
+ "name": "class: entry-content",
+"children": [
+    
+     {"name": "a"},
+     {"name": "class: continue-reading-link"},
+     {"name": "href: http://driving.ca/nissan/armada/auto-news/news/three-massive-suvs-with-equally-massive-deals/"},
+     {"name": "target: _blank"},
+     {"name": "rel: bookmark"},
+     {"name": "title: "},
+     {"name": "span"},{
+ "name": "class: continue-reading-link-text",
+"children": [
+    {
+ "name": "span",
+"children": [
+    
+     {"name": "class: arrow"},
+     {"name": "span"},
+     {"name": "class: next btn"}
+]
+},{
+ "name": "id: outfit-slider-btn-next",
+"children": [
+    
+     {"name": "span"},
+     {"name": "class: slider-page-no"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: prev btn"},
+     {"name": "id: outfit-slider-btn-prev"},{
+ "name": "footer",
+"children": [
+    
+     {"name": "class: l-footer"},
+     {"name": "itemscope"},
+     {"name": "itemtype: http://schema.org/WPFooter"},
+     {"name": "div"},
+     {"name": "class: l-constrained"},
+     {"name": "div"},
+     {"name": "id: footer-tier-1"},{
+ "name": "class: track_event",
+"children": [
+    {
+ "name": "data-event-tracking: Footer - Logo",
+"children": [
+    
+     {"name": "a"},
+     {"name": "itemprop: url"},
+     {"name": "href: http://nationalpost.com"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: footer-tier-2"},
+     {"name": "section"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "h2",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://www.legacy.com/obituaries/nationalpost/"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.legacy.com/celebration/nationalpost/"},
+     {"name": "a"},
+     {"name": "href: http://classifieds.nationalpost.com/"},
+     {"name": "a"},
+     {"name": "href: http://working.com/toronto"},
+     {"name": "a"},
+     {"name": "href: http://www.flyercity.ca/?p=nationalpost&locale=en&utm_campaign=pm_nav-bar&utm_source=nav-bar&utm_medium=nav-bar&utm_term=NationalPost"},{
+ "name": "a",
+"children": [
+    {
+ "name": "href: http://nationalpost.adperfect.com/",
+"children": [
+    
+     {"name": "section"},
+     {"name": "h2"},
+     {"name": "a"}
+]
+},{
+ "name": "href: https://secure.nationalpost.com/partnerships/entry.html",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://www.postmediasolutions.com"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.postmediasolutions.com/client-resources/"},
+     {"name": "a"},{
+ "name": "href: http://www.postmediaadvertising.com/content-works/%20",
+"children": [
+    
+     {"name": "section"},
+     {"name": "h2"},
+     {"name": "section"},
+     {"name": "h2"},
+     {"name": "a"},
+     {"name": "href: http://nationalpost.com/post-points"},
+     {"name": "a"},{
+ "name": "href: https://subscriptions.nationalpost.com/new_devel/index_sub1.html#:/new_devel/new-print.html",
+"children": [
+    {
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://epaper.nationalpost.com/epaper/viewer.aspx"},
+     {"name": "a"},
+     {"name": "href: http://www.nationalpost.com/newsletters/subscribe/index.html"}
+]
+},{
+ "name": "section",
+"children": [
+    
+     {"name": "h2"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: social-media-widget track_event",
+"children": [
+    
+     {"name": "data-event-tracking: Footer - Social"},
+     {"name": "a"},{
+ "name": "href: http://facebook.com/nationalpost",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "svg"},
+     {"name": "version: 1.1"},
+     {"name": "xmlns: http://www.w3.org/2000/svg"},
+     {"name": "xmlns:xlink: http://www.w3.org/1999/xlink"},
+     {"name": "width: 30px"},
+     {"name": "height: 30px"},{
+ "name": "viewbox: 0 0 30 30",
+"children": [
+    {
+ "name": "class: icon-facebook",
+"children": [
+    
+     {"name": "g"},
+     {"name": "path"},
+     {"name": "fill: #1B75BB"}
+]
+},{
+ "name": "class: bg",
+"children": [
+    
+     {"name": "d: M30 15c0 8.3-6.7 15-15 15C6.7 30 0 23.3 0 15 0 6.7 6.7 0 15 0 23.3 0 30 6.7 30 15"},
+     {"name": "path"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "fill: #FFFFFF",
+"children": [
+    
+     {"name": "d: M18.7 6.8v2.5h-1.5c-0.5 0-0.9 0.1-1.1 0.3 -0.2 0.2-0.3 0.6-0.3 1v1.8h2.8l-0.4 2.8h-2.4v7.2h-2.9v-7.2h-2.4v-2.8h2.4v-2.1c0-1.2 0.3-2.1 1-2.7 0.7-0.6 1.5-1 2.6-1C17.5 6.7 18.2 6.8 18.7 6.8z"},
+     {"name": "a"},{
+ "name": "href: http://twitter.com/nationalpost",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "svg"},
+     {"name": "version: 1.1"},
+     {"name": "xmlns: http://www.w3.org/2000/svg"},
+     {"name": "xmlns:xlink: http://www.w3.org/1999/xlink"},
+     {"name": "width: 30px"},
+     {"name": "height: 30px"},{
+ "name": "viewbox: 0 0 30 30",
+"children": [
+    {
+ "name": "class: icon-twitter",
+"children": [
+    
+     {"name": "g"},
+     {"name": "path"},
+     {"name": "fill: #4EC8F4"}
+]
+},{
+ "name": "class: bg",
+"children": [
+    
+     {"name": "d: M30 15c0 8.3-6.7 15-15 15C6.7 30 0 23.3 0 15 0 6.7 6.7 0 15 0 23.3 0 30 6.7 30 15"},
+     {"name": "path"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "fill: #FFFFFF",
+"children": [
+    
+     {"name": "d: M22.5 10.4c-0.4 0.6-0.9 1.1-1.5 1.6 0 0.1 0 0.2 0 0.4 0 0.8-0.1 1.6-0.4 2.5 -0.2 0.8-0.6 1.6-1.1 2.4 -0.5 0.8-1.1 1.4-1.7 2 -0.7 0.6-1.5 1-2.4 1.4 -1 0.3-2 0.5-3.1 0.5 -1.7 0-3.3-0.5-4.7-1.4 0.2 0 0.5 0 0.7 0 1.4 0 2.7-0.4 3.8-1.3 -0.7 0-1.3-0.2-1.8-0.6 -0.5-0.4-0.9-0.9-1.1-1.5 0.2 0 0.4 0 0.6 0 0.3 0 0.5 0 0.8-0.1 -0.7-0.1-1.3-0.5-1.8-1.1s-0.7-1.2-0.7-1.9v0c0.4 0.2 0.9 0.4 1.4 0.4 -0.4-0.3-0.7-0.6-1-1.1 -0.2-0.4-0.4-0.9-0.4-1.5 0-0.6 0.1-1.1 0.4-1.5 0.8 0.9 1.7 1.7 2.8 2.3 1.1 0.6 2.3 0.9 3.5 0.9 0-0.2-0.1-0.5-0.1-0.7 0-0.8 0.3-1.6 0.9-2.2 0.6-0.6 1.3-0.9 2.2-0.9 0.9 0 1.6 0.3 2.2 1 0.7-0.1 1.3-0.4 1.9-0.7 -0.2 0.7-0.7 1.3-1.3 1.7C21.3 10.8 21.9 10.6 22.5 10.4z"},
+     {"name": "a"},{
+ "name": "href: http://nationalpost.tumblr.com",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "svg"},
+     {"name": "version: 1.1"},
+     {"name": "xmlns: http://www.w3.org/2000/svg"},
+     {"name": "xmlns:xlink: http://www.w3.org/1999/xlink"},
+     {"name": "width: 30px"},
+     {"name": "height: 30px"},{
+ "name": "viewbox: 0 0 30 30",
+"children": [
+    {
+ "name": "class: icon-tumblr",
+"children": [
+    
+     {"name": "g"},
+     {"name": "path"},
+     {"name": "fill: #28364A"}
+]
+},{
+ "name": "class: bg",
+"children": [
+    
+     {"name": "d: M30 15c0 8.3-6.7 15-15 15C6.7 30 0 23.3 0 15 0 6.7 6.7 0 15 0 23.3 0 30 6.7 30 15"},
+     {"name": "path"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "fill: #FFFFFF",
+"children": [
+    
+     {"name": "d: M19 21.1c-0.2 0.4-1.4 0.8-2.4 0.8 -3 0.1-4.2-2.2-4.2-3.7v-4.6H11v-1.8c2.1-0.8 2.6-2.7 2.7-3.8 0-0.1 0.1-0.1 0.1-0.1h2v3.5h2.8v2.1h-2.8v4.3c0 0.6 0.2 1.4 1.3 1.4 0.4 0 0.9-0.1 1.1-0.2L19 21.1z"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://pinterest.com/nationalpost/"},
+     {"name": "target: _blank"},
+     {"name": "svg"},
+     {"name": "version: 1.1"},
+     {"name": "xmlns: http://www.w3.org/2000/svg"},
+     {"name": "xmlns:xlink: http://www.w3.org/1999/xlink"},
+     {"name": "width: 30px"},{
+ "name": "height: 30px",
+"children": [
+    {
+ "name": "viewbox: 0 0 30 30",
+"children": [
+    
+     {"name": "class: icon-pinterest"},
+     {"name": "g"},
+     {"name": "path"}
+]
+},{
+ "name": "fill: #D02E27",
+"children": [
+    
+     {"name": "class: bg"},
+     {"name": "d: M30 15C30 23.3 23.3 30 15 30 6.7 30 0 23.3 0 15 0 6.7 6.7 0 15 0 23.3 0 30 6.7 30 15"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "path",
+"children": [
+    
+     {"name": "fill: #FFFFFF"},
+     {"name": "d: M9.3 12.5c0-0.6 0.1-1.2 0.3-1.8 0.2-0.6 0.5-1.1 0.9-1.5 0.4-0.4 0.8-0.8 1.4-1.1 0.5-0.3 1.1-0.5 1.7-0.7 0.6-0.2 1.2-0.2 1.8-0.2 0.9 0 1.8 0.2 2.6 0.6 0.8 0.4 1.5 1 2 1.7s0.8 1.6 0.8 2.6c0 0.6-0.1 1.1-0.2 1.7 -0.1 0.5-0.3 1.1-0.5 1.6s-0.5 1-0.9 1.3 -0.8 0.7-1.3 0.9c-0.5 0.2-1.1 0.3-1.7 0.3 -0.4 0-0.8-0.1-1.2-0.3s-0.7-0.5-0.9-0.8c-0.1 0.2-0.1 0.6-0.2 1s-0.2 0.7-0.2 0.8c0 0.1-0.1 0.3-0.2 0.6 -0.1 0.3-0.2 0.5-0.2 0.6 -0.1 0.1-0.2 0.3-0.3 0.6s-0.3 0.5-0.4 0.7c-0.1 0.2-0.3 0.5-0.6 0.8l-0.1 0 -0.1-0.1c-0.1-0.9-0.1-1.5-0.1-1.7 0-0.5 0.1-1.2 0.2-1.8 0.1-0.7 0.3-1.5 0.6-2.6 0.3-1 0.4-1.6 0.5-1.8 -0.2-0.4-0.3-0.9-0.3-1.5 0-0.5 0.2-1 0.5-1.4 0.3-0.4 0.7-0.7 1.2-0.7 0.4 0 0.6 0.1 0.9 0.4 0.2 0.2 0.3 0.5 0.3 0.9 0 0.4-0.1 1-0.4 1.7s-0.4 1.3-0.4 1.7c0 0.4 0.1 0.7 0.4 0.9 0.3 0.2 0.6 0.4 1 0.4 0.3 0 0.6-0.1 0.9-0.2 0.3-0.1 0.5-0.4 0.7-0.6s0.4-0.5 0.5-0.8 0.3-0.6 0.3-1c0.1-0.3 0.1-0.7 0.2-1s0.1-0.6 0.1-0.9c0-1-0.3-1.8-1-2.4s-1.5-0.9-2.5-0.9c-1.2 0-2.2 0.4-3 1.2 -0.8 0.8-1.2 1.7-1.2 2.9 0 0.3 0 0.5 0.1 0.8 0.1 0.2 0.2 0.4 0.2 0.6 0.1 0.1 0.2 0.3 0.2 0.4 0.1 0.1 0.1 0.2 0.1 0.3 0 0.2 0 0.4-0.1 0.7s-0.2 0.4-0.3 0.4c0 0-0.1 0-0.2 0 -0.3-0.1-0.6-0.3-0.8-0.5 -0.2-0.2-0.4-0.5-0.5-0.8 -0.1-0.3-0.2-0.6-0.3-1C9.3 13.1 9.3 12.8 9.3 12.5z"},
+     {"name": "a"},
+     {"name": "href: https://www.youtube.com/nationalpost"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "svg"}
+]
+},{
+ "name": "version: 1.1",
+"children": [
+    
+     {"name": "xmlns: http://www.w3.org/2000/svg"}
+]
+},{
+ "name": "xmlns:xlink: http://www.w3.org/1999/xlink",
+"children": [
+    
+     {"name": "width: 30px"}
+]
+},{
+ "name": "height: 30px",
+"children": [
+    
+     {"name": "viewbox: 0 0 30 30"}
+]
+},{
+ "name": "class: icon-youtube",
+"children": [
+    
+     {"name": "g"}
+]
+},{
+ "name": "path",
+"children": [
+    
+     {"name": "fill: #E32F27"}
+]
+},{
+ "name": "class: bg",
+"children": [
+    
+     {"name": "d: M30 15C30 23.3 23.3 30 15 30S0 23.3 0 15C0 6.7 6.7 0 15 0S30 6.7 30 15"}
+]
+},{
+ "name": "path",
+"children": [
+    
+     {"name": "fill: #FFFFFF"}
+]
+},{
+ "name": "d: M23 13.8c0 0.3 0 0.8 0 1.3 0 0.6 0 1 0 1.3 0 0.3 0 0.7-0.1 1.2 0 0.5-0.1 0.9-0.2 1.3 -0.1 0.4-0.3 0.8-0.6 1.1 -0.3 0.3-0.7 0.5-1.1 0.5 -1.3 0.1-3.3 0.2-6 0.2 -2.7 0-4.7-0.1-6-0.2 -0.4 0-0.8-0.2-1.1-0.5 -0.3-0.3-0.5-0.7-0.6-1.1 -0.1-0.4-0.1-0.8-0.2-1.3 0-0.5-0.1-0.9-0.1-1.2s0-0.8 0-1.3c0-0.6 0-1 0-1.3s0-0.7 0.1-1.2c0-0.5 0.1-0.9 0.2-1.3 0.1-0.4 0.3-0.8 0.6-1.1S8.6 9.7 9 9.7c1.3-0.1 3.3-0.2 6-0.2 2.7 0 4.7 0.1 6 0.2 0.4 0 0.8 0.2 1.1 0.5s0.5 0.7 0.6 1.1c0.1 0.4 0.1 0.8 0.2 1.3C23 13.1 23 13.5 23 13.8zM18.4 15.1c0-0.2-0.1-0.4-0.3-0.5l-4.6-2.9c-0.2-0.1-0.4-0.1-0.6 0 -0.2 0.1-0.3 0.3-0.3 0.5V18c0 0.2 0.1 0.4 0.3 0.5 0.1 0 0.2 0.1 0.3 0.1 0.1 0 0.2 0 0.3-0.1l4.6-2.9C18.3 15.5 18.4 15.4 18.4 15.1z",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "href: https://www.instagram.com/nationalpost/",
+"children": [
+    
+     {"name": "target: _blank"}
+]
+},{
+ "name": "svg",
+"children": [
+    
+     {"name": "version: 1.1"}
+]
+},{
+ "name": "xmlns: http://www.w3.org/2000/svg",
+"children": [
+    
+     {"name": "xmlns:xlink: http://www.w3.org/1999/xlink"}
+]
+},{
+ "name": "width: 30px",
+"children": [
+    
+     {"name": "height: 30px"}
+]
+},{
+ "name": "viewbox: 0 0 30 30",
+"children": [
+    
+     {"name": "class: icon-instagram"}
+]
+},{
+ "name": "g",
+"children": [
+    
+     {"name": "path"}
+]
+},{
+ "name": "fill: #2E5E86",
+"children": [
+    
+     {"name": "class: bg"}
+]
+},{
+ "name": "d: M30 15c0 8.3-6.7 15-15 15C6.7 30 0 23.3 0 15 0 6.7 6.7 0 15 0 23.3 0 30 6.7 30 15",
+"children": [
+    
+     {"name": "path"}
+]
+},{
+ "name": "fill: #FFFFFF",
+"children": [
+    
+     {"name": "d: M21.9 10V20.2c0 0.5-0.2 0.9-0.5 1.2 -0.3 0.3-0.8 0.5-1.2 0.5H9.9c-0.5 0-0.9-0.2-1.2-0.5 -0.3-0.3-0.5-0.8-0.5-1.2V10c0-0.5 0.2-0.9 0.5-1.2C9 8.5 9.4 8.3 9.9 8.3h10.2c0.5 0 0.9 0.2 1.2 0.5C21.7 9.1 21.9 9.6 21.9 10zM20.3 19.9v-5.8h-1.2c0.1 0.4 0.2 0.8 0.2 1.2 0 0.8-0.2 1.4-0.6 2.1s-0.9 1.1-1.6 1.5c-0.7 0.4-1.4 0.6-2.1 0.6 -1.2 0-2.2-0.4-3-1.2s-1.2-1.8-1.2-2.9c0-0.4 0.1-0.8 0.2-1.2H9.7v5.8c0 0.2 0.1 0.3 0.2 0.4s0.2 0.2 0.4 0.2h9.5c0.1 0 0.3-0.1 0.4-0.2C20.2 20.2 20.3 20 20.3 19.9zM17 17c0.5-0.5 0.8-1.1 0.8-1.9s-0.3-1.4-0.8-1.9c-0.5-0.5-1.2-0.8-2-0.8 -0.8 0-1.4 0.3-1.9 0.8 -0.5 0.5-0.8 1.2-0.8 1.9s0.3 1.4 0.8 1.9 1.2 0.8 1.9 0.8C15.8 17.8 16.4 17.5 17 17zM20.3 11.9v-1.5c0-0.2-0.1-0.3-0.2-0.4s-0.3-0.2-0.4-0.2h-1.6c-0.2 0-0.3 0.1-0.4 0.2s-0.2 0.3-0.2 0.4v1.5c0 0.2 0.1 0.3 0.2 0.4s0.3 0.2 0.4 0.2h1.6c0.2 0 0.3-0.1 0.4-0.2S20.3 12.1 20.3 11.9z"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /rss"}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "svg"}
+]
+},{
+ "name": "version: 1.1",
+"children": [
+    
+     {"name": "xmlns: http://www.w3.org/2000/svg"}
+]
+},{
+ "name": "xmlns:xlink: http://www.w3.org/1999/xlink",
+"children": [
+    
+     {"name": "width: 30px"}
+]
+},{
+ "name": "height: 30px",
+"children": [
+    
+     {"name": "viewbox: 0 0 30 30"}
+]
+},{
+ "name": "class: icon-rss",
+"children": [
+    
+     {"name": "g"}
+]
+}
+]
+},{
+ "name": "path",
+"children": [
+    
+     {"name": "fill: #F6B31C"},{
+ "name": "class: bg",
+"children": [
+    
+     {"name": "d: M30 15C30 23.3 23.3 30 15 30 6.7 30 0 23.3 0 15 0 6.7 6.7 0 15 0 23.3 0 30 6.7 30 15"},
+     {"name": "path"},{
+ "name": "fill: #FFFFFF",
+"children": [
+    
+     {"name": "d: M11.8 20.4c-1 0-1.8-0.8-1.8-1.8s0.8-1.8 1.8-1.8c1 0 1.8 0.8 1.8 1.8S12.8 20.4 11.8 20.4M18.1 20.2c-0.1 0.1-0.3 0.2-0.4 0.2h-1.2c-0.3 0-0.6-0.2-0.6-0.5 -0.3-2.8-2.5-5.1-5.3-5.3 -0.3 0-0.5-0.3-0.5-0.6V12.7c0-0.2 0.1-0.3 0.2-0.4 0.1-0.1 0.3-0.2 0.4-0.2h0c2 0.2 3.8 1 5.2 2.4 1.4 1.4 2.3 3.3 2.4 5.2C18.3 19.9 18.3 20 18.1 20.2M22.9 20.2c-0.1 0.1-0.3 0.2-0.4 0.2h-1.3c-0.3 0-0.6-0.2-0.6-0.6 -0.3-5.4-4.6-9.6-9.9-10 -0.3 0-0.6-0.3-0.6-0.6v-1.3c0-0.2 0.1-0.3 0.2-0.4 0.1-0.1 0.3-0.2 0.4-0.2h0c3.2 0.2 6.3 1.5 8.6 3.8 2.3 2.3 3.7 5.3 3.8 8.6C23 19.9 23 20 22.9 20.2"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #managenewsletters"},
+     {"name": "svg"},
+     {"name": "version: 1.1"}
+]
+},{
+ "name": "xmlns: http://www.w3.org/2000/svg",
+"children": [
+    {
+ "name": "xmlns:xlink: http://www.w3.org/1999/xlink",
+"children": [
+    
+     {"name": "width: 30px"}
+]
+},{
+ "name": "height: 30px",
+"children": [
+    
+     {"name": "viewbox: 0 0 30 30"}
+]
+},{
+ "name": "class: icon-email",
+"children": [
+    
+     {"name": "g"},
+     {"name": "path"},
+     {"name": "fill: #6EA943"},
+     {"name": "class: bg"},{
+ "name": "d: M30 15c0 8.3-6.7 15-15 15C6.7 30 0 23.3 0 15 0 6.7 6.7 0 15 0 23.3 0 30 6.7 30 15",
+"children": [
+    
+     {"name": "path"}
+]
+}
+]
+},{
+ "name": "fill: #FFFFFF",
+"children": [
+    
+     {"name": "d: M22.1 19.3c0 0.7-0.6 1.3-1.3 1.3H9.2c-0.7 0-1.3-0.6-1.3-1.3v-6.3c0.2 0.3 0.5 0.5 0.8 0.7 1.3 0.9 2.6 1.8 3.9 2.7 0.7 0.5 1.5 1.1 2.3 1.1H15h0c0.9 0 1.7-0.6 2.3-1.1 1.3-0.9 2.6-1.8 3.9-2.7 0.3-0.2 0.6-0.4 0.8-0.7V19.3zM20.7 12.9c-1.2 0.9-2.5 1.7-3.7 2.6 -0.5 0.4-1.4 1.1-2 1.1H15h0c-0.6 0-1.5-0.7-2-1.1 -1.2-0.9-2.5-1.7-3.7-2.6C8.7 12.5 7.9 11.6 7.9 10.9c0-0.8 0.4-1.4 1.3-1.4h11.6c0.7 0 1.3 0.6 1.3 1.3C22.1 11.6 21.4 12.4 20.7 12.9"},
+     {"name": "div"},
+     {"name": "id: footer-tier-3"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: show-more-parent track_event",
+"children": [
+    
+     {"name": "data-event-tracking: Footer - Properties"},{
+ "name": "h2",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "href: http://www.nationalpost.com/",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "href: http://driving.ca",
+"children": [
+    
+     {"name": "a"}
+]
+}
+]
+},{
+ "name": "href: http://www.theprovince.com/",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://vancouversun.com/",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "href: http://edmontonjournal.com/",
+"children": [
+    
+     {"name": "a"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+     {"name": "href: http://calgaryherald.com/"},
+     {"name": "a"},
+     {"name": "href: http://leaderpost.com/"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://thestarphoenix.com/"}
+]
+},
+     {"name": "a"},{
+ "name": "href: http://windsorstar.com/",
+"children": [
+    
+     {"name": "a"}
+]
+},
+     {"name": "href: http://ottawacitizen.com/"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://montrealgazette.com/"},
+     {"name": "a"},{
+ "name": "href: http://www.torontosun.com/",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://www.ottawasun.com/",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "href: http://www.calgarysun.com/",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://edmontonsun.com"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://winnipegsun.com"},
+     {"name": "a"},
+     {"name": "href: http://www.toronto24hours.ca/"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://vancouver.24hrs.ca/"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.lfpress.com/"},{
+ "name": "a",
+"children": [
+    {
+ "name": "href: http://o.canada.com/",
+"children": [
+    
+     {"name": "a"}
+]
+}
+]
+},{
+ "name": "href: http://en.canoe.com/home.html",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://www.flyercity.ca/?p=nationalpost&locale=en&utm_campaign=pm_nav-bar&utm_source=nav-bar&utm_medium=nav-bar&utm_term=NationalPost",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://www.workopolis.com/jobsearch/jobs-at-postmedia-network-inc-/1958926-1958926"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    {
+ "name": "href: javascript:void(0);",
+"children": [
+    
+     {"name": "div"},
+     {"name": "id: footer-tier-4"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: copyright-block track_event"}
+]
+}
+]
+},{
+ "name": "data-event-tracking: Footer - Copyrights",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: block-full"},
+     {"name": "a"},
+     {"name": "href: http://www.postmedia.com/brands"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: postmedia",
+"children": [
+    
+     {"name": "title: Postmedia Network Inc."},{
+ "name": "span",
+"children": [
+    
+     {"name": "span"},{
+ "name": "itemprop: copyrightYear",
+"children": [
+    
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "itemprop: copyrightHolder",
+"children": [
+    
+     {"name": "span"},{
+ "name": "itemprop: sourceOrganization",
+"children": [
+    
+     {"name": "itemscope"},
+     {"name": "itemtype: http://schema.org/Organization"}
+]
+},{
+ "name": "itemid: http://www.postmedia.com",
+"children": [
+    
+     {"name": "span"},
+     {"name": "itemprop: name"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: https://vip.wordpress.com/?utm_source=vip_powered_wpcom&utm_medium=web&utm_campaign=VIP%20Footer%20Credit&utm_term=nationalpost.com"},
+     {"name": "rel: generator nofollow"},{
+ "name": "class: powered-by-wpcom",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: block-left",
+"children": [
+    
+     {"name": "a"}
+]
+},{
+ "name": "href: http://www.postmediaadvertising.com/privacy-statement/",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://www.canada.com/aboutus/termsofservice.html"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.canada.com/aboutus/copyright.html"},
+     {"name": "div"},{
+ "name": "class: block-right",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /site-map",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /contact"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "script",
+"children": [
+    
+     {"name": "script"},{
+ "name": "script",
+"children": [
+    
+     {"name": "div"},{
+ "name": "id: mg2Widget-newsletter-container",
+"children": [
+    
+     {"name": "script"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none"},{
+ "name": "script",
+"children": [
+    
+     {"name": "div"},
+     {"name": "style: display:none;"}
+]
+},{
+ "name": "id: signIn",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: modalarea"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: logo_image"},
+     {"name": "div"},{
+ "name": "class: capture_header",
+"children": [
+    
+     {"name": "h1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_signin"}
+]
+},{
+ "name": "h2",
+"children": [
+    
+     {"name": "br"},
+     {"name": "div"}
+]
+},{
+ "name": "class: capture_backgroundColor",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: capture_signin",
+"children": [
+    
+     {"name": "h2"}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "id: capture_sitename"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_form_item"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "data-capturescreen: forgotPassword"},{
+ "name": "div",
+"children": [
+    
+     {"name": "button"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: capture_btn capture_primary",
+"children": [
+    
+     {"name": "type: submit"},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: janrain-icon-16 janrain-icon-key"},
+     {"name": "a"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "href: #",
+"children": [
+    
+     {"name": "id: capture_signIn_createAccountButton"},{
+ "name": "data-capturescreen: traditionalRegistration",
+"children": [
+    
+     {"name": "class: capture_btn_half capture_createAccountButton capture_btn capture_primary"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modal_footer"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: mice-type"},{
+ "name": "span",
+"children": [
+    
+     {"name": "id: capture_sitename"},
+     {"name": "div"}
+]
+},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /subscribe/faq/"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "div"},{
+ "name": "style: display:none;",
+"children": [
+    
+     {"name": "id: returnSocial"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modalarea"},
+     {"name": "figure"}
+]
+},{
+ "name": "class: logo_image",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: capture_header",
+"children": [
+    
+     {"name": "h1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_signin"},{
+ "name": "h2",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: capture_centerText switchLink",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: #",
+"children": [
+    
+     {"name": "data-cancelcapturereturnexperience: true"},
+     {"name": "div"}
+]
+},{
+ "name": "class: modal_footer",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: mice-type"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "id: capture_sitename"},
+     {"name": "div"},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://www.postmediaadvertising.com/privacy-statement",
+"children": [
+    
+     {"name": "target: _blank"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /subscribe/faq/"},
+     {"name": "target: _blank"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none;"},{
+ "name": "id: returnTraditional",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: modalarea",
+"children": [
+    
+     {"name": "figure"}
+]
+}
+]
+},{
+ "name": "class: logo_image",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: capture_header",
+"children": [
+    
+     {"name": "h1"},
+     {"name": "h2"}
+]
+},{
+ "name": "class: capture_centerText",
+"children": [
+    
+     {"name": "span"},
+     {"name": "id: traditionalWelcomeName"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_backgroundColor"},
+     {"name": "div"},{
+ "name": "class: capture_form_item capture_rightText",
+"children": [
+    
+     {"name": "button"},{
+ "name": "class: capture_btn capture_primary",
+"children": [
+    
+     {"name": "type: submit"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "class: janrain-icon-16 janrain-icon-key"},
+     {"name": "div"}
+]
+},{
+ "name": "class: capture_centerText switchLink",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: #",
+"children": [
+    
+     {"name": "data-cancelcapturereturnexperience: true"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: modal_footer",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: mice-type",
+"children": [
+    
+     {"name": "span"},{
+ "name": "id: capture_sitename",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://www.postmediaadvertising.com/privacy-statement",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "a"}
+]
+},{
+ "name": "href: /subscribe/faq/",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "style: display:none;",
+"children": [
+    
+     {"name": "id: accountDeactivated"},
+     {"name": "div"},{
+ "name": "class: modalarea",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: logo_image",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: capture_header",
+"children": [
+    
+     {"name": "h1"},
+     {"name": "div"}
+]
+},{
+ "name": "class: content_wrapper",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: modal_footer",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: mice-type",
+"children": [
+    
+     {"name": "span"},{
+ "name": "id: capture_sitename",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://www.postmediaadvertising.com/privacy-statement",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "a"}
+]
+},{
+ "name": "href: /subscribe/faq/",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "style: display:none;",
+"children": [
+    
+     {"name": "id: reactivateAccount"},
+     {"name": "div"},{
+ "name": "class: modalarea",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: logo_image",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: capture_header",
+"children": [
+    
+     {"name": "h1"},
+     {"name": "div"}
+]
+},{
+ "name": "class: modal_footer",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: mice-type",
+"children": [
+    
+     {"name": "span"},{
+ "name": "id: capture_sitename",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://www.postmediaadvertising.com/privacy-statement",
+"children": [
+    
+     {"name": "target: _blank"}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /subscribe/faq/"},
+     {"name": "target: _blank"},
+     {"name": "div"}
+]
+},{
+ "name": "style: display: none;",
+"children": [
+    
+     {"name": "id: reactivateAccountSuccess"},
+     {"name": "div"}
+]
+},{
+ "name": "class: modalarea",
+"children": [
+    
+     {"name": "figure"},
+     {"name": "class: logo_image"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_header"}
+]
+}
+]
+},{
+ "name": "h1",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: capture_rightText",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /",
+"children": [
+    
+     {"name": "class: capture_btn capture_primary"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modal_footer"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: mice-type"},
+     {"name": "span"}
+]
+},{
+ "name": "id: capture_sitename",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: footer_menu"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"},
+     {"name": "target: _blank"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /subscribe/faq/"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "style: display:none;",
+"children": [
+    
+     {"name": "id: emailVerificationRequired"},
+     {"name": "div"}
+]
+},
+     {"name": "class: modalarea"},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: logo_image"},
+     {"name": "div"},
+     {"name": "class: capture_header"}
+]
+},{
+ "name": "h1",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: capture_rightText",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: modal_footer",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: mice-type",
+"children": [
+    
+     {"name": "span"},{
+ "name": "id: capture_sitename",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"},
+     {"name": "target: _blank"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /subscribe/faq/"},
+     {"name": "target: _blank"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none;"},
+     {"name": "id: socialRegistration"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modalarea"}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: logo_image"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_header"},{
+ "name": "h1",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: border-top-form",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: full-width-row",
+"children": [
+    
+     {"name": "span"},
+     {"name": "class: text_label"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: full-width-row"},
+     {"name": "span"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: text_label",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: bordered-form"},{
+ "name": "strong",
+"children": [
+    
+     {"name": "br"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.canada.com/aboutus/termsofservice.html"}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement/"}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: capture_rightText",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: modal_footer"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: mice-type",
+"children": [
+    
+     {"name": "span"},{
+ "name": "id: capture_sitename",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"}
+]
+}
+]
+},{
+ "name": "href: http://www.postmediaadvertising.com/privacy-statement",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /subscribe/faq/"},
+     {"name": "target: _blank"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none;"},
+     {"name": "id: traditionalRegistration"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modalarea"},
+     {"name": "figure"},{
+ "name": "class: logo_image",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: capture_header",
+"children": [
+    
+     {"name": "h1"}
+]
+},{
+ "name": "br",
+"children": [
+    
+     {"name": "a"},
+     {"name": "id: capture_traditionalRegistration_navSignIn"}
+]
+},
+     {"name": "href: #"},
+     {"name": "data-capturescreen: signIn"},
+     {"name": "div"},{
+ "name": "class: border-top-form",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: full-width-row",
+"children": [
+    
+     {"name": "span"},{
+ "name": "class: text_label",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: full-width-row",
+"children": [
+    
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "class: text_label",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: bordered-form",
+"children": [
+    
+     {"name": "strong"},
+     {"name": "br"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.canada.com/aboutus/termsofservice.html"},
+     {"name": "target: _blank"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement/"},
+     {"name": "target: _blank"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_rightText"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modal_footer"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: mice-type"},
+     {"name": "span"}
+]
+},{
+ "name": "id: capture_sitename",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"},
+     {"name": "target: _blank"}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /subscribe/faq/"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "div"},{
+ "name": "style: display:none;",
+"children": [
+    
+     {"name": "id: emailVerificationNotification"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modalarea"},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: logo_image"},
+     {"name": "div"}
+]
+},{
+ "name": "class: capture_header",
+"children": [
+    
+     {"name": "h1"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: capture_rightText",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: #"},{
+ "name": "onclick: janrain.capture.ui.modal.close();location.reload();",
+"children": [
+    
+     {"name": "class: capture_btn capture_primary"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modal_footer"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: mice-type"},
+     {"name": "span"},
+     {"name": "id: capture_sitename"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: footer_menu"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /subscribe/faq/"}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "style: display:none;",
+"children": [
+    
+     {"name": "id: forgotPassword"},
+     {"name": "div"},{
+ "name": "class: modalarea",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: logo_image",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: capture_header",
+"children": [
+    
+     {"name": "h1"}
+]
+},
+     {"name": "h2"}
+]
+}
+]
+}
+]
+},{
+ "name": "br",
+"children": [
+    
+     {"name": "br"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_rightText"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modal_footer"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: mice-type"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "id: capture_sitename"},
+     {"name": "div"},
+     {"name": "class: footer_menu"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "a"},
+     {"name": "href: /subscribe/faq/"},
+     {"name": "target: _blank"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none;"},
+     {"name": "id: forgotPasswordSuccess"},
+     {"name": "div"},{
+ "name": "class: modalarea",
+"children": [
+    
+     {"name": "figure"}
+]
+}
+]
+},{
+ "name": "class: logo_image",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: capture_header"},
+     {"name": "h1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_rightText"}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: #"},
+     {"name": "onclick: janrain.capture.ui.modal.close()"}
+]
+},{
+ "name": "class: capture_btn capture_primary",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: modal_footer"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: mice-type"},
+     {"name": "span"}
+]
+}
+]
+},{
+ "name": "id: capture_sitename",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+}
+]
+},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://www.postmediaadvertising.com/privacy-statement",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /subscribe/faq/"}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "div"},{
+ "name": "style: display:none;",
+"children": [
+    
+     {"name": "id: mergeAccounts"},
+     {"name": "div"}
+]
+},{
+ "name": "class: modalarea",
+"children": [
+    
+     {"name": "figure"},
+     {"name": "class: logo_image"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: capture_mergeAccounts_mergeAccounts_mergeOptionsContainer"},
+     {"name": "class: capture_mergeAccounts_mergeOptionsContainer"},{
+ "name": "h1",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: capture_header",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: capture_icon_col",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: capture_displayName_col"}
+]
+},{
+ "name": "br",
+"children": [
+    
+     {"name": "span"},{
+ "name": "class: capture_mergeProvider janrain-provider-icon-24 janrain-provider-icon-{| current_provider_lowerCase |}",
+"children": [
+    
+     {"name": "span"},{
+ "name": "class: message",
+"children": [
+    
+     {"name": "b"},
+     {"name": "div"},{
+ "name": "class: capture_hover",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: capture_popup_container",
+"children": [
+    
+     {"name": "span"},{
+ "name": "class: capture_popup-arrow",
+"children": [
+    
+     {"name": "br"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_dashed"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_mergeCol capture_mergeExisting_col capture_right"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_backgroundColor capture_border"},
+     {"name": "span"}
+]
+},{
+ "name": "class: capture_mergeProvider janrain-provider-icon-32 janrain-provider-icon-{| existing_provider_lowerCase |} ",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: capture_displayName_col"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "br",
+"children": [
+    
+     {"name": "b"},
+     {"name": "div"},{
+ "name": "class: capture_smallText",
+"children": [
+    
+     {"name": "div"},{
+ "name": "id: capture_mergeAccounts_form_collection_mergeAccounts_mergeRadio",
+"children": [
+    
+     {"name": "class: capture_form_collection_merge_radioButtonCollection capture_form_collection capture_elementCollection capture_form_collection_mergeAccounts_mergeRadio"}
+]
+},{
+ "name": "data-capturefield: undefined",
+"children": [
+    
+     {"name": "div"},
+     {"name": "id: capture_mergeAccounts_form_item_mergeAccounts_mergeRadio_1_0"}
+]
+},{
+ "name": "class: capture_form_item capture_form_item_mergeAccounts_mergeRadio capture_form_item_mergeAccounts_mergeRadio_1_0 capture_toggled",
+"children": [
+    
+     {"name": "data-capturefield: undefined"}
+]
+}
+]
+},{
+ "name": "label",
+"children": [
+    
+     {"name": "for: capture_mergeAccounts_mergeAccounts_mergeRadio_1_0"},{
+ "name": "div",
+"children": [
+    
+     {"name": "id: capture_mergeAccounts_form_item_mergeAccounts_mergeRadio_2_1"},{
+ "name": "class: capture_form_item capture_form_item_mergeAccounts_mergeRadio capture_form_item_mergeAccounts_mergeRadio_2_1",
+"children": [
+    
+     {"name": "data-capturefield: undefined"}
+]
+}
+]
+},{
+ "name": "label",
+"children": [
+    
+     {"name": "for: capture_mergeAccounts_mergeAccounts_mergeRadio_2_1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_tip"},
+     {"name": "style: display:none;"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_tip_validating"},
+     {"name": "data-elementname: mergeAccounts_mergeRadio"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_tip_error"},
+     {"name": "data-elementname: mergeAccounts_mergeRadio"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_footer"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modal_footer"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: mice-type"},
+     {"name": "span"}
+]
+},{
+ "name": "id: capture_sitename",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://www.postmediaadvertising.com/privacy-statement",
+"children": [
+    
+     {"name": "target: _blank"},
+     {"name": "a"},
+     {"name": "href: /subscribe/faq/"}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "div"},{
+ "name": "style: display:none;",
+"children": [
+    
+     {"name": "id: traditionalAuthenticateMerge"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modalarea"}
+]
+}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: logo_image"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_header"},
+     {"name": "h1"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_signin"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: capture_rightText",
+"children": [
+    
+     {"name": "button"},
+     {"name": "class: capture_btn capture_primary"},{
+ "name": "type: submit",
+"children": [
+    
+     {"name": "span"},{
+ "name": "class: janrain-icon-16 janrain-icon-key",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: modal_footer",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: mice-type"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "id: capture_sitename"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: footer_menu"},
+     {"name": "a"},
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /subscribe/faq/",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none;"}
+]
+}
+]
+},{
+ "name": "id: verifyEmail",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: modalarea",
+"children": [
+    
+     {"name": "figure"},
+     {"name": "class: logo_image"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_header"},
+     {"name": "h1"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_rightText"},
+     {"name": "div"},{
+ "name": "class: modal_footer",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: mice-type",
+"children": [
+    
+     {"name": "span"}
+]
+},{
+ "name": "id: capture_sitename",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: footer_menu"}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "a"}
+]
+}
+]
+}
+]
+},{
+ "name": "href: /subscribe/faq/",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none;"},{
+ "name": "id: resendVerificationSuccess",
+"children": [
+    
+     {"name": "div"}
+]
+}
+]
+},{
+ "name": "class: modalarea",
+"children": [
+    
+     {"name": "figure"},{
+ "name": "class: logo_image",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: capture_header"}
+]
+},{
+ "name": "h1",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: hr"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_rightText"},
+     {"name": "a"},{
+ "name": "href: #",
+"children": [
+    
+     {"name": "onclick: janrain.capture.ui.modal.close()"},{
+ "name": "class: capture_btn capture_primary",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: modal_footer",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: mice-type"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "id: capture_sitename"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: footer_menu"},
+     {"name": "a"},
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"}
+]
+}
+]
+}
+]
+},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /subscribe/faq/",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none;"}
+]
+}
+]
+},{
+ "name": "id: verifyEmailSuccess",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: modalarea",
+"children": [
+    
+     {"name": "figure"},
+     {"name": "class: logo_image"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_header"},
+     {"name": "h1"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_rightText"},
+     {"name": "a"},{
+ "name": "href: #",
+"children": [
+    
+     {"name": "onclick: janrain.capture.ui.modal.close()"},{
+ "name": "class: capture_btn capture_primary",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: modal_footer",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: mice-type"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "id: capture_sitename"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: footer_menu"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "a"}
+]
+}
+]
+},{
+ "name": "href: /subscribe/faq/",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none;"},
+     {"name": "id: resetPassword"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: modalarea"},
+     {"name": "figure"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: logo_image",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: capture_header"},{
+ "name": "h1",
+"children": [
+    
+     {"name": "div"},{
+ "name": "class: capture_signin",
+"children": [
+    
+     {"name": "div"}
+]
+},{
+ "name": "class: capture_rightText",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: modal_footer"}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: mice-type"},{
+ "name": "span",
+"children": [
+    
+     {"name": "id: capture_sitename"},
+     {"name": "div"},
+     {"name": "class: footer_menu"}
+]
+}
+]
+}
+]
+},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"},{
+ "name": "target: _blank",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: /subscribe/faq/",
+"children": [
+    
+     {"name": "target: _blank"}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none;"},{
+ "name": "id: resetPasswordSuccess",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: modalarea"}
+]
+},{
+ "name": "figure",
+"children": [
+    
+     {"name": "class: logo_image"},
+     {"name": "div"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "class: capture_header",
+"children": [
+    
+     {"name": "h1"},{
+ "name": "div",
+"children": [
+    
+     {"name": "class: capture_rightText"},
+     {"name": "a"},{
+ "name": "href: #",
+"children": [
+    
+     {"name": "onclick: janrain.capture.ui.modal.close()"},
+     {"name": "class: capture_btn capture_primary"},
+     {"name": "div"}
+]
+},{
+ "name": "class: modal_footer",
+"children": [
+    
+     {"name": "div"},
+     {"name": "class: mice-type"}
+]
+},{
+ "name": "span",
+"children": [
+    
+     {"name": "id: capture_sitename"},
+     {"name": "div"}
+]
+},{
+ "name": "class: footer_menu",
+"children": [
+    
+     {"name": "a"},{
+ "name": "href: http://www.postmediaadvertising.com/privacy-statement",
+"children": [
+    
+     {"name": "target: _blank"},{
+ "name": "a",
+"children": [
+    
+     {"name": "href: /subscribe/faq/"},
+     {"name": "target: _blank"}
+]
+}
+]
+}
+]
+}
+]
+},{
+ "name": "div",
+"children": [
+    
+     {"name": "style: display:none;"}
+]
+}
+]
+},
+     {"name": "id: resetPasswordRequestCode"},
+     {"name": "div"},
+     {"name": "class: modalarea"},
+     {"name": "figure"},
+     {"name": "class: logo_image"},
+     {"name": "div"},
+     {"name": "class: capture_header"},
+     {"name": "h1"},
+     {"name": "div"},
+     {"name": "class: capture_rightText"},
+     {"name": "div"},
+     {"name": "class: modal_footer"},
+     {"name": "div"},
+     {"name": "class: mice-type"},
+     {"name": "span"},
+     {"name": "id: capture_sitename"},
+     {"name": "div"},
+     {"name": "class: footer_menu"},
+     {"name": "a"},
+     {"name": "href: http://www.postmediaadvertising.com/privacy-statement"},
+     {"name": "target: _blank"},
+     {"name": "a"},
+     {"name": "href: /subscribe/faq/"},
+     {"name": "target: _blank"},
+     {"name": "div"},
+     {"name": "style: display:none;"},{
+ "name": "id: resetPasswordRequestCodeSuccess",
+"children": [
+    {
+ "name": "div",
+"children": [
+    
+     {"name": "class: modalarea"}
+]
+}
+]
+},
+     {"name": "figure"}
+]
+}
+]
 }
